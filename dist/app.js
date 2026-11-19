@@ -11,6 +11,7 @@ const questionCard = document.querySelector("#question-card");
 const batchSize = 18;
 const pluralRules = new Intl.PluralRules("ru");
 const countLabels = { one: "вопрос", few: "вопроса", many: "вопросов", other: "вопроса" };
+const questionCollator = new Intl.Collator("ru", { sensitivity: "base", numeric: true });
 
 function normalizeWord(word) {
   return word.normalize("NFKC").toLowerCase().replaceAll("ё", "е");
@@ -18,6 +19,14 @@ function normalizeWord(word) {
 
 function questionWords(text) {
   return [...text.matchAll(/[\p{L}\p{N}\p{M}]+/gu)];
+}
+
+function searchTerms(text) {
+  return questionWords(text).map(word => normalizeWord(word[0]));
+}
+
+function questionCount(count) {
+  return count + " " + countLabels[pluralRules.select(count)];
 }
 
 const index = physicsQuestions.map(entry => {
@@ -36,10 +45,10 @@ function relevance(text, phrase) {
   return 0;
 }
 
-function renderQuestion(heading, { question, words }) {
+function renderQuestion(heading, { question, words }, highlightedTerms) {
   let end = 0;
   for (const word of words) {
-    if (!terms.some(term => normalizeWord(word[0]).includes(term))) continue;
+    if (!highlightedTerms.some(term => normalizeWord(word[0]).includes(term))) continue;
     heading.append(question.slice(end, word.index));
     const mark = document.createElement("mark");
     mark.textContent = word[0];
@@ -49,9 +58,9 @@ function renderQuestion(heading, { question, words }) {
   heading.append(question.slice(end));
 }
 
-function createCard(entry) {
+function createCard(entry, highlightedTerms = []) {
   const card = questionCard.content.firstElementChild.cloneNode(true);
-  renderQuestion(card.querySelector("h3"), entry);
+  renderQuestion(card.querySelector("h3"), entry, highlightedTerms);
   card.querySelector(".source-note").hidden = !entry.incomplete;
   const multiple = entry.answers.length > 1;
   card.querySelector(".answer-label").textContent = multiple ? "Ответы" : "Ответ";
@@ -73,7 +82,7 @@ function createCard(entry) {
 }
 
 function showBatch(moveFocus = false) {
-  const cards = matches.slice(shown, shown + batchSize).map(createCard);
+  const cards = matches.slice(shown, shown + batchSize).map(entry => createCard(entry, terms));
   questionList.append(...cards);
   shown += cards.length;
   loadMore.hidden = shown >= matches.length;
@@ -81,7 +90,7 @@ function showBatch(moveFocus = false) {
 }
 
 function updateResults() {
-  terms = questionWords(search.value).map(word => normalizeWord(word[0]));
+  terms = searchTerms(search.value);
   const activeSearch = terms.length > 0;
   const phrase = terms.join(" ");
   matches = activeSearch
@@ -91,7 +100,7 @@ function updateResults() {
 
   const count = matches.length;
   resultsTitle.textContent = activeSearch ? "Результаты поиска" : "Все вопросы";
-  resultCount.textContent = count + " " + countLabels[pluralRules.select(count)];
+  resultCount.textContent = questionCount(count);
   clearSearch.hidden = search.value.length === 0;
   emptyState.hidden = count > 0;
   questionList.replaceChildren();
@@ -119,3 +128,76 @@ for (const suggestion of document.querySelectorAll("[data-query]")) {
 }
 
 updateResults();
+
+function showAlphabet() {
+  const alphabetList = document.querySelector("#alphabet-list");
+  if (alphabetList.childElementCount) return;
+
+  const alphabet = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ#";
+  const letters = document.querySelector("#alphabet-letters");
+  const groups = new Map();
+  for (const entry of index) {
+    const initial = entry.question[0].toLocaleUpperCase("ru");
+    const letter = alphabet.includes(initial) ? initial : "#";
+    if (!groups.has(letter)) groups.set(letter, []);
+    groups.get(letter).push(entry);
+  }
+
+  document.querySelector("#alphabet-count").textContent = questionCount(index.length);
+  for (const letter of alphabet) {
+    const entries = groups.get(letter);
+    if (!entries) continue;
+
+    const section = document.createElement("section");
+    section.className = "alphabet-group";
+    const heading = document.createElement("h2");
+    heading.textContent = letter === "#" ? "Формулы и обозначения" : letter;
+    heading.tabIndex = -1;
+    const list = document.createElement("div");
+    list.className = "question-list";
+    entries.sort((first, second) => questionCollator.compare(first.question, second.question));
+    list.append(...entries.map(entry => createCard(entry)));
+    section.append(heading, list);
+    alphabetList.append(section);
+
+    const jump = document.createElement("button");
+    jump.type = "button";
+    jump.textContent = letter === "#" ? "Формулы" : letter;
+    jump.addEventListener("click", () => {
+      heading.focus({ preventScroll: true });
+      heading.scrollIntoView({ block: "start" });
+    });
+    letters.append(jump);
+  }
+}
+
+const tabs = [...document.querySelectorAll("[role='tab']")];
+
+function activateTab(selected) {
+  if (selected.getAttribute("aria-selected") === "true") return;
+  if (selected.id === "tab-alphabet") showAlphabet();
+  for (const tab of tabs) {
+    const active = tab === selected;
+    tab.setAttribute("aria-selected", String(active));
+    tab.tabIndex = active ? 0 : -1;
+    document.getElementById(tab.getAttribute("aria-controls")).hidden = !active;
+  }
+  window.scrollTo(0, 0);
+}
+
+for (const [position, tab] of tabs.entries()) {
+  tab.addEventListener("click", () => activateTab(tab));
+  tab.addEventListener("keydown", event => {
+    let next;
+    switch (event.key) {
+      case "ArrowLeft": next = (position + tabs.length - 1) % tabs.length; break;
+      case "ArrowRight": next = (position + 1) % tabs.length; break;
+      case "Home": next = 0; break;
+      case "End": next = tabs.length - 1; break;
+      default: return;
+    }
+    event.preventDefault();
+    activateTab(tabs[next]);
+    tabs[next].focus();
+  });
+}
