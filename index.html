@@ -4,60 +4,144 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Поиск по вопросам и задачам по физике с ответами.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Вопросы по физике с ответами, поиск по алфавиту и тест на 30 вопросов.">
   <title>Physics. Test</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./questions.js" defer></script>
   <script src="./app.js" defer></script>
+  <script src="./quiz-bank.js" defer></script>
+  <script src="./quiz.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <div class="shell brand">
-      <span class="brand-mark" aria-hidden="true"><i></i></span>
-      <span>Physics<span class="brand-period">.</span> Test</span>
+    <div class="shell header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span>Physics<span class="brand-period">.</span> Test</span>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Разделы сайта">
+        <button type="button" role="tab" id="tab-search" aria-selected="true" aria-controls="panel-search">Поиск</button>
+        <button type="button" role="tab" id="tab-alphabet" aria-selected="false" aria-controls="panel-alphabet" tabindex="-1">По алфавиту</button>
+        <button type="button" role="tab" id="tab-quiz" aria-selected="false" aria-controls="panel-quiz" tabindex="-1">Тест</button>
+      </div>
     </div>
   </header>
 
   <main class="shell">
-    <section class="hero" aria-labelledby="page-title">
-      <div class="orbit-art" aria-hidden="true">
-        <i class="orbit orbit-one"></i>
-        <i class="orbit orbit-two"></i>
-        <i class="orbit orbit-three"></i>
-        <i class="orbit-core"></i>
-      </div>
-      <div class="hero-content">
-        <h1 id="page-title">Задачи по физике</h1>
-        <p class="hero-description">Введите часть вопроса, чтобы найти ответ.</p>
-        <form class="search-box" role="search">
-          <label class="visually-hidden" for="search">Поиск по тексту вопроса</label>
-          <span class="search-icon" aria-hidden="true"></span>
-          <input type="search" id="search" placeholder="Например, импульс тела" autocomplete="off" spellcheck="false">
-          <button type="button" class="clear-search" id="clear-search" aria-label="Очистить поиск" hidden>
-            <span class="close-icon" aria-hidden="true"></span>
-          </button>
-        </form>
-        <div class="suggestions" aria-label="Примеры запросов">
-          <button type="button" data-query="Импульс">Импульс</button>
-          <button type="button" data-query="Колебания">Колебания</button>
-          <button type="button" data-query="Газ">Газ</button>
+    <div id="panel-search" role="tabpanel" aria-labelledby="tab-search" tabindex="0">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="orbit-art" aria-hidden="true">
+          <i class="orbit orbit-one"></i>
+          <i class="orbit orbit-two"></i>
+          <i class="orbit orbit-three"></i>
+          <i class="orbit-core"></i>
         </div>
-      </div>
-    </section>
+        <div class="hero-content">
+          <h1 id="page-title">Задачи по физике</h1>
+          <p class="hero-description">Введите часть вопроса, чтобы найти ответ.</p>
+          <form class="search-box" role="search">
+            <label class="visually-hidden" for="search">Поиск по тексту вопроса</label>
+            <span class="search-icon" aria-hidden="true"></span>
+            <input type="search" id="search" placeholder="Например, импульс тела" autocomplete="off" spellcheck="false">
+            <button type="button" class="clear-search" id="clear-search" aria-label="Очистить поиск" hidden>
+              <span class="close-icon" aria-hidden="true"></span>
+            </button>
+          </form>
+          <div class="suggestions" aria-label="Примеры запросов">
+            <button type="button" data-query="Импульс">Импульс</button>
+            <button type="button" data-query="Колебания">Колебания</button>
+            <button type="button" data-query="Газ">Газ</button>
+          </div>
+        </div>
+      </section>
 
-    <section class="results" aria-labelledby="results-title">
-      <div class="results-header">
-        <h2 id="results-title">Все вопросы</h2>
-        <p class="results-count" id="result-count" role="status"></p>
+      <section class="results" aria-labelledby="results-title">
+        <div class="results-header">
+          <h2 id="results-title">Все вопросы</h2>
+          <p class="results-count" id="result-count" role="status"></p>
+        </div>
+        <noscript><p class="empty-state">Включите JavaScript, чтобы открыть список вопросов и поиск.</p></noscript>
+        <div class="empty-state" id="empty-state" hidden>
+          <p>Совпадений нет</p>
+          <p>Попробуйте ввести меньше слов или другой фрагмент вопроса.</p>
+        </div>
+        <div class="question-list" id="question-list"></div>
+        <button type="button" class="load-more" id="load-more" hidden>Показать ещё</button>
+      </section>
+    </div>
+
+    <div id="panel-alphabet" class="secondary-panel" role="tabpanel" aria-labelledby="tab-alphabet" tabindex="0" hidden>
+      <div class="section-intro">
+        <h1>Вопросы по алфавиту</h1>
+        <p id="alphabet-count" class="results-count"></p>
       </div>
-      <noscript><p class="empty-state">Включите JavaScript, чтобы открыть список вопросов и поиск.</p></noscript>
-      <div class="empty-state" id="empty-state" hidden>
-        <p>Совпадений нет</p>
-        <p>Попробуйте ввести меньше слов или другой фрагмент вопроса.</p>
+      <nav class="alphabet-letters" id="alphabet-letters" aria-label="Перейти к букве"></nav>
+      <div id="alphabet-list"></div>
+    </div>
+
+    <div id="panel-quiz" class="secondary-panel" role="tabpanel" aria-labelledby="tab-quiz" tabindex="0" hidden>
+      <div class="section-intro">
+        <h1>Тест по физике</h1>
       </div>
-      <div class="question-list" id="question-list"></div>
-      <button type="button" class="load-more" id="load-more" hidden>Показать ещё</button>
-    </section>
+
+      <section class="quiz-surface quiz-welcome" id="quiz-start" aria-labelledby="quiz-start-title">
+        <h2 id="quiz-start-title" tabindex="-1">30 вопросов</h2>
+        <p>Соберите случайную подборку или выберите вопросы сами. В каждом задании один верный ответ.</p>
+        <div class="button-row">
+          <button type="button" class="action primary-action" id="quiz-random">Собрать случайный тест</button>
+          <button type="button" class="action" id="quiz-pick">Выбрать вопросы</button>
+        </div>
+      </section>
+
+      <section id="quiz-builder" aria-labelledby="quiz-builder-title" hidden>
+        <div class="builder-heading">
+          <h2 id="quiz-builder-title" tabindex="-1">Выберите 30 вопросов</h2>
+          <button type="button" class="action" id="quiz-builder-back">Назад</button>
+        </div>
+        <div class="search-box builder-search">
+          <label for="quiz-filter" class="visually-hidden">Поиск среди вопросов для теста</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input type="search" id="quiz-filter" placeholder="Найти вопрос для теста" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="selection-bar">
+          <p id="quiz-selected" role="status"></p>
+          <button type="button" class="action primary-action" id="quiz-begin" disabled>Начать тест</button>
+        </div>
+        <p class="empty-state" id="quiz-builder-empty" hidden>По этому запросу ничего не найдено.</p>
+        <div class="quiz-pool" id="quiz-pool"></div>
+      </section>
+
+      <section id="quiz-attempt" class="quiz-surface" aria-labelledby="quiz-question" hidden>
+        <div class="quiz-progress-labels">
+          <p id="quiz-position"></p>
+          <p id="quiz-answered" role="status"></p>
+        </div>
+        <progress id="quiz-progress" max="30" value="0" aria-hidden="true"></progress>
+        <h2 class="quiz-question" id="quiz-question" tabindex="-1"></h2>
+        <fieldset class="quiz-options">
+          <legend class="visually-hidden">Выберите один вариант ответа</legend>
+          <div id="quiz-options"></div>
+        </fieldset>
+        <p class="quiz-notice" id="quiz-notice" role="status"></p>
+        <div class="button-row quiz-navigation">
+          <button type="button" class="action" id="quiz-previous">Назад</button>
+          <button type="button" class="action primary-action" id="quiz-next">Далее</button>
+          <button type="button" class="action primary-action" id="quiz-finish" hidden>Завершить тест</button>
+        </div>
+      </section>
+
+      <section id="quiz-result" aria-labelledby="quiz-result-title" hidden>
+        <div class="quiz-surface quiz-summary">
+          <div>
+            <h2 id="quiz-result-title" tabindex="-1">Результат теста</h2>
+            <p id="quiz-score"></p>
+          </div>
+          <button type="button" class="action primary-action" id="quiz-new">Собрать новый тест</button>
+        </div>
+        <div class="question-list" id="quiz-review"></div>
+      </section>
+    </div>
   </main>
 
   <template id="question-card">
