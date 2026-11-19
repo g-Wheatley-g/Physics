@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Поиск по вопросам и задачам по физике с ответами.">
+  <title>Physics. Test</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./questions.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell brand">
+      <span class="brand-mark" aria-hidden="true"><i></i></span>
+      <span>Physics<span class="brand-period">.</span> Test</span>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="orbit-art" aria-hidden="true">
+        <i class="orbit orbit-one"></i>
+        <i class="orbit orbit-two"></i>
+        <i class="orbit orbit-three"></i>
+        <i class="orbit-core"></i>
+      </div>
+      <div class="hero-content">
+        <h1 id="page-title">Задачи по физике</h1>
+        <p class="hero-description">Введите часть вопроса, чтобы найти ответ.</p>
+        <form class="search-box" role="search">
+          <label class="visually-hidden" for="search">Поиск по тексту вопроса</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input type="search" id="search" placeholder="Например, импульс тела" autocomplete="off" spellcheck="false">
+          <button type="button" class="clear-search" id="clear-search" aria-label="Очистить поиск" hidden>
+            <span class="close-icon" aria-hidden="true"></span>
+          </button>
+        </form>
+        <div class="suggestions" aria-label="Примеры запросов">
+          <button type="button" data-query="Импульс">Импульс</button>
+          <button type="button" data-query="Колебания">Колебания</button>
+          <button type="button" data-query="Газ">Газ</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" aria-labelledby="results-title">
+      <div class="results-header">
+        <h2 id="results-title">Все вопросы</h2>
+        <p class="results-count" id="result-count" role="status"></p>
+      </div>
+      <noscript><p class="empty-state">Включите JavaScript, чтобы открыть список вопросов и поиск.</p></noscript>
+      <div class="empty-state" id="empty-state" hidden>
+        <p>Совпадений нет</p>
+        <p>Попробуйте ввести меньше слов или другой фрагмент вопроса.</p>
+      </div>
+      <div class="question-list" id="question-list"></div>
+      <button type="button" class="load-more" id="load-more" hidden>Показать ещё</button>
+    </section>
+  </main>
+
+  <template id="question-card">
+    <article class="question-card">
+      <h3 tabindex="-1"></h3>
+      <p class="source-note" hidden>В исходном документе пропущена часть условия.</p>
+      <div class="answer-block">
+        <p class="answer-label"></p>
+        <div class="answer-content"></div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>
