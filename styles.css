@@ -477,6 +477,41 @@ h1 {
   font-size: .875rem;
 }
 
+.question-original {
+  margin-top: .85rem;
+  border-top: 1px solid var(--line);
+  padding-top: .6rem;
+}
+
+.question-original summary {
+  width: fit-content;
+  min-height: 2rem;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.question-original summary:focus-visible, .question-original a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.question-original h4 { margin: .65rem 0 .3rem; }
+.question-original p { white-space: pre-line; }
+.question-original a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: .4rem 0;
+  color: var(--accent);
+  font-size: .875rem;
+}
+.question-original img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: .35rem;
+}
+
 .source-note {
   margin-top: .36rem;
   color: #d9bd8d;

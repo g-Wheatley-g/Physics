@@ -8,6 +8,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       1
     ],
+    "original": {
+      "question": "На сколько пикометров изменится длина волны рентгеновского излучения при его рассеянии на покоящемся электроне на угол 120°? (λ꜀ = 2,43 пм.)",
+      "answer": "3,65 пм.",
+      "page": 1
+    },
     "quiz": {
       "answer": "3,65 пм.",
       "distractors": [
@@ -26,6 +31,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       2
     ],
+    "original": {
+      "question": "Найти длину волны Де-Бройля электрона с кинетической энергией 0,5 кэВ.",
+      "answer": "55 пм.",
+      "page": 1
+    },
     "quiz": {
       "answer": "55 пм.",
       "distractors": [
@@ -44,6 +54,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       3
     ],
+    "original": {
+      "question": "Два тела из стекла и металла нагреты до одной температуры. Какой знак нужно поставить в этом выражении вместо знака вопроса?",
+      "answer": "Знак «=».",
+      "page": 1,
+      "questionImages": [
+        {
+          "file": "media/lms/58e510659bf1ef52dfc640fa.jpg",
+          "width": 752,
+          "height": 132
+        }
+      ]
+    },
     "quiz": {
       "answer": "Знак «=».",
       "distractors": [
@@ -62,6 +84,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       4
     ],
+    "original": {
+      "question": "При увеличении интенсивности света с неизменным спектральным составом, падающего на фотокатод, увеличивается:",
+      "answer": "Количество фотоэлектронов.",
+      "page": 1
+    },
     "quiz": {
       "answer": "Количество фотоэлектронов.",
       "distractors": [
@@ -79,7 +106,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       5
-    ]
+    ],
+    "original": {
+      "question": "На металлическую пластинку с красной границей 600 нм падают фотоны с длиной волны 240 нм и 400 нм. Во сколько раз максимальная кинетическая энергия фотоэлектронов, вылетающих из первой пластинки, больше, чем из второй?",
+      "answer": "В 3 раза.",
+      "page": 1
+    }
   },
   {
     "question": "Масса покоя фотона определяется формулой:",
@@ -90,6 +122,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       6
     ],
+    "original": {
+      "question": "Масса покоя фотона определяется формулой:",
+      "answer": "m = 0.",
+      "page": 2
+    },
     "quiz": {
       "answer": "m = 0.",
       "distractors": [
@@ -108,6 +145,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       7
     ],
+    "original": {
+      "question": "Чему равно отношение радиуса четвертой боровской орбиты к радиусу второй боровской орбиты для атома водорода?",
+      "answer": "4.",
+      "page": 2
+    },
     "quiz": {
       "answer": "4.",
       "distractors": [
@@ -126,6 +168,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       8
     ],
+    "original": {
+      "question": "На сколько пикометров изменится длина волны рентгеновского излучения при его рассеянии на покоящемся электроне на угол 180°? (λ꜀ = 2,43 пм.)",
+      "answer": "4,86 пм.",
+      "page": 2
+    },
     "quiz": {
       "answer": "4,86 пм.",
       "distractors": [
@@ -143,7 +190,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       9
-    ]
+    ],
+    "original": {
+      "question": "Какой спектр характерен для излучения нагретого твердого тела?",
+      "answer": "Сплошной.",
+      "page": 2
+    }
   },
   {
     "question": "Чему равна частота фотона, соответствующая головной линии серии Пашена? (n=3; R – постоянная Ридберга):",
@@ -153,7 +205,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       10
-    ]
+    ],
+    "original": {
+      "question": "Чему равна частота фотона, соответствующая головной линии серии Пашена? (n=3; R – постоянная Ридберга):",
+      "answer": "7R/144.",
+      "page": 3,
+      "questionImages": [
+        {
+          "file": "media/lms/f30f54fede923883589c3637.jpg",
+          "width": 706,
+          "height": 66
+        }
+      ]
+    }
   },
   {
     "question": "Постоянная Вина b в системе СИ имеет наименование:",
@@ -164,6 +228,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       11
     ],
+    "original": {
+      "question": "Постоянная Вина b в системе СИ имеет наименование:",
+      "answer": "м·К.",
+      "page": 3
+    },
     "quiz": {
       "answer": "м·К.",
       "distractors": [
@@ -181,7 +250,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       12
-    ]
+    ],
+    "original": {
+      "question": "На металлическую пластинку, работа выхода электронов с поверхности которой 3 эВ, падают фотоны с энергией 5,5 эВ и 4,5 эВ. Во сколько раз максимальная кинетическая энергия фотоэлектронов, вылетающих из первой пластинки, больше, чем из второй?",
+      "answer": "В 5/3 раза.",
+      "page": 3
+    }
   },
   {
     "question": "Радиус пятой боровской орбиты 1,323 нм. Найти длину волны Де-Бройля электрона в этом состоянии.",
@@ -192,6 +266,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       13
     ],
+    "original": {
+      "question": "Радиус пятой боровской орбиты 1,323 нм. Найти длину волны Де-Бройля электрона в этом состоянии.",
+      "answer": "Приблизительно 8,31 нм.",
+      "page": 3
+    },
     "sourceNote": "В Word указан ответ 8,31 нм. По условию 2πr = 5λ, поэтому λ ≈ 1,66 нм."
   },
   {
@@ -202,7 +281,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       14
-    ]
+    ],
+    "original": {
+      "question": "Волновые свойства наблюдаются",
+      "answer": "У микрочастиц.",
+      "page": 3
+    }
   },
   {
     "question": "При фотоэффекте обязательно выполняется условие:",
@@ -212,7 +296,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       15
-    ]
+    ],
+    "original": {
+      "question": "При фотоэффекте обязательно выполняется условие:",
+      "answer": "Энергия кванта больше работы выхода.",
+      "page": 4
+    }
   },
   {
     "question": "Выберите ДВА правильных утверждения",
@@ -222,7 +311,31 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       16
-    ]
+    ],
+    "original": {
+      "question": "Выберите ДВА правильных утверждения",
+      "answer": "",
+      "page": 5,
+      "questionImages": [
+        {
+          "file": "media/lms/9d7f7bc85fcf20fa0bf1a06a.jpg",
+          "width": 1147,
+          "height": 246
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/eddc7b83b883c112181a728f.jpg",
+          "width": 1147,
+          "height": 41
+        },
+        {
+          "file": "media/lms/cf5305457f39c4919cc059c3.jpg",
+          "width": 1070,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Чему равно отношение радиуса четвертой боровской орбиты к радиусу третьей боровской орбиты для атома водорода?",
@@ -233,6 +346,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       17
     ],
+    "original": {
+      "question": "Чему равно отношение радиуса четвертой боровской орбиты к радиусу третьей боровской орбиты для атома водорода?",
+      "answer": "16/9.",
+      "page": 5
+    },
     "quiz": {
       "answer": "16/9.",
       "distractors": [
@@ -251,6 +369,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       18
     ],
+    "original": {
+      "question": "Выберите правильную запись закона смещения Вина.",
+      "answer": "λₘₐₓ·T = b.",
+      "page": 5,
+      "questionImages": [
+        {
+          "file": "media/lms/8a78b83e693bc767fdf367e9.jpg",
+          "width": 519,
+          "height": 192
+        }
+      ]
+    },
     "quiz": {
       "answer": "λₘₐₓ·T = b.",
       "distractors": [
@@ -269,6 +399,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       19
     ],
+    "original": {
+      "question": "Импульс кванта света с частотой ν равен:",
+      "answer": "p = hν/c.",
+      "page": 5
+    },
     "quiz": {
       "answer": "p = hν/c.",
       "distractors": [
@@ -286,7 +421,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       20
-    ]
+    ],
+    "original": {
+      "question": "Максимальная энергия фотоэлектронов не зависит от:",
+      "answer": "Напряжения между анодом и катодом.",
+      "page": 6
+    }
   },
   {
     "question": "Какая характеристика теплового излучения называется энергетической светимостью?",
@@ -297,6 +437,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       21
     ],
+    "original": {
+      "question": "Какая характеристика теплового излучения называется энергетической светимостью?",
+      "answer": "",
+      "page": 6,
+      "answerImages": [
+        {
+          "file": "media/lms/158d804b3c9cf49f65e1c6f2.jpg",
+          "width": 654,
+          "height": 52
+        }
+      ]
+    },
     "quiz": {
       "answer": "Энергия, излучаемая единицей площади поверхности за единицу времени.",
       "distractors": [
@@ -315,6 +467,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       22
     ],
+    "original": {
+      "question": "Радиус шестой боровской орбиты 1,904 нм. Найти длину волны Де-Бройля электрона в этом состоянии",
+      "answer": "",
+      "page": 6,
+      "questionImages": [
+        {
+          "file": "media/lms/9168824500611ef11bbb5665.jpg",
+          "width": 1000,
+          "height": 58
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/119577e2e178e540847b6317.jpg",
+          "width": 151,
+          "height": 57
+        }
+      ]
+    },
     "quiz": {
       "answer": "1,99 нм.",
       "distractors": [
@@ -332,7 +503,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       23
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 6,
+      "questionImages": [
+        {
+          "file": "media/lms/f37622110d507837a6411e8f.jpg",
+          "width": 1150,
+          "height": 83
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ca51aa986075514e7ac957ff.jpg",
+          "width": 133,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдёт с работой выхода электрона из металла при увеличении частоты падающего света в 4 раза?",
@@ -343,6 +533,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       24
     ],
+    "original": {
+      "question": "Что произойдет с работой выхода электрона из металла при увеличении частоты падающего света в 4 раза?",
+      "answer": "",
+      "page": 7,
+      "questionImages": [
+        {
+          "file": "media/lms/d4b8bf7357d64ae4b04b0063.jpg",
+          "width": 653,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2661830956a03c0166830282.jpg",
+          "width": 152,
+          "height": 27
+        }
+      ]
+    },
     "quiz": {
       "answer": "Не изменится.",
       "distractors": [
@@ -361,6 +570,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       25
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 7,
+      "questionImages": [
+        {
+          "file": "media/lms/ef5abfe5e655f64dc369b509.jpg",
+          "width": 884,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cca42b1f35822c7b06121fd9.jpg",
+          "width": 155,
+          "height": 54
+        }
+      ]
+    },
     "quiz": {
       "answer": "Δλ = 1,866λₖ, где λₖ — комптоновская длина волны электрона.",
       "distractors": [
@@ -379,6 +607,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       26
     ],
+    "original": {
+      "question": "Чему равно отношение радиуса второй боровской орбиты к радиусу пятой боровской орбиты для атома водорода?",
+      "answer": "",
+      "page": 7,
+      "answerImages": [
+        {
+          "file": "media/lms/f55ec069aa8d7d0fb42e490a.jpg",
+          "width": 127,
+          "height": 54
+        }
+      ]
+    },
     "quiz": {
       "answer": "4/25 = 0,16.",
       "distractors": [
@@ -396,7 +636,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       27
-    ]
+    ],
+    "original": {
+      "question": "Выберите ВСЕ явления, подтверждающие волновые свойства света.",
+      "answer": "",
+      "page": 7,
+      "questionImages": [
+        {
+          "file": "media/lms/5dc3c2ba8d4db0b3edc3c5b7.jpg",
+          "width": 655,
+          "height": 201
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/13db6562db2b051fc62483e5.jpg",
+          "width": 200,
+          "height": 83
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз изменится максимальная скорость вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 6 эВ?",
@@ -407,6 +666,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       28
     ],
+    "original": {
+      "question": "Во сколько раз изменится максимальная скорость вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 6 эВ?",
+      "answer": "",
+      "page": 8,
+      "questionImages": [
+        {
+          "file": "media/lms/4f5ba4f132d95e5c337bb5a1.jpg",
+          "width": 1101,
+          "height": 320
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/744738d0578069c677763f7c.jpg",
+          "width": 672,
+          "height": 126
+        }
+      ]
+    },
     "quiz": {
       "answer": "Увеличится примерно в 1,73 раза.",
       "distractors": [
@@ -424,7 +702,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       29
-    ]
+    ],
+    "original": {
+      "question": "Какое из тел одинаковых размеров и нагретых до одной и той же температуры излучает меньше энергии?",
+      "answer": "",
+      "page": 20,
+      "answerImages": [
+        {
+          "file": "media/lms/ccb167cca28d61bcefe8812e.jpg",
+          "width": 140,
+          "height": 47
+        }
+      ]
+    }
   },
   {
     "question": "Способность микрочастиц проникать сквозь барьеры, которые они не могут преодолеть называется:",
@@ -435,6 +725,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       30
     ],
+    "original": {
+      "question": "Способность микрочастиц проникать сквозь барьеры, которые они не могут преодолеть называется:",
+      "answer": "Туннельным эффектом",
+      "page": 8
+    },
     "quiz": {
       "answer": "Туннельным эффектом.",
       "distractors": [
@@ -453,6 +748,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       31
     ],
+    "original": {
+      "question": "Какой энергией обладает квант излучения с длиной волны, равной комптоновской длине волны электрона?",
+      "answer": "",
+      "page": 9,
+      "answerImages": [
+        {
+          "file": "media/lms/d5e6be7311157513a8e605f8.jpg",
+          "width": 157,
+          "height": 43
+        }
+      ]
+    },
     "quiz": {
       "answer": "511 кэВ.",
       "distractors": [
@@ -470,19 +777,63 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       32
-    ]
+    ],
+    "original": {
+      "question": "Зависимость максимальной спектральной плотности энергетической светимости абсолютно черного тела от температуры имеет вид:",
+      "answer": "C·T⁵",
+      "page": 9,
+      "questionImages": [
+        {
+          "file": "media/lms/bf3536e66d520dacc29d67f5.jpg",
+          "width": 1055,
+          "height": 220
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильное утверждение",
     "answers": [
-      "Энергия кванта обратно пропорциональна длине волны излучения.",
+      "Энергия кванта обратно пропорциональна длине волны излучения."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      33
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение",
+      "answer": "Энергия кванта обратно пропорциональна длине волны излучения",
+      "page": 9,
+      "questionImages": [
+        {
+          "file": "media/lms/2f321d57df400da0d179002a.jpg",
+          "width": 659,
+          "height": 181
+        }
+      ]
+    }
+  },
+  {
+    "question": "Выберите правильное утверждение",
+    "answers": [
       "Энергия кванта пропорциональна частоте излучения."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      33,
       34
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение",
+      "answer": "Энергия кванта пропорциональна частоте излучения",
+      "page": 9,
+      "questionImages": [
+        {
+          "file": "media/lms/c2234c26e498cd1e686efac3.jpg",
+          "width": 467,
+          "height": 150
+        }
+      ]
+    }
   },
   {
     "question": "При комптоновском рассеянии рентгеновских лучей на свободных электронах частота рассеянного излучения",
@@ -492,17 +843,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       35
-    ]
+    ],
+    "original": {
+      "question": "При комптоновском рассеянии рентгеновских лучей на свободных электронах частота рассеянного излучения",
+      "answer": "",
+      "page": 9,
+      "answerImages": [
+        {
+          "file": "media/lms/b361b33a7ba82296dc53fd4e.jpg",
+          "width": 169,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Детерминизм в квантовой физике:",
     "answers": [
-      "Является вероятностным."
+      "Является вероятностным"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       36
-    ]
+    ],
+    "original": {
+      "question": "Детерминизм в квантовой физике:",
+      "answer": "Является вероятностным",
+      "page": 10
+    }
   },
   {
     "question": "На металлическую пластинку, работа выхода электронов с поверхности которой 3 эВ, падают фотоны с энергией 5,5 эВ и 4,5 эВ. Во сколько раз максимальная скорость электронов, вылетающих из первой пластинки больше, чем из второй",
@@ -512,7 +880,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       37
-    ]
+    ],
+    "original": {
+      "question": "На металлическую пластинку, работа выхода электронов с поверхности которой 3 эВ, падают фотоны с энергией 5,5 эВ и 4,5 эВ. Во сколько раз максимальная скорость электронов, вылетающих из первой пластинки больше, чем из второй",
+      "answer": "",
+      "page": 10,
+      "questionImages": [
+        {
+          "file": "media/lms/164d8b6756dd1c4918377c63.jpg",
+          "width": 781,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d589395b8c69d8d4a28bbebb.jpg",
+          "width": 105,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Какая характеристика теплового излучения имеет размерность Вт/м2?",
@@ -522,7 +909,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       38
-    ]
+    ],
+    "original": {
+      "question": "Какая характеристика теплового излучения имеет размерность Вт/м2?",
+      "answer": "",
+      "page": 19,
+      "answerImages": [
+        {
+          "file": "media/lms/372f3e77de75d4e1f78a5435.jpg",
+          "width": 464,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится энергетическая светимость абсолютно чёрного тела, если температуру его поверхности увеличить в 4 раза?",
@@ -532,7 +931,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       39
-    ]
+    ],
+    "original": {
+      "question": "Как изменится энергетическая светимость абсолютно черного тела, если температуру его поверхности увеличить в 4",
+      "answer": "",
+      "page": 10,
+      "questionImages": [
+        {
+          "file": "media/lms/ad7fe7ba7d21273400f3558e.jpg",
+          "width": 811,
+          "height": 56
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/319708df8a12417f65f0c09e.jpg",
+          "width": 196,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "На сколько пикометров изменится длина волны рентгеновского излучения при рассеянии на покоящемся электроне на угол 90°? Комптоновская длина волны электрона равна 2,43 пм.",
@@ -542,17 +960,41 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       40
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 11,
+      "questionImages": [
+        {
+          "file": "media/lms/33429b0c0b3ebf18b5365065.jpg",
+          "width": 565,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/caf82e0c025c4f0b26008885.jpg",
+          "width": 112,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Что называется фотоэффектом?",
     "answers": [
-      "Вылетание электронов с поверхности металла на свету."
+      "Вылетание электронов с поверхности металла на свету"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       41
-    ]
+    ],
+    "original": {
+      "question": "Что называется фотоэффектом?",
+      "answer": "Вылетание электронов с поверхности металла на свету",
+      "page": 11
+    }
   },
   {
     "question": "Радиус четвертой боровской орбиты 0,846 нм. Найти длину волны Де-Бройля электрона в этом состоянии",
@@ -562,7 +1004,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       42
-    ]
+    ],
+    "original": {
+      "question": "Радиус четвертой боровской орбиты 0,846 нм. Найти длину волны Де-Бройля электрона в этом состоянии",
+      "answer": "",
+      "page": 11,
+      "questionImages": [
+        {
+          "file": "media/lms/83132ee9d14b609a0b9fecae.jpg",
+          "width": 556,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f18b40d0e2dfde41005a694c.jpg",
+          "width": 100,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Если длина волны электромагнитного излучения увеличится в 3 раза, то энергия кванта",
@@ -572,7 +1033,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       43
-    ]
+    ],
+    "original": {
+      "question": "Если длина волны электромагнитного излучения увеличится в 3 раза, то энергия кванта",
+      "answer": "",
+      "page": 11,
+      "questionImages": [
+        {
+          "file": "media/lms/6b75f7f85d70998a31dcceae.jpg",
+          "width": 688,
+          "height": 42
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b4859430f711ee0143c0d5e8.jpg",
+          "width": 212,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Какая характеристика теплового излучения называется световым потоком?",
@@ -582,7 +1062,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       44
-    ]
+    ],
+    "original": {
+      "question": "Какая характеристика теплового излучения называется световым потоком?",
+      "answer": "",
+      "page": 12,
+      "answerImages": [
+        {
+          "file": "media/lms/759c869909e9bb1be5bcd218.jpg",
+          "width": 407,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Чему равно отношение радиуса третьей боровской орбиты к радиусу второй боровской орбиты для атома водорода?",
@@ -592,7 +1084,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       45
-    ]
+    ],
+    "original": {
+      "question": "Чему равно отношение радиуса третьей боровской орбиты к радиусу второй боровской орбиты для атома водорода?",
+      "answer": "",
+      "page": 12,
+      "answerImages": [
+        {
+          "file": "media/lms/641049d1c1b6aca9e783dfda.jpg",
+          "width": 571,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Постоянная Стефана-Больцмана σ в системе СИ имеет наименование",
@@ -602,7 +1106,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       46
-    ]
+    ],
+    "original": {
+      "question": "Постоянная Стефана-Больцмана σ в системе СИ имеет наименование",
+      "answer": "",
+      "page": 12,
+      "answerImages": [
+        {
+          "file": "media/lms/95e6423a60fbd34a09dcd9dc.jpg",
+          "width": 113,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Назовите ВСЕ явления, свидетельствующие о корпускулярной природе света.",
@@ -612,7 +1128,24 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       47
-    ]
+    ],
+    "original": {
+      "question": "Назовите ВСЕ явления, свидетельствующие о корпускулярной природе света.",
+      "answer": "",
+      "page": 12,
+      "answerImages": [
+        {
+          "file": "media/lms/b157c640f160d8f4e002c2c3.jpg",
+          "width": 264,
+          "height": 55
+        },
+        {
+          "file": "media/lms/e8f4e435593ff6caf715f3a5.jpg",
+          "width": 260,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится площадь под графиком зависимости излучательной способности абсолютно черного тела от длины волны, если температуру тела увеличить в 2 раза?",
@@ -622,7 +1155,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       48
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 13,
+      "questionImages": [
+        {
+          "file": "media/lms/c424c31317ced096c69003cd.jpg",
+          "width": 1115,
+          "height": 86
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/47ec863b7edc451eabc777d5.jpg",
+          "width": 265,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна длина волны Де-Бройля для частицы, обладающей импульсом 10 мН·с?",
@@ -632,7 +1184,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       49
-    ]
+    ],
+    "original": {
+      "question": "Чему равна длина волны Де-Бройля для частицы, обладающей импульсом 10 мН·с?",
+      "answer": "",
+      "page": 13,
+      "questionImages": [
+        {
+          "file": "media/lms/684f905dd1be8129a851164d.jpg",
+          "width": 825,
+          "height": 66
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/92a22b78156da33a8feb7821.jpg",
+          "width": 206,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "При эффекте Комптона фотон с длиной волны 5,45 пм рассеялся под углом θ = 150°. Найти длину волны фотона после рассеяния.",
@@ -642,7 +1213,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       50
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 13,
+      "questionImages": [
+        {
+          "file": "media/lms/2520b9367f1682f73fc25be9.jpg",
+          "width": 1138,
+          "height": 86
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d5846622ad96ce818fbf676a.jpg",
+          "width": 157,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "На две металлические пластинки, работа выхода электронов с поверхности которых равны 3 эВ и 5 эВ соответственно, падают фотоны с энергией 6 эВ. Во сколько раз максимальная скорость фотоэлектронов, вылетающих из первой пластинки больше, чем из второй",
@@ -652,7 +1242,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       51
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 13,
+      "questionImages": [
+        {
+          "file": "media/lms/d25f4b13887751fd99ae7f71.jpg",
+          "width": 1151,
+          "height": 112
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/96a9be42bf47b14d67ab8d98.jpg",
+          "width": 125,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Состояние квантовых микрочастиц задается",
@@ -662,7 +1271,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       52
-    ]
+    ],
+    "original": {
+      "question": "Состояние квантовых микрочастиц задается",
+      "answer": "",
+      "page": 14,
+      "answerImages": [
+        {
+          "file": "media/lms/cd4abd7a6c4ac9930dead6e5.jpg",
+          "width": 258,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Теория Бора описывает спектр:",
@@ -672,7 +1293,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       53
-    ]
+    ],
+    "original": {
+      "question": "Теория Бора описывает спектр:",
+      "answer": "",
+      "page": 23,
+      "answerImages": [
+        {
+          "file": "media/lms/9f1ab6d49a99e76381238732.jpg",
+          "width": 302,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится энергетическая светимость абсолютно черного тела, если при его нагревании длина волны, на которую приходится максимум излучательной способности, изменилась в два раза",
@@ -682,7 +1315,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       54
-    ]
+    ],
+    "original": {
+      "question": "Как изменится энергетическая светимость абсолютно черного тела, если при его нагревании длина волны, на которую приходится максимум излучательной способности, изменилась в два раза",
+      "answer": "",
+      "page": 15,
+      "answerImages": [
+        {
+          "file": "media/lms/6286da8b707d2ae9e5b7bc04.jpg",
+          "width": 263,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "При эффекте Комптона фотон с длиной волны 9,09 пм рассеялся под углом θ = 60°. Найти длину волны фотона после рассеяния.",
@@ -692,7 +1337,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       55
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 15,
+      "questionImages": [
+        {
+          "file": "media/lms/b0dbc0bd880c97276544be35.jpg",
+          "width": 1118,
+          "height": 88
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/16cd63c8ebf860f9e0616059.jpg",
+          "width": 145,
+          "height": 70
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз изменится максимальная кинетическая энергия вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 6 эВ?",
@@ -702,7 +1366,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       56
-    ]
+    ],
+    "original": {
+      "question": "Во сколько раз изменится максимальная кинетическая энергия вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 6 эВ?",
+      "answer": "",
+      "page": 15,
+      "questionImages": [
+        {
+          "file": "media/lms/ae10f5ddb2cf48f364133277.jpg",
+          "width": 1150,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/16ae7ac4e3ea500142f74319.jpg",
+          "width": 265,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Если длина волны электромагнитного излучения уменьшится в 2 раза, то энергия кванта:",
@@ -712,7 +1395,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       57
-    ]
+    ],
+    "original": {
+      "question": "Если длина волны электромагнитного излучения уменьшится в 2 раза, то энергия кванта:",
+      "answer": "",
+      "page": 16,
+      "questionImages": [
+        {
+          "file": "media/lms/d03b1a87d83a4dc60f2d9cbc.jpg",
+          "width": 872,
+          "height": 52
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3c1ae476ff5ebf5cd658096d.jpg",
+          "width": 264,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 2 кВ",
@@ -722,7 +1424,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       58
-    ]
+    ],
+    "original": {
+      "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 2 кВ",
+      "answer": "",
+      "page": 16,
+      "questionImages": [
+        {
+          "file": "media/lms/79d3ea73f041e044475a2daa.jpg",
+          "width": 710,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d40490a0ab043c8afdde1e6e.jpg",
+          "width": 120,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 0,62 кВ.",
@@ -732,7 +1453,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       59
-    ]
+    ],
+    "original": {
+      "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 0,62 кВ.",
+      "answer": "",
+      "page": 16,
+      "questionImages": [
+        {
+          "file": "media/lms/3ce722b3be5f25ff5edbf006.jpg",
+          "width": 1073,
+          "height": 67
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5f42f4e6239463a7f328b153.jpg",
+          "width": 154,
+          "height": 43
+        }
+      ]
+    }
   },
   {
     "question": "Что происходит с кинетической и потенциальной энергией при переходе электрона в атоме водорода из основного состояния в возбужденное",
@@ -742,7 +1482,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       60
-    ]
+    ],
+    "original": {
+      "question": "Что происходит с кинетической - Ек и потенциальной - Еп энергией при переходе электрона в атоме водорода из основного состояния в возбужденное?",
+      "answer": "",
+      "page": 16,
+      "questionImages": [
+        {
+          "file": "media/lms/b8e7b61a6d579abc16ecfa50.jpg",
+          "width": 1043,
+          "height": 75
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dd2a34e9638435d102b05314.jpg",
+          "width": 365,
+          "height": 50
+        }
+      ]
+    }
   },
   {
     "question": "Закон Стефана-Больцмана имеет вид:",
@@ -752,7 +1511,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       61
-    ]
+    ],
+    "original": {
+      "question": "Закон Стефана-Больцмана имеет вид:",
+      "answer": "",
+      "page": 16,
+      "answerImages": [
+        {
+          "file": "media/lms/03716075fdd53da9abcac5db.jpg",
+          "width": 146,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Собственные значения энергии квантового гармонического осциллятора определяются выражением:",
@@ -762,7 +1533,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       62
-    ]
+    ],
+    "original": {
+      "question": "Собственные значения энергии квантового гармонического осциллятора определяются выражением:",
+      "answer": "",
+      "page": 17,
+      "questionImages": [
+        {
+          "file": "media/lms/45a263062a65db5379be73ef.jpg",
+          "width": 1018,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/86972db825a2f5963d184011.jpg",
+          "width": 231,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "При каком из написанных ниже условий фотоэффект не возможен?",
@@ -772,7 +1562,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       63
-    ]
+    ],
+    "original": {
+      "question": "При каком из написанных ниже условий фотоэффект не возможен?",
+      "answer": "",
+      "page": 17,
+      "answerImages": [
+        {
+          "file": "media/lms/4c058656b78ca4f95af1c900.jpg",
+          "width": 454,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз увеличится мощность источника света, если его температура увеличится в 2 раза?",
@@ -782,7 +1584,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       64
-    ]
+    ],
+    "original": {
+      "question": "Во сколько раз увеличится мощность источника света, если его температура увеличится в 2 раза?",
+      "answer": "",
+      "page": 18,
+      "questionImages": [
+        {
+          "file": "media/lms/5b899b2b300353c9472cc2b0.jpg",
+          "width": 946,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1ed350ef9199ce1ce0dab849.jpg",
+          "width": 258,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится максимальное значение излучающей способности абсолютно черного тела, если температуру тела увеличить в 2 раза?",
@@ -792,7 +1613,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       65
-    ]
+    ],
+    "original": {
+      "question": "Как изменится максимальное значение излучающей способности абсолютно черного тела, если температуру тела увеличить в 2 раза?",
+      "answer": "Увеличится в 32 раза.",
+      "page": 18,
+      "questionImages": [
+        {
+          "file": "media/lms/cdcd386d1d6780ea3449c85d.jpg",
+          "width": 1108,
+          "height": 305
+        }
+      ]
+    }
   },
   {
     "question": "Комптоновское изменение длины волны рассеянных лучей зависит от:",
@@ -802,7 +1635,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       66
-    ]
+    ],
+    "original": {
+      "question": "Комптоновское изменение длины волны рассеянных лучей зависит от:",
+      "answer": "",
+      "page": 18,
+      "answerImages": [
+        {
+          "file": "media/lms/077c4239c2c3200d8c084f69.jpg",
+          "width": 366,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна частота фотона, соответствующая головной линии серии Брекетта? n₁ = 4, R — постоянная Ридберга в частотной записи.",
@@ -812,17 +1657,41 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       67
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 18,
+      "questionImages": [
+        {
+          "file": "media/lms/11a321eeab97eeea5f572139.jpg",
+          "width": 1073,
+          "height": 54
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b68e21debc35763c943b2975.jpg",
+          "width": 140,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Для объяснения механизма фотоэффекта А. Эйнштейн использовал",
     "answers": [
-      "Гипотезу М. Планка."
+      "Гипотезу М.Планка"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       68
-    ]
+    ],
+    "original": {
+      "question": "Для объяснения механизма фотоэффекта А. Эйнштейн использовал",
+      "answer": "Гипотезу М.Планка",
+      "page": 19
+    }
   },
   {
     "question": "В чем состоит корпускулярно-волновой дуализм?",
@@ -832,7 +1701,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       69
-    ]
+    ],
+    "original": {
+      "question": "В чем состоит корпускулярно-волновой дуализм?",
+      "answer": "",
+      "page": 19,
+      "answerImages": [
+        {
+          "file": "media/lms/ee4517619e59fa09427e08e9.jpg",
+          "width": 699,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Импульс фотона с энергией 5 эВ приблизительно равен:",
@@ -842,17 +1723,41 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       70
-    ]
+    ],
+    "original": {
+      "question": "Импульс фотона с энергией 5 эВ приблизительно равен:",
+      "answer": "",
+      "page": 19,
+      "questionImages": [
+        {
+          "file": "media/lms/2d905e58107aab05b1f67073.jpg",
+          "width": 553,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c1b2759421ff3b48d52f6fe2.jpg",
+          "width": 193,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Волновыми свойствами обладает:",
     "answers": [
-      "Каждая квантовая частица в отдельности."
+      "Каждая квантовая частица в отдельности"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       71
-    ]
+    ],
+    "original": {
+      "question": "Волновыми свойствами обладает:",
+      "answer": "Каждая квантовая частица в отдельности",
+      "page": 20
+    }
   },
   {
     "question": "Спектральная поглощательная способность rλ тела измеряется в:",
@@ -862,17 +1767,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       72
-    ]
+    ],
+    "original": {
+      "question": "Спектральная поглощательная способность rλ тела измеряется в:",
+      "answer": "",
+      "page": 20,
+      "answerImages": [
+        {
+          "file": "media/lms/9ed4eb235abf0f733a5b6913.jpg",
+          "width": 142,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Красная граница фотоэффекта для вещества зависит",
     "answers": [
-      "Химического состава катода."
+      "Химического состава катода"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       73
-    ]
+    ],
+    "original": {
+      "question": "Красная граница фотоэффекта для вещества зависит",
+      "answer": "Химического состава катода",
+      "page": 20
+    }
   },
   {
     "question": "При эффекте Комптона фотон рассеялся под углом θ = 30°. Комптоновское смещение длины волны равно",
@@ -882,17 +1804,41 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       74
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 21,
+      "questionImages": [
+        {
+          "file": "media/lms/d06d8aae02a98a1536123b62.jpg",
+          "width": 1028,
+          "height": 57
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1a9a1c9c75b834780c1a87ce.jpg",
+          "width": 160,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Волновые свойства электронов подтверждаются:",
     "answers": [
-      "Дифракцией электронов на кристаллической решетке."
+      "Дифракцией электронов на кристаллической решетке"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       75
-    ]
+    ],
+    "original": {
+      "question": "Волновые свойства электронов подтверждаются:",
+      "answer": "Дифракцией электронов на кристаллической решетке",
+      "page": 21
+    }
   },
   {
     "question": "Какая характеристика теплового излучения не имеет размерности?",
@@ -902,7 +1848,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       76
-    ]
+    ],
+    "original": {
+      "question": "Какая характеристика теплового излучения не имеет размерности?",
+      "answer": "",
+      "page": 21,
+      "answerImages": [
+        {
+          "file": "media/lms/fe70827541585c5aa58c9336.jpg",
+          "width": 500,
+          "height": 52
+        }
+      ]
+    }
   },
   {
     "question": "Импульс кванта света с длиной волны равен:",
@@ -912,7 +1870,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       77
-    ]
+    ],
+    "original": {
+      "question": "Импульс кванта света с длиной волны равен:",
+      "answer": "",
+      "page": 26,
+      "answerImages": [
+        {
+          "file": "media/lms/5d13f00eb5eabbe91dcfda47.jpg",
+          "width": 91,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 1 кВ",
@@ -922,7 +1892,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       78
-    ]
+    ],
+    "original": {
+      "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 1кВ",
+      "answer": "",
+      "page": 22,
+      "questionImages": [
+        {
+          "file": "media/lms/f81a24c3fd46f1a024353c43.jpg",
+          "width": 895,
+          "height": 54
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/60f015ec00604ad8da8ba33e.jpg",
+          "width": 156,
+          "height": 47
+        }
+      ]
+    }
   },
   {
     "question": "Найти коротковолновую границу рентгеновского спектра при ускоряющем напряжении 1,24 кВ.",
@@ -932,7 +1921,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       79
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 22,
+      "questionImages": [
+        {
+          "file": "media/lms/15d3f2bfe867b5b89a1e456c.jpg",
+          "width": 919,
+          "height": 54
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/94bc9128d282d95c1981ab19.jpg",
+          "width": 207,
+          "height": 72
+        }
+      ]
+    }
   },
   {
     "question": "Чему равно отношение радиуса четвертой боровской орбиты к радиусу первой боровской орбиты для атома водорода?",
@@ -942,7 +1950,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       80
-    ]
+    ],
+    "original": {
+      "question": "Чему равно отношение радиуса четвертой боровской орбиты к радиусу первой боровской орбиты для атома водорода?",
+      "answer": "",
+      "page": 22,
+      "answerImages": [
+        {
+          "file": "media/lms/bf5807212720e1646271bcd9.jpg",
+          "width": 102,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Движение микрочастиц квантуется...",
@@ -952,7 +1972,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       81
-    ]
+    ],
+    "original": {
+      "question": "Движение микрочастиц квантуется...",
+      "answer": "",
+      "page": 23,
+      "questionImages": [
+        {
+          "file": "media/lms/2f30a7332f5bad3738b7ac48.jpg",
+          "width": 492,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/03d8c7e96bac671ccd8390cd.jpg",
+          "width": 492,
+          "height": 49
+        }
+      ]
+    }
   },
   {
     "question": "Максимум спектральной плотности абсолютно чёрного тела сместился с λ₁ = 2,4 мкм на λ₂ = 1,6 мкм. Как и во сколько раз изменилась энергетическая светимость тела?",
@@ -962,7 +2001,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       82
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 23,
+      "questionImages": [
+        {
+          "file": "media/lms/1acb044edf388e9c9d885d4c.jpg",
+          "width": 809,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6e7ff0953179594e0ea954d9.jpg",
+          "width": 194,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Масса фотона определяется формулой:",
@@ -972,7 +2030,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       83
-    ]
+    ],
+    "original": {
+      "question": "Масса фотона определяется формулой:",
+      "answer": "",
+      "page": 24,
+      "questionImages": [
+        {
+          "file": "media/lms/164f973d4e1b3bd14be8f36e.jpg",
+          "width": 400,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/76c6be4e0a1e45f4cd8f52b9.jpg",
+          "width": 176,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "В каких единицах измеряется спектральная излучательная способность rω поверхности тела в системе СИ",
@@ -982,7 +2059,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       84
-    ]
+    ],
+    "original": {
+      "question": "В каких единицах измеряется спектральная излучательная способность rω поверхности тела в системе СИ",
+      "answer": "",
+      "page": 24,
+      "answerImages": [
+        {
+          "file": "media/lms/f6b591edcea1307b92396e40.jpg",
+          "width": 119,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "На две металлические пластинки, работа выхода электронов с поверхности которых равна 3 эВ и 5 эВ соответственно, падают фотоны с энергией 6 эВ. Во сколько раз максимальная кинетическая энергия фотоэлектронов, вылетающих из первой пластинки больше, чем из второй?",
@@ -992,7 +2081,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       85
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 24,
+      "questionImages": [
+        {
+          "file": "media/lms/a010b9350c58bacba63ed356.jpg",
+          "width": 762,
+          "height": 84
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/33e2603adf2536db2f9cad68.jpg",
+          "width": 762,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Максимум спектра излучения лампы соответствует длине волны 1000 нм. Энергия квантов, соответствующих этой длине волны приблизительно равна?",
@@ -1002,17 +2110,41 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       86
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 25,
+      "questionImages": [
+        {
+          "file": "media/lms/e3b830d44cfe33e7691a8152.jpg",
+          "width": 1078,
+          "height": 311
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4ddfd705829012ca771bfd39.jpg",
+          "width": 399,
+          "height": 113
+        }
+      ]
+    }
   },
   {
     "question": "Движение квантовых микрочастиц определяется…",
     "answers": [
-      "Уравнением Шрёдингера."
+      "О уравнением Шрёдингера"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       87
-    ]
+    ],
+    "original": {
+      "question": "Движение квантовых микрочастиц определяется…",
+      "answer": "О уравнением Шрёдингера",
+      "page": 26
+    }
   },
   {
     "question": "Как изменится длина волны, соответствующая максимуму спектральной излучательной способности абсолютно черного тела, если температуру его поверхности уменьшить в 4 раза",
@@ -1022,7 +2154,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       88
-    ]
+    ],
+    "original": {
+      "question": "Как изменится длина волны, соответствующая максимуму спектральной излучательной способности абсолютно черного тела, если температуру его поверхности уменьшить в 4 раза",
+      "answer": "",
+      "page": 26,
+      "questionImages": [
+        {
+          "file": "media/lms/ad46685d1b6e78eca5dadbff.jpg",
+          "width": 758,
+          "height": 73
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4052035cba322df8780e1166.jpg",
+          "width": 208,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Частота красной границы фотоэффекта определяется выражением",
@@ -1032,7 +2183,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       89
-    ]
+    ],
+    "original": {
+      "question": "Частота красной границы фотоэффекта определяется выражением",
+      "answer": "",
+      "page": 27,
+      "questionImages": [
+        {
+          "file": "media/lms/08de29a772f48456f48723e6.jpg",
+          "width": 785,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/16593ae9fbfb6c30288702b0.jpg",
+          "width": 215,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Максимальная скорость фотоэлектронов зависит от",
@@ -1042,7 +2212,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       90
-    ]
+    ],
+    "original": {
+      "question": "Максимальная скорость фотоэлектронов зависит от:",
+      "answer": "",
+      "page": 27,
+      "answerImages": [
+        {
+          "file": "media/lms/082e022e234837263686a503.jpg",
+          "width": 286,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Какая характеристика теплового излучения называется излучательной способностью",
@@ -1052,7 +2234,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       91
-    ]
+    ],
+    "original": {
+      "question": "Какая характеристика теплового излучения называется излучательной способностью",
+      "answer": "",
+      "page": 27,
+      "answerImages": [
+        {
+          "file": "media/lms/4e3845689c7e494d66acd1ba.jpg",
+          "width": 1082,
+          "height": 49
+        }
+      ]
+    }
   },
   {
     "question": "Начальная температура тела 2000 К. На сколько кельвинов изменилась температура, если длина волны максимума в спектре теплового излучения увеличилась на 1260 нм?",
@@ -1062,7 +2256,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       92
-    ]
+    ],
+    "original": {
+      "question": "Начальная температура тела 2000 К. На сколько кельвинов изменилась температура, если длина волны максимума в спектре теплового излучения тела увеличилась на 1260 нм?",
+      "answer": "",
+      "page": 27,
+      "questionImages": [
+        {
+          "file": "media/lms/5112a37a9a5c578293e8a86e.jpg",
+          "width": 809,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c952c377e3e133211eacf517.jpg",
+          "width": 107,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Выберите все правильные утверждения об опыте Дэвиссона — Джермера. Варианты: наблюдалась дифракция электронов; исследовались скорости вылетающих электронов; была проверена формула де Бройля.",
@@ -1072,7 +2285,36 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       93
-    ]
+    ],
+    "original": {
+      "question": "Выберите ВСЕ правильные утверждения.",
+      "answer": "",
+      "page": 28,
+      "questionImages": [
+        {
+          "file": "media/lms/e71943476732a385505b919c.jpg",
+          "width": 606,
+          "height": 631
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6f72d85f6d7377052d469249.jpg",
+          "width": 562,
+          "height": 154
+        },
+        {
+          "file": "media/lms/0e1b71314e5c4f10823eaed9.jpg",
+          "width": 606,
+          "height": 75
+        },
+        {
+          "file": "media/lms/b191ac27921963f20c428e6d.jpg",
+          "width": 606,
+          "height": 65
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна частота фотона, соответствующая головной линии серии Лаймана? n₁ = 1, R — постоянная Ридберга в частотной записи.",
@@ -1081,9 +2323,56 @@ const physicsLmsQuestions = [
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      94,
+      94
+    ],
+    "original": {
+      "question": "Чему равна частота фотона, соответствующая головной линии серии Лаймана (n1=1; R- постоянная Ридберга) 3R/4",
+      "answer": "",
+      "page": 28,
+      "questionImages": [
+        {
+          "file": "media/lms/2142243f4863936546e89e67.jpg",
+          "width": 1084,
+          "height": 57
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fc0031b17fe38d9a0116471e.jpg",
+          "width": 126,
+          "height": 40
+        }
+      ]
+    }
+  },
+  {
+    "question": "Чему равна частота фотона, соответствующая головной линии серии Лаймана? n₁ = 1, R — постоянная Ридберга в частотной записи.",
+    "answers": [
+      "3R/4."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
       95
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 28,
+      "questionImages": [
+        {
+          "file": "media/lms/7e69fb63a265823efb5c1b33.jpg",
+          "width": 579,
+          "height": 214
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a82bd4e5b5602abac9899dc8.jpg",
+          "width": 216,
+          "height": 57
+        }
+      ]
+    }
   },
   {
     "question": "Микрочастица массой 9·10⁻³¹ кг заперта в одномерной потенциальной яме шириной Δx = 1 нм. С помощью соотношения неопределённостей оценить минимальную скорость частицы.",
@@ -1093,7 +2382,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       96
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 29,
+      "questionImages": [
+        {
+          "file": "media/lms/39fe57f9ddb4591aa2f691f4.jpg",
+          "width": 1074,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3f01a07231edabe52df4615f.jpg",
+          "width": 121,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Волновая функция должна быть:",
@@ -1103,7 +2411,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       97
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 29,
+      "questionImages": [
+        {
+          "file": "media/lms/51c2ef64860a43b70b05f0e8.jpg",
+          "width": 306,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/93dc23f317f4b6024af47a9e.jpg",
+          "width": 306,
+          "height": 20
+        }
+      ]
+    }
   },
   {
     "question": "Что необходимо для вынужденного излучения фотона?",
@@ -1113,7 +2440,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       98
-    ]
+    ],
+    "original": {
+      "question": "Для вынужденного изучения фотона необходимо",
+      "answer": "",
+      "page": 39,
+      "answerImages": [
+        {
+          "file": "media/lms/a4213708a104e2c70c0379b5.jpg",
+          "width": 518,
+          "height": 109
+        }
+      ]
+    }
   },
   {
     "question": "Магнитное квантовое число при заданном орбитальном квантовом числе может принимать целочисленные значения:",
@@ -1123,7 +2462,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       99
-    ]
+    ],
+    "original": {
+      "question": "Магнитное квантовое число при заданном орбитальном квантовом числе может принимать целочисленные значения:",
+      "answer": "",
+      "page": 29,
+      "questionImages": [
+        {
+          "file": "media/lms/fb0d68f1de44871430b809a5.jpg",
+          "width": 934,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/65de0bb7eb3efb0dcbfa57a5.jpg",
+          "width": 127,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Число квантовых состояний в s-оболочке равно:",
@@ -1133,7 +2491,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       100
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 29,
+      "questionImages": [
+        {
+          "file": "media/lms/7bc90a1d045cd3677b59bd7a.jpg",
+          "width": 393,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ef55e7fbd87210afcb98604f.jpg",
+          "width": 84,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Частица в бесконечно глубокой одномерной потенциальной яме шириной l находится в возбуждённом состоянии с n = 2. Плотность вероятности обнаружения частицы максимальна при",
@@ -1143,7 +2520,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       101
-    ]
+    ],
+    "original": {
+      "question": "Частица в бесконечно глубокой одномерной потенциальной яме шириной l находится в возбуждённом состоянии с n = 2. Плотность вероятности обнаружения частицы максимальна при",
+      "answer": "",
+      "page": 29,
+      "questionImages": [
+        {
+          "file": "media/lms/327f1bd7f76448a02ec37d82.jpg",
+          "width": 1004,
+          "height": 69
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/25371f6bdb3d1fce33832dea.jpg",
+          "width": 217,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Бозонами являются:",
@@ -1153,17 +2549,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       102
-    ]
+    ],
+    "original": {
+      "question": "Бозонами являются:",
+      "answer": "",
+      "page": 29,
+      "answerImages": [
+        {
+          "file": "media/lms/a078433936ab44123910e61f.jpg",
+          "width": 294,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Квадрат модуля волновой функции задает:",
     "answers": [
-      "Плотность вероятности обнаружения частицы."
+      "Плотность вероятности обнаружения частицы"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       103
-    ]
+    ],
+    "original": {
+      "question": "Квадрат модуля волновой функции задает:",
+      "answer": "Плотность вероятности обнаружения частицы",
+      "page": 29
+    }
   },
   {
     "question": "Вынужденное излучение фотона может произойти при столкновении излучающего атома:",
@@ -1173,7 +2586,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       104
-    ]
+    ],
+    "original": {
+      "question": "Вынужденное излучение фотона может произойти при столкновении излучающего атома:",
+      "answer": "",
+      "page": 30,
+      "answerImages": [
+        {
+          "file": "media/lms/1e368e240be0a27e77bec92a.jpg",
+          "width": 255,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Орбитальное движение электрона в атоме водорода квантуется",
@@ -1183,7 +2608,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       105
-    ]
+    ],
+    "original": {
+      "question": "Орбитальное движение электрона в атоме водорода квантуется",
+      "answer": "",
+      "page": 31,
+      "answerImages": [
+        {
+          "file": "media/lms/9a572b316f3c634641c5608d.jpg",
+          "width": 322,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "При электронном переходе с поглощением фотона в атоме водорода из основного состояния в первое возбужденное - квантовые числа меняются следующим образом",
@@ -1193,7 +2630,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       106
-    ]
+    ],
+    "original": {
+      "question": "При электронном переходе с поглощением фотона в атоме водорода из основного состояния в первое возбужденное - квантовые числа меняются следующим образом",
+      "answer": "",
+      "page": 31,
+      "answerImages": [
+        {
+          "file": "media/lms/c3a094a1aa86ed93d8a972b5.jpg",
+          "width": 532,
+          "height": 99
+        }
+      ]
+    }
   },
   {
     "question": "Ц потенциальной бесконечно глубокой яме шириной / находится в основном состоянии. Плотность вероятности нахождения частицы максимальна в точке:",
@@ -1203,7 +2652,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       107
-    ]
+    ],
+    "original": {
+      "question": "Ц потенциальной бесконечно глубокой яме шириной / находится в основном состоянии. Плотность вероятности нахождения частицы максимальна в точке:",
+      "answer": "",
+      "page": 31,
+      "answerImages": [
+        {
+          "file": "media/lms/4d972ba6e7cb598ec4b22da0.jpg",
+          "width": 215,
+          "height": 58
+        }
+      ]
+    }
   },
   {
     "question": "Для каких частич справедлив запрет Паули?",
@@ -1213,23 +2674,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       108
-    ]
+    ],
+    "original": {
+      "question": "Для каких частич справедлив запрет Паули?",
+      "answer": "",
+      "page": 31,
+      "answerImages": [
+        {
+          "file": "media/lms/00d3ef76ee6431b3e5d4794a.jpg",
+          "width": 638,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Соотношение неопределенностей Гайзенберга:",
     "answers": [
-      "Ограничивает точность совместного определения момента импульса и угла.",
-      "Ограничивает точность совместного определения скоростей и координат микрочастиц.",
-      "Ограничивает точность совместного определения импульсов и координат микрочастиц.",
-      "Ограничивает точность совместного определения импульса и координаты."
+      "Ограничивает точность совместного определения момента импульса и угла"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      109,
-      161,
-      162,
-      214
-    ]
+      109
+    ],
+    "original": {
+      "question": "Соотношение неопределенностей Гайзенберга:",
+      "answer": "Ограничивает точность совместного определения момента импульса и угла",
+      "page": 32
+    }
   },
   {
     "question": "Какими свойствами должна обладать волновая функция?",
@@ -1239,7 +2711,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       110
-    ]
+    ],
+    "original": {
+      "question": "Какими свойствами должна обладать волновая функция?",
+      "answer": "",
+      "page": 32,
+      "answerImages": [
+        {
+          "file": "media/lms/413df5eab36e751854f0a2b2.jpg",
+          "width": 558,
+          "height": 108
+        }
+      ]
+    }
   },
   {
     "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон перпендикулярно направлению падающего фотона, то",
@@ -1249,7 +2733,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       111
-    ]
+    ],
+    "original": {
+      "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон перпендикулярно направлению падающего фотона, то",
+      "answer": "",
+      "page": 32,
+      "answerImages": [
+        {
+          "file": "media/lms/a4834281aac18cd500786ce3.jpg",
+          "width": 302,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Гиромагнитное отношение для орбитального движения электрона равно:",
@@ -1259,7 +2755,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       112
-    ]
+    ],
+    "original": {
+      "question": "Гиромагнитное отношение для орбитального движения электрона равно:",
+      "answer": "",
+      "page": 32,
+      "answerImages": [
+        {
+          "file": "media/lms/ad4d2f857f640004fb2de3d3.jpg",
+          "width": 224,
+          "height": 63
+        }
+      ]
+    }
   },
   {
     "question": "Частица находится в бесконечно глубокой одномерной потенциальной яме. С увеличением квантового числа N разность энергий двух соседних уровней:",
@@ -1269,33 +2777,108 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       113
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Увеличивается",
+      "page": 32,
+      "questionImages": [
+        {
+          "file": "media/lms/2459be0e1ec76091a77f3104.jpg",
+          "width": 527,
+          "height": 307
+        }
+      ]
+    }
   },
   {
     "question": "К фермионам относятся",
     "answers": [
-      "Протоны.",
-      "Ядра трития (s = 1/2).",
-      "Нейтроны.",
+      "Протоны"
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      114
+    ],
+    "original": {
+      "question": "К фермионам относятся",
+      "answer": "Протоны",
+      "page": 33
+    }
+  },
+  {
+    "question": "К фермионам относятся",
+    "answers": [
+      "Ядра трития (s = 1/2)."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      115
+    ],
+    "original": {
+      "question": "К фермионам относятся",
+      "answer": "",
+      "page": 33,
+      "answerImages": [
+        {
+          "file": "media/lms/e9728f5dd2f409426f1f8c75.jpg",
+          "width": 244,
+          "height": 33
+        }
+      ]
+    }
+  },
+  {
+    "question": "К фермионам относятся:",
+    "answers": [
+      "Нейтроны"
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      116
+    ],
+    "original": {
+      "question": "К фермионам относятся:",
+      "answer": "Нейтроны",
+      "page": 33
+    }
+  },
+  {
+    "question": "К фермионам относятся:",
+    "answers": [
       "Электроны (s = 1/2)."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      114,
-      115,
-      116,
       117
-    ]
+    ],
+    "original": {
+      "question": "К фермионам относятся:",
+      "answer": "",
+      "page": 33,
+      "answerImages": [
+        {
+          "file": "media/lms/c80b7d75d72faf8a8ef3e307.jpg",
+          "width": 195,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Каков физический смысл волновой функции?",
     "answers": [
-      "Квадрат модуля волновой функции равен плотности вероятности обнаружения частицы."
+      "Равен плотности вероятности обнаружения частицы"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       118
-    ]
+    ],
+    "original": {
+      "question": "Каков физический смысл волновой функции?",
+      "answer": "Равен плотности вероятности обнаружения частицы",
+      "page": 33
+    }
   },
   {
     "question": "Какое утверждение раскрывает статистический смысл волновой функции?",
@@ -1305,7 +2888,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       119
-    ]
+    ],
+    "original": {
+      "question": "Какое утверждение раскрывает статистический смысл волновой функции?",
+      "answer": "Квадрат модуля волновой функции равен плотности вероятности обнаружения частицы.",
+      "page": 33,
+      "questionImages": [
+        {
+          "file": "media/lms/03d90df2036fe43290555e61.jpg",
+          "width": 628,
+          "height": 176
+        }
+      ]
+    }
   },
   {
     "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон навстречу падающему фотону,",
@@ -1315,7 +2910,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       120
-    ]
+    ],
+    "original": {
+      "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон навстречу падающему фотону,",
+      "answer": "Произошло спонтанное излучение.",
+      "page": 33,
+      "questionImages": [
+        {
+          "file": "media/lms/cf7695341a0b1092abd5e870.jpg",
+          "width": 737,
+          "height": 185
+        }
+      ]
+    }
   },
   {
     "question": "Движение электрона, находящегося в поле протона:",
@@ -1325,7 +2932,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       121
-    ]
+    ],
+    "original": {
+      "question": "Движение электрона, находящегося в поле протона:",
+      "answer": "",
+      "page": 34,
+      "answerImages": [
+        {
+          "file": "media/lms/ef0b708a4745fee71801b148.jpg",
+          "width": 355,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "При электронном переходе с испусканием фотона в атоме водорода из первого возбужденного состояние в основное – квантовые числа меняются следующим образом:",
@@ -1335,7 +2954,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       122
-    ]
+    ],
+    "original": {
+      "question": "При электронном переходе с испусканием фотона в атоме водорода из первого возбужденного состояние в основное – квантовые числа меняются следующим образом:",
+      "answer": "",
+      "page": 34,
+      "answerImages": [
+        {
+          "file": "media/lms/8bba90953210db000ae7d9d1.jpg",
+          "width": 536,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Частица в бесконечно глубокой потенциальной яме шириной l находится в состоянии с n = 3. Какова вероятность обнаружения частицы в интервале l/3 < x < 2l/3?",
@@ -1345,7 +2976,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       123
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 3. Какова вероятность обнаружения частицы в интервале l/3 < x < 2l/3?",
+      "answer": "",
+      "page": 34,
+      "questionImages": [
+        {
+          "file": "media/lms/085cc0dfdfb3680a9534d7f9.jpg",
+          "width": 579,
+          "height": 248
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/137a0e3f780abc35983c2a6d.jpg",
+          "width": 181,
+          "height": 58
+        }
+      ]
+    }
   },
   {
     "question": "Какие частицы подчиняются статистике Ферми-Дирака?",
@@ -1355,7 +3005,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       124
-    ]
+    ],
+    "original": {
+      "question": "Какие частицы подчиняются статистике Ферми-Дирака?",
+      "answer": "",
+      "page": 34,
+      "answerImages": [
+        {
+          "file": "media/lms/b15c3276a750392b55036ff3.jpg",
+          "width": 541,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "В чём состоит условие нормировки волновой функции?",
@@ -1365,7 +3027,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       125
-    ]
+    ],
+    "original": {
+      "question": "В чем состоит условие номировки волновой функции?",
+      "answer": "",
+      "page": 35,
+      "answerImages": [
+        {
+          "file": "media/lms/e6808fe8e9219caf2c54b54b.jpg",
+          "width": 347,
+          "height": 75
+        }
+      ]
+    }
   },
   {
     "question": "Лазерное излучение обладает следующими свойствами...",
@@ -1375,7 +3049,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       126
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 35,
+      "questionImages": [
+        {
+          "file": "media/lms/05ad8897cdc9fe274f2d0020.jpg",
+          "width": 441,
+          "height": 91
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6f65da3457264ebf616770b2.jpg",
+          "width": 441,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Орбитальное квантовое число при заданном главном квантовом числе может принимать целочисленные значения:",
@@ -1385,7 +3078,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       127
-    ]
+    ],
+    "original": {
+      "question": "Орбитальное квантовое число при заданном главном квантовом числе может принимать целочисленные значения:",
+      "answer": "",
+      "page": 35,
+      "questionImages": [
+        {
+          "file": "media/lms/d7d5289d0d3c81e66c12323d.jpg",
+          "width": 504,
+          "height": 182
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/022125526f95c7c1a8163da9.jpg",
+          "width": 246,
+          "height": 51
+        }
+      ]
+    }
   },
   {
     "question": "Магнитное квантовое число при заданном орбитальном квантовом числе может принимать:",
@@ -1395,7 +3107,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       128
-    ]
+    ],
+    "original": {
+      "question": "Магнитное квантовое число при заданном орбитальном квантовом числе может принимать:",
+      "answer": "",
+      "page": 35,
+      "questionImages": [
+        {
+          "file": "media/lms/fcd303a35c010b03f807576a.jpg",
+          "width": 935,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6f7e88bd7abb9553f5ae15fc.jpg",
+          "width": 211,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 2. Какова вероятность обнаружения частицы в интервале l/4 < x < l?",
@@ -1405,39 +3136,93 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       129
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 2. Какова вероятность обнаружения частицы в интервале l/4 < x < l?",
+      "answer": "",
+      "page": 35,
+      "questionImages": [
+        {
+          "file": "media/lms/c3ae994945e7bc0b6bfe84e3.jpg",
+          "width": 726,
+          "height": 270
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/43f548acdd7ac03da6740dc0.jpg",
+          "width": 194,
+          "height": 60
+        }
+      ]
+    }
   },
   {
     "question": "К бозонам относятся",
     "answers": [
-      "π-мезоны.",
-      "А-частицы."
+      "π-мезоны."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      130,
+      130
+    ],
+    "original": {
+      "question": "К бозонам относятся",
+      "answer": "",
+      "page": 35,
+      "answerImages": [
+        {
+          "file": "media/lms/3e382ac38f062fac7a03a217.jpg",
+          "width": 259,
+          "height": 55
+        }
+      ]
+    }
+  },
+  {
+    "question": "К бозонам относятся",
+    "answers": [
+      "А-частицы"
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
       131
-    ]
+    ],
+    "original": {
+      "question": "К бозонам относятся",
+      "answer": "А-частицы",
+      "page": 35
+    }
   },
   {
     "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон на частоте, большей частоты падающего фотона, то:",
     "answers": [
-      "Произошло спонтанное излучение."
+      "Произошло спонтанное излучение"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       132
-    ]
+    ],
+    "original": {
+      "question": "Если рядом с возбужденным атомом пролетел фотон, и атом испустил еще один фотон на частоте, большей частоты падающего фотона, то:",
+      "answer": "Произошло спонтанное излучение",
+      "page": 36
+    }
   },
   {
     "question": "Гиромагнитное отношение - это:",
     "answers": [
-      "Отношение магнитного момента к моменту импульса."
+      "Моменту"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       133
-    ]
+    ],
+    "original": {
+      "question": "Гиромагнитное отношение - это:",
+      "answer": "Моменту",
+      "page": 36
+    }
   },
   {
     "question": "Какая электронная конфигурация запрещена? Варианты: 1s² 2s² 2p⁶ 3s¹; 1s² 2s² 2p⁴ 3s¹ 4p²; 1s² 2s² 2p⁶ 3s³.",
@@ -1448,6 +3233,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       134
     ],
+    "original": {
+      "question": "Найдите запрещенные элеткронные комбинации:",
+      "answer": "",
+      "page": 36,
+      "answerImages": [
+        {
+          "file": "media/lms/1fb94eadd46727429416bc3e.jpg",
+          "width": 231,
+          "height": 36
+        }
+      ]
+    },
     "quiz": {
       "question": "Какая электронная конфигурация запрещена?",
       "answer": "1s² 2s² 2p⁶ 3s³",
@@ -1466,7 +3263,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       135
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 36,
+      "questionImages": [
+        {
+          "file": "media/lms/559ff28cdf1696fdf9478950.jpg",
+          "width": 600,
+          "height": 152
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/26bde616bd3ae87ab1ed7b23.jpg",
+          "width": 158,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильную формулировку для соотношения неопределённостей",
@@ -1476,7 +3292,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       136
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильную формулировку для соотношения неопределеннойстей",
+      "answer": "",
+      "page": 37,
+      "questionImages": [
+        {
+          "file": "media/lms/051d82baffaa441d3082e482.jpg",
+          "width": 875,
+          "height": 226
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/388fcc060b5a9de58304ede7.jpg",
+          "width": 250,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Если рядом с возбужденным атомом пролетел фотон, и атом перешел в основное состояние:",
@@ -1486,17 +3321,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       137
-    ]
+    ],
+    "original": {
+      "question": "Если рядом с возбужденным атомом пролетел фотон, и атом перешел в основное состояние:",
+      "answer": "",
+      "page": 37,
+      "answerImages": [
+        {
+          "file": "media/lms/943786520049a82b52ac7ed1.jpg",
+          "width": 442,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Какое квантовое число электрона в атоме водорода определяет момент импульса его орбитального движения?",
     "answers": [
-      "Орбитальное квантовое число."
+      "Орбитальное квантовое число"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       138
-    ]
+    ],
+    "original": {
+      "question": "Какое квантовое число электрона в атоме водорода определяет момент импульса его орбитального движения?",
+      "answer": "Орбитальное квантовое число",
+      "page": 37
+    }
   },
   {
     "question": "Число квантовых состояний в d-оболочке равно:",
@@ -1506,7 +3358,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       139
-    ]
+    ],
+    "original": {
+      "question": "Число квантовых состояний в d-оболочке равно:",
+      "answer": "",
+      "page": 37,
+      "questionImages": [
+        {
+          "file": "media/lms/1cd98803a580648a3fab9ac4.jpg",
+          "width": 364,
+          "height": 95
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e278fe9b4b7129c571742044.jpg",
+          "width": 128,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Микрочастица в бесконечно глубокой одномерной потенциальной яме переходит из состояния n₁ = 1 в состояние n₂ = 3. Во сколько раз увеличится её энергия?",
@@ -1516,7 +3387,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       140
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 37,
+      "questionImages": [
+        {
+          "file": "media/lms/af68e667935f1ab6c10cef08.jpg",
+          "width": 539,
+          "height": 238
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/22ea16b4180c6809f68310f1.jpg",
+          "width": 213,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Запрет Паули справедлив для",
@@ -1526,7 +3416,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       141
-    ]
+    ],
+    "original": {
+      "question": "Запрет Паули справедлив для",
+      "answer": "Для частиц с полуцелым спином.",
+      "page": 37,
+      "questionImages": [
+        {
+          "file": "media/lms/81120f7b93673a0767fe253e.jpg",
+          "width": 438,
+          "height": 325
+        }
+      ]
+    }
   },
   {
     "question": "Соотношение неопределённостей Гайзенберга для координаты и импульса имеет вид:",
@@ -1535,9 +3437,20 @@ const physicsLmsQuestions = [
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      142,
-      284
-    ]
+      142
+    ],
+    "original": {
+      "question": "Соотношение неопределённостей Гайзенберга для координаты и импульса имеет вид:",
+      "answer": "",
+      "page": 38,
+      "answerImages": [
+        {
+          "file": "media/lms/7a4ec6a5c6b1b1c2e3a97a2f.jpg",
+          "width": 241,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Фермионами являются:",
@@ -1547,7 +3460,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       143
-    ]
+    ],
+    "original": {
+      "question": "Фермионами являются:",
+      "answer": "",
+      "page": 38,
+      "answerImages": [
+        {
+          "file": "media/lms/597532072ee4e1de5b2503c2.jpg",
+          "width": 513,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "В возбужденном состоянии атома водорода возможен набор квантовых чисел п, [и т:",
@@ -1557,17 +3482,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       144
-    ]
+    ],
+    "original": {
+      "question": "В возбужденном состоянии атома водорода возможен набор квантовых чисел п, [и т:",
+      "answer": "",
+      "page": 38,
+      "answerImages": [
+        {
+          "file": "media/lms/485a668d664b04698fe404fc.jpg",
+          "width": 342,
+          "height": 61
+        }
+      ]
+    }
   },
   {
     "question": "Какое квантовое число электрона в атоме водорода определяет значение его энергии?",
     "answers": [
-      "Главное квантовое число."
+      "Главное квантовое число"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       145
-    ]
+    ],
+    "original": {
+      "question": "Какое квантовое число электрона в атоме водорода определяет значение его энергии?",
+      "answer": "Главное квантовое число",
+      "page": 38
+    }
   },
   {
     "question": "Генерация илучения лазером происходит при усилении",
@@ -1577,7 +3519,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       146
-    ]
+    ],
+    "original": {
+      "question": "Генерация илучения лазером происходит при усилении",
+      "answer": "",
+      "page": 39,
+      "answerImages": [
+        {
+          "file": "media/lms/cdf7a217f4e9536d277a14aa.jpg",
+          "width": 475,
+          "height": 58
+        }
+      ]
+    }
   },
   {
     "question": "Волновая функция описывает:",
@@ -1587,7 +3541,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       147
-    ]
+    ],
+    "original": {
+      "question": "Волновая функция описывает:",
+      "answer": "",
+      "page": 39,
+      "answerImages": [
+        {
+          "file": "media/lms/fb3eefd0f4568e4fa4aa3497.jpg",
+          "width": 353,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильную формулировку соотношения неопределённостей для энергии и времени.",
@@ -1597,7 +3563,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       148
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильную формулировку для соотношения неопределеннойстей:",
+      "answer": "",
+      "page": 39,
+      "questionImages": [
+        {
+          "file": "media/lms/b053d10473c87eba1aaf2a2f.jpg",
+          "width": 437,
+          "height": 397
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5f03b7931ddb5a01eb698775.jpg",
+          "width": 266,
+          "height": 57
+        }
+      ]
+    }
   },
   {
     "question": "Основное состояние атома водорода задается набором квантовых чисел n, l и m:",
@@ -1607,7 +3592,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       149
-    ]
+    ],
+    "original": {
+      "question": "Основное состояние атома водорода задается набором квантовых чисел n, l и m:",
+      "answer": "",
+      "page": 40,
+      "answerImages": [
+        {
+          "file": "media/lms/86a302bcc4efc9e5f965d3d6.jpg",
+          "width": 374,
+          "height": 66
+        }
+      ]
+    }
   },
   {
     "question": "Какое квантовое число, задающее состояние электрона в атоме, определяется внутренними свойствами электрона, а не его движением вокруг ядра",
@@ -1617,7 +3614,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       150
-    ]
+    ],
+    "original": {
+      "question": "Какое квантовое число, задающее состояние электрона в атоме, определяется внутренними свойствами электрона, а не его движением вокруг ядра",
+      "answer": "",
+      "page": 40,
+      "answerImages": [
+        {
+          "file": "media/lms/eb128d4035f20210b04e5f22.jpg",
+          "width": 228,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Число квантовых состояний в p-оболочке равно:",
@@ -1627,7 +3636,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       151
-    ]
+    ],
+    "original": {
+      "question": "Число квантовых состояний в p-оболочке равно:",
+      "answer": "",
+      "page": 40,
+      "answerImages": [
+        {
+          "file": "media/lms/512199475d63dd75cf09b7f9.jpg",
+          "width": 305,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Микрочастица в одномерной бесконечной потенциальной яме переходит из состояния с квантовым числом n₁ = 3 в состояние с n₂ = 2. Во сколько раз уменьшилась энергия частицы?",
@@ -1637,7 +3658,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       152
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 40,
+      "questionImages": [
+        {
+          "file": "media/lms/b816fb0c2e0bbadc2270e562.jpg",
+          "width": 784,
+          "height": 64
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ba083fccebae02d7b4c73931.jpg",
+          "width": 134,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Условие нормировки волновой функции частицы, движущейся вдоль всей оси ox, определяется выражением",
@@ -1647,7 +3687,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       153
-    ]
+    ],
+    "original": {
+      "question": "Условие нормировки волновой функции частицы, движущейся вдоль всей оси ox, определяется выражением",
+      "answer": "",
+      "page": 40,
+      "questionImages": [
+        {
+          "file": "media/lms/47458eb53f0f0258b4b1fc73.jpg",
+          "width": 555,
+          "height": 157
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/407216f098c21eafd54e6182.jpg",
+          "width": 390,
+          "height": 120
+        }
+      ]
+    }
   },
   {
     "question": "Принцип Паули запрещает:",
@@ -1657,7 +3716,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       154
-    ]
+    ],
+    "original": {
+      "question": "Принцип Паули запрещает:",
+      "answer": "",
+      "page": 41,
+      "answerImages": [
+        {
+          "file": "media/lms/4a9910c1824654edfe544f67.jpg",
+          "width": 531,
+          "height": 111
+        }
+      ]
+    }
   },
   {
     "question": "Что представляет собой волновая функция частицы, запертой в ограниченном пространстве?",
@@ -1667,7 +3738,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       155
-    ]
+    ],
+    "original": {
+      "question": "Что представляет собой волновая функция частицы, запертой в ограниченном пространстве?",
+      "answer": "",
+      "page": 41,
+      "answerImages": [
+        {
+          "file": "media/lms/e3beac32059f02890f324f4a.jpg",
+          "width": 152,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Если рядом с возбужденным атомом пролетел фотоно, а атом испустил еще один фотоно в том же направлении на той же частоте, той же поляризации, с той же начальной фазой, то: произошло вынужденное излучение",
@@ -1677,7 +3760,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       156
-    ]
+    ],
+    "original": {
+      "question": "Если рядом с возбужденным атомом пролетел фотоно, а атом испустил еще один фотоно в том же направлении на той же частоте, той же поляризации, с той же начальной фазой, то: произошло вынужденное излучение",
+      "answer": "",
+      "page": 41,
+      "questionImages": [
+        {
+          "file": "media/lms/0e9f6e394da492a6fe6b63bb.jpg",
+          "width": 834,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4a695c89fcb60a732e48bbdc.jpg",
+          "width": 249,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Частица с квантовым числом n находится в бесконечно глубокой одномерной потенциальной яме шириной l. Количество точек N, где волновая функция обращается в нуль, равно:",
@@ -1687,7 +3789,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       157
-    ]
+    ],
+    "original": {
+      "question": "Частица с квантовым числом n находится в бесконечно глубокой одномерной потенциальной яме шириной l. Количество точек N, где волновая функция обращается в нуль, равно:",
+      "answer": "",
+      "page": 41,
+      "questionImages": [
+        {
+          "file": "media/lms/bd6d108ab60be83a65c4a46e.jpg",
+          "width": 847,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2ff34d314ac0e8baf2bc61e0.jpg",
+          "width": 108,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Микрочастица массой 9·10⁻³¹ кг заперта в одномерной потенциальной яме шириной Δx = 1 нм. С помощью соотношения неопределённостей оценить минимальную энергию частицы.",
@@ -1697,7 +3818,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       158
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 41,
+      "questionImages": [
+        {
+          "file": "media/lms/14e56be1143b0784f9263814.jpg",
+          "width": 735,
+          "height": 66
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2de1db811b1bad5c764d57a7.jpg",
+          "width": 135,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "В заполненной электронной оболочке с n = 3 сколько электронов имеют одновременно l = 2 и mₛ = 1/2?",
@@ -1707,7 +3847,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       159
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 41,
+      "questionImages": [
+        {
+          "file": "media/lms/288eb4f8389c36916b71fa7c.jpg",
+          "width": 553,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d7061fbd58327f7e360382d3.jpg",
+          "width": 553,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Какие частицы подчиняются статистике Бозе-Эйнштейна",
@@ -1717,7 +3876,56 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       160
-    ]
+    ],
+    "original": {
+      "question": "Какие частицы подчиняются статистике Бозе-Эйнштейна",
+      "answer": "",
+      "page": 41,
+      "answerImages": [
+        {
+          "file": "media/lms/88c16e020a23c6a85511177f.jpg",
+          "width": 261,
+          "height": 27
+        }
+      ]
+    }
+  },
+  {
+    "question": "Соотношение неопределенностей Гайзенберга:",
+    "answers": [
+      "Ограничивает точность совместного определения скоростей и координат микрочастиц."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      161
+    ],
+    "original": {
+      "question": "Соотношение неопределенностей Гайзенберга:",
+      "answer": "",
+      "page": 42,
+      "answerImages": [
+        {
+          "file": "media/lms/d5b9dcc7aa72102e41b345a2.jpg",
+          "width": 519,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "question": "Соотношение неопределенностей Гайзенберга:",
+    "answers": [
+      "Ограничивает точность совместного определения импульсов и координат микрочастиц"
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      162
+    ],
+    "original": {
+      "question": "Соотношение неопределенностей Гайзенберга:",
+      "answer": "Ограничивает точность совместного определения импульсов и координат микрочастиц",
+      "page": 42
+    }
   },
   {
     "question": "Частица в бесконечно глубокой потенциальной яме шириной l находится в возбуждённом состоянии с n = 3. Какова вероятность обнаружения частицы в интервале l/3 < x < 5l/6?",
@@ -1727,7 +3935,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       163
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 42,
+      "questionImages": [
+        {
+          "file": "media/lms/b4e5215b5139995dc08accf5.jpg",
+          "width": 788,
+          "height": 65
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/68c5a9de5ad06d78ce0fe9d7.jpg",
+          "width": 94,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Заполненной электронной оболочке соответствует главное квантовое число n = 4. Сколько электронов этой оболочки имеют одинаковые квантовые числа l= 2?",
@@ -1737,7 +3964,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       164
-    ]
+    ],
+    "original": {
+      "question": "Заполненной электронной оболочке соответствует главное квантовое число n = 4. Сколько электронов этой оболочки имеют одинаковые квантовые числа l= 2?",
+      "answer": "",
+      "page": 42,
+      "questionImages": [
+        {
+          "file": "media/lms/bef542b9d6538fc7da3c9132.jpg",
+          "width": 552,
+          "height": 161
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9488b01e9b92446c6994d708.jpg",
+          "width": 129,
+          "height": 50
+        }
+      ]
+    }
   },
   {
     "question": "Какие значения может принимать орбитальное квантовое число l при заданном главном квантовом числе n?",
@@ -1747,7 +3993,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       165
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 42,
+      "questionImages": [
+        {
+          "file": "media/lms/cef3586e28e9190f5a617bd0.jpg",
+          "width": 918,
+          "height": 51
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7fed6d0d3715e8670187fc2f.jpg",
+          "width": 187,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Гиромагнитное отношение для спина электрона равно",
@@ -1757,7 +4022,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       166
-    ]
+    ],
+    "original": {
+      "question": "Гиромагнитное отношение для спина электрона равно",
+      "answer": "",
+      "page": 42,
+      "answerImages": [
+        {
+          "file": "media/lms/8240c1bc216bb72022762301.jpg",
+          "width": 314,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Электрон может находиться на второй боровской орбите атома водорода в течение 1 нс Неопределенность его энергии в данном случае составляет:",
@@ -1767,7 +4044,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       167
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 43,
+      "questionImages": [
+        {
+          "file": "media/lms/48ec9957aa325f7ff9b69bc8.jpg",
+          "width": 673,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/847fbb5ba5361daab0092fc9.jpg",
+          "width": 143,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз орбитальный момент импульса электрона в d-состоянии больше, чем в p-состоянии?",
@@ -1777,7 +4073,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       168
-    ]
+    ],
+    "original": {
+      "question": "Во сколько раз орбитальный моментов импульса электрона в d-состоянии больше чем в p-состоянии?",
+      "answer": "",
+      "page": 43,
+      "questionImages": [
+        {
+          "file": "media/lms/d091833ebee5101eca2aa26a.jpg",
+          "width": 1002,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8fc9bd874233fae79874c25a.jpg",
+          "width": 128,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=2. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
@@ -1787,7 +4102,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       169
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=2. Какое максимальное значение орбитального орбитального момента импульса электрон может иметь в этом состоянии?",
+      "answer": "",
+      "page": 43,
+      "questionImages": [
+        {
+          "file": "media/lms/715f44bd3c110b0219f3d295.jpg",
+          "width": 736,
+          "height": 69
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d7ec5cdb44d52036dce7cbda.jpg",
+          "width": 112,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Какой вид имеет координатная часть волновой функции, описывающей одномерное движение свободной частицы в направлении оси ох?",
@@ -1797,7 +4131,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       170
-    ]
+    ],
+    "original": {
+      "question": "Какой вид имеет координатная часть волновой функции, описывающей одномерное движение свободной частицы в направлении оси ох?",
+      "answer": "",
+      "page": 43,
+      "answerImages": [
+        {
+          "file": "media/lms/bb402f790282933c40076f80.jpg",
+          "width": 206,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Соотношение неопределенностей Гайзенберга для угла и момента импульса имеет вид:",
@@ -1807,7 +4153,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       171
-    ]
+    ],
+    "original": {
+      "question": "Соотношение неопределенностей Гайзенберга для угла и момента импульса имеет вид:",
+      "answer": "",
+      "page": 43,
+      "answerImages": [
+        {
+          "file": "media/lms/5064b0199960832b39c2435d.jpg",
+          "width": 134,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=3. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
@@ -1817,7 +4175,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       172
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=3. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
+      "answer": "",
+      "page": 44,
+      "questionImages": [
+        {
+          "file": "media/lms/1375bd02a72c7ec636cb555e.jpg",
+          "width": 739,
+          "height": 65
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/642a85512e913755d0adf1ce.jpg",
+          "width": 165,
+          "height": 47
+        }
+      ]
+    }
   },
   {
     "question": "Микрочастица в одномерной бесконечной потенциальной яме переходит из состояния с квантовым числом n1 = 2 в состояние с n2 = 1. Энергия частицы уменьшилась...",
@@ -1827,7 +4204,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       173
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 44,
+      "questionImages": [
+        {
+          "file": "media/lms/bb62980cef5e8154621ad36b.jpg",
+          "width": 1148,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d91801b63f48ebd2d39966ad.jpg",
+          "width": 128,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Определите модуль орбитального момента импульса электрона в d-состоянии (l = 2).",
@@ -1837,7 +4233,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       174
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме находится в d-состоянии (l=2) Определите орбитальный момента импульса электрона:",
+      "answer": "",
+      "page": 44,
+      "answerImages": [
+        {
+          "file": "media/lms/cd1014220a3a806542c167de.jpg",
+          "width": 90,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Каков орбитальный момент импульса электрона в основном состоянии атома водорода?",
@@ -1847,7 +4255,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       175
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в основном состоянии. Какового значение момента импульса электрона?",
+      "answer": "0.",
+      "page": 44,
+      "questionImages": [
+        {
+          "file": "media/lms/9c4f0d3aa8a91415aa5b9367.jpg",
+          "width": 1060,
+          "height": 248
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в состоянии с n = 7, l = 0. Каково значение момента импульса орбитального движения электрона?",
@@ -1857,7 +4277,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       176
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 44,
+      "questionImages": [
+        {
+          "file": "media/lms/18f46869e51d07508c98848c.jpg",
+          "width": 640,
+          "height": 192
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7ea16fd58436453e62da6828.jpg",
+          "width": 143,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 2. Какова вероятность обнаружения частицы в интервале l/4 < x < l/2?",
@@ -1867,7 +4306,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       177
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 2. Какова вероятность обнаружения частицы в интервале l/4 < x < l/2?",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/e04de8f8ec55d588342c9654.jpg",
+          "width": 1175,
+          "height": 67
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0cc6785e4f340a9bcb526f75.jpg",
+          "width": 94,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=4. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
@@ -1877,7 +4335,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       178
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в возбужденном состоянии с n=4. Какое максимальное значение орбитального орбитального момента импульса электрон может иметь в этом состочнии?",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/9af6d30ebb971c9e7f0be1a7.jpg",
+          "width": 922,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1a196b98c59c55e68fccd91b.jpg",
+          "width": 116,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "При поглощении фотона атомом водорода главное квантовое число электрона увеличивается от 1 до 2. Чему равно орбитальное квантовое число l в конечном состоянии при разрешённом переходе?",
@@ -1887,7 +4364,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       179
-    ]
+    ],
+    "original": {
+      "question": "При электронном переходе с поглощением фотона в атоме водорода главное квантовое число увеличивается от 1 до 2. Чему равно квантовое число в конечном состоянии?",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/27779912c64748dcd55d79e6.jpg",
+          "width": 944,
+          "height": 62
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/00b9db72c3c8a7cec4732ed9.jpg",
+          "width": 206,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Для генерации лазерного излучения необходимо (укажите лишнее условие)",
@@ -1897,7 +4393,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       180
-    ]
+    ],
+    "original": {
+      "question": "Для генерации лазерного излучения необходимо (укажите лишнее условие)",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/b5828264f571b4102035029a.jpg",
+          "width": 590,
+          "height": 115
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fe872d8de0a122dc64cad76b.jpg",
+          "width": 351,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n = 3. Какова вероятность обнаружения частицы в интервале l/6 < x < 5l/6?",
@@ -1907,7 +4422,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       181
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/48c4bb6e6cce9152da826080.jpg",
+          "width": 1106,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/02ae273d4b9c95e772a627b9.jpg",
+          "width": 103,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Частица в бесконечно глубокой потенциальной яме шириной l находится в возбуждённом состоянии с n = 2. При каком x в интервале 0 < x < l плотность вероятности минимальна?",
@@ -1917,7 +4451,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       182
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенцильной бесконечно глубокой яме находится в возбужденном состоянии с n=2. Плотность вероятности нахождения частицы при 0<x<l минимальна при:",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/bd400e7ad24cf8defee7becc.jpg",
+          "width": 1021,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0ad6418fca3bc4aa4c5431c2.jpg",
+          "width": 113,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Соотношение неопределённостей Гайзенберга для энергии и времени имеет вид",
@@ -1927,7 +4480,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       183
-    ]
+    ],
+    "original": {
+      "question": "Соотношение неопределённостей Гайзенберга для энергии и времени имеет вид",
+      "answer": "",
+      "page": 45,
+      "answerImages": [
+        {
+          "file": "media/lms/35240be97e0d581e4422ea7c.jpg",
+          "width": 112,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Число квантовых состояний в f-оболочке равно:",
@@ -1937,7 +4502,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       184
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 45,
+      "questionImages": [
+        {
+          "file": "media/lms/9f3f1b8704089bdf811ae4ed.jpg",
+          "width": 330,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/bfb19b1dc8690bc522e93f6e.jpg",
+          "width": 84,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Заполненной электронной оболочке соответствует квантовое число n = 3. Сколько электронов имеют одновременно mₛ = −1/2 и mₗ = 0?",
@@ -1947,7 +4531,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       185
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 46,
+      "questionImages": [
+        {
+          "file": "media/lms/da197e83fbf96d476a62f512.jpg",
+          "width": 1120,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d5a352aa7194f6aea5a36ad3.jpg",
+          "width": 102,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме находится в р-состоянии. Определите максимальное значение проекции орбитального момента импульса Lz max на направление внешнего магнитного поля:",
@@ -1957,7 +4560,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       186
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме находится в р-состоянии. Определите максимальное значение проекции орбитального момента импульса Lz max на направление внешнего магнитного поля:",
+      "answer": "",
+      "page": 46,
+      "questionImages": [
+        {
+          "file": "media/lms/8e98360f98ba84852940f0fb.jpg",
+          "width": 526,
+          "height": 44
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/04b9a452f556151e46bd500a.jpg",
+          "width": 526,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме находится в f-состоянии. Определите максимальное значение проекции орбитального момента импульса Lzmax на направление внешнего магнитного поля:",
@@ -1967,7 +4589,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       187
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме находится в f-состоянии. Определите максимальное значение проекции орбитального момента импульса Lzmax на направление внешнего магнитного поля:",
+      "answer": "",
+      "page": 46,
+      "questionImages": [
+        {
+          "file": "media/lms/993c9a8b611ecee7507ee75c.jpg",
+          "width": 538,
+          "height": 80
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c7ec64dd5c68ab3cdf4a143c.jpg",
+          "width": 94,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в возбужденном состоянии с n = 5. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
@@ -1977,7 +4618,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       188
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в возбужденном состоянии с n = 5. Какое максимальное значение орбитального момента импульса электрон может иметь в этом состоянии?",
+      "answer": "",
+      "page": 46,
+      "questionImages": [
+        {
+          "file": "media/lms/e503d75006a74ec9624e6bfb.jpg",
+          "width": 1153,
+          "height": 77
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/476482ac8f75a7414c47a9e8.jpg",
+          "width": 148,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме находится в p-состоянии. Определите орбитальный момент импульса электрона: Электрон в атоме",
@@ -1987,7 +4647,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       189
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме находится в p-состоянии. Определите орбитальный момент импульса электрона: Электрон в атоме",
+      "answer": "",
+      "page": 47,
+      "answerImages": [
+        {
+          "file": "media/lms/40cbde80452e8aa31d8087ba.jpg",
+          "width": 206,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз орбитальный момент импульса электрона в f-состоянии больше чем в p-состоянии?",
@@ -1997,7 +4669,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       190
-    ]
+    ],
+    "original": {
+      "question": "Во сколько раз орбитальный момент импульса электрона в f-состоянии больше чем в p-состоянии?",
+      "answer": "",
+      "page": 47,
+      "answerImages": [
+        {
+          "file": "media/lms/4048eba0721cf03cafffdebe.jpg",
+          "width": 118,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Какое из написанных выражений - есть волновая функция частицы, летящей вдоль оси Х",
@@ -2007,7 +4691,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       191
-    ]
+    ],
+    "original": {
+      "question": "Какое из написанных выражений - есть волновая функция частицы, летящей вдоль оси Х",
+      "answer": "",
+      "page": 47,
+      "questionImages": [
+        {
+          "file": "media/lms/c75d7758c8ac269ceb32ef3e.jpg",
+          "width": 512,
+          "height": 33
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/673284320db09c033a4868a0.jpg",
+          "width": 214,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в возбуждённом состоянии с n=2. Какова вероятность обнаружения частицы в интервале 0<x<3l/4?",
@@ -2017,7 +4720,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       192
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в вобужденном состоянии с n=2. Какова вероятность обнаружения частицы в интервале 0<x<3l/4?",
+      "answer": "",
+      "page": 47,
+      "questionImages": [
+        {
+          "file": "media/lms/81d8e8c2e7dde9005d4d3067.jpg",
+          "width": 1111,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fb96cc23dd5f8f90a3e8b147.jpg",
+          "width": 93,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "В заполненной электронной оболочке с главным квантовым числом n = 4 сколько электронов имеют l = 0 и одновременно mₛ = 1/2?",
@@ -2026,9 +4748,20 @@ const physicsLmsQuestions = [
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      193,
-      215
-    ]
+      193
+    ],
+    "original": {
+      "question": "",
+      "answer": "1 электрон.",
+      "page": 47,
+      "questionImages": [
+        {
+          "file": "media/lms/0115d961d27459da5ffcb971.jpg",
+          "width": 667,
+          "height": 164
+        }
+      ]
+    }
   },
   {
     "question": "Частица в бесконечно глубокой одномерной потенциальной яме шириной l находится в возбужденном состоянии с n=2. Плотность вероятности обнаружения частицы максимальна при:",
@@ -2038,7 +4771,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       194
-    ]
+    ],
+    "original": {
+      "question": "Частица в бесконечно глубокой одномерной потенцильной яме шириной l находится в возбужденном состоянии с n=2. Плотность вероятности обнаружения частицы максимальна при:",
+      "answer": "",
+      "page": 48,
+      "questionImages": [
+        {
+          "file": "media/lms/11fa64e4a122c0bf3d10f011.jpg",
+          "width": 683,
+          "height": 235
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/60c5ca5be7509d46fbe57217.jpg",
+          "width": 227,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Эффект Комптона заключается в рассеянии:",
@@ -2048,7 +4800,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       195
-    ]
+    ],
+    "original": {
+      "question": "Эффект Комптона заключается в рассеянии:",
+      "answer": "",
+      "page": 48,
+      "answerImages": [
+        {
+          "file": "media/lms/b9e3be0d93e6747042f71c88.jpg",
+          "width": 425,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "На металлическую пластинку с красной границей 660 нм падают фотоны с длиной волны 360 нм и 440 нм. Во сколько раз максимальная энергия фотоэлектронов, вылетающих из первой пластинки больше, чем из второй?",
@@ -2058,7 +4822,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       196
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "5/3.",
+      "page": 48,
+      "questionImages": [
+        {
+          "file": "media/lms/a071a3a9f8f0162a09f199aa.jpg",
+          "width": 1133,
+          "height": 390
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится работа выхода электрона из металла при фотоэффекте при уменьшении частоты падающего света в 2",
@@ -2068,7 +4844,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       197
-    ]
+    ],
+    "original": {
+      "question": "Как изменится работа выхода электрона из металла при фотоэффекте при уменьшении частоты падающего света в 2",
+      "answer": "Не изменится.",
+      "page": 48,
+      "questionImages": [
+        {
+          "file": "media/lms/87cae0fd77a5555302a2963c.jpg",
+          "width": 1073,
+          "height": 239
+        }
+      ]
+    }
   },
   {
     "question": "В каких единицах измеряется спектральная плотность энергетической светимости по частоте?",
@@ -2078,7 +4866,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       198
-    ]
+    ],
+    "original": {
+      "question": "Плотность энергетической светимости поверхности тела измеряется в:",
+      "answer": "Дж/м².",
+      "page": 48,
+      "questionImages": [
+        {
+          "file": "media/lms/f8b122d1fb951cd8e1241de3.jpg",
+          "width": 714,
+          "height": 242
+        }
+      ]
+    }
   },
   {
     "question": "Тепловое излучение имеет место:",
@@ -2088,7 +4888,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       199
-    ]
+    ],
+    "original": {
+      "question": "Тепловое излучение имеет место:",
+      "answer": "",
+      "page": 49,
+      "answerImages": [
+        {
+          "file": "media/lms/413816376d4795b72bef0c03.jpg",
+          "width": 304,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Определить в нанометрах длину волны фотона, испускаемого атомом при переходе электрона в уровня с энергией -1,75 эВ на уровень с энергией -3,4 эВ",
@@ -2098,7 +4910,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       200
-    ]
+    ],
+    "original": {
+      "question": "Определить в нанометрах длину волны фотона, испускаемого атомом при переходе электрона в уровня с энергией -1,75 эВ на уровень с энергией -3,4 эВ",
+      "answer": "",
+      "page": 49,
+      "questionImages": [
+        {
+          "file": "media/lms/8845f7e7f2311cfe14bba9f9.jpg",
+          "width": 1154,
+          "height": 85
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/646b9641d14e0ef62b7b91f4.jpg",
+          "width": 152,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Длина волны Де-Бройля электрона:",
@@ -2108,7 +4939,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       201
-    ]
+    ],
+    "original": {
+      "question": "Длина волны Де-Бройля электрона:",
+      "answer": "",
+      "page": 49,
+      "answerImages": [
+        {
+          "file": "media/lms/475a3491a4b52fe85df740c1.jpg",
+          "width": 394,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Фотокатод освещён монохроматическим светом с длиной волны λ = λ₀/2, где λ₀ — красная граница фотоэффекта. Чему равна максимальная кинетическая энергия фотоэлектронов?",
@@ -2118,17 +4961,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       202
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "hc/λ₀.",
+      "page": 49,
+      "questionImages": [
+        {
+          "file": "media/lms/00e5aeecfe27cf33cf5b7f4f.jpg",
+          "width": 1135,
+          "height": 239
+        }
+      ]
+    }
   },
   {
     "question": "В чем состоит фотоэффект?",
     "answers": [
-      "Выбивание светом электронов с поверхности металла."
+      "Выбивание светом электронов с поверхности металла"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       203
-    ]
+    ],
+    "original": {
+      "question": "В чем состоит фотоэффект?",
+      "answer": "Выбивание светом электронов с поверхности металла",
+      "page": 49
+    }
   },
   {
     "question": "В каких единицах измеряется спектральная плотность энергетической светимости r(λ), заданная по длине волны?",
@@ -2138,7 +4998,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       204
-    ]
+    ],
+    "original": {
+      "question": "Плотность энергетической светимости поверхности тела в системе СИ измеряется в",
+      "answer": "",
+      "page": 49,
+      "answerImages": [
+        {
+          "file": "media/lms/957e7b339cefe1537c1fcabe.jpg",
+          "width": 129,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Какой из названных законов отражает зависимостьположения максимальной спектральной плотности излучения от длины волны?",
@@ -2148,7 +5020,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       205
-    ]
+    ],
+    "original": {
+      "question": "Какой из названных законов отражает зависимость положения максимальной спектральной плотности излучения от",
+      "answer": "",
+      "page": 50,
+      "answerImages": [
+        {
+          "file": "media/lms/adce8aeb4b4aad73369431b3.jpg",
+          "width": 139,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в возбужденном состоянии с l = 1. Какое значение орбитального момента импульса электрон имеет в этом состоянии?",
@@ -2158,7 +5042,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       206
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в возбужденном состоянии с l = 1. Какое значение орбитального момента импульса электрон имеет в этом состоянии?",
+      "answer": "",
+      "page": 50,
+      "questionImages": [
+        {
+          "file": "media/lms/0da55a8d79f75c27ecbe3c9f.jpg",
+          "width": 1092,
+          "height": 80
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/52b9be35c51e1fa826ecbff2.jpg",
+          "width": 146,
+          "height": 51
+        }
+      ]
+    }
   },
   {
     "question": "Электрон может находиться на второй боровской орбите атома водорода в течение 1 нс. Неопределенность его энергии в данном случае составляет:",
@@ -2168,7 +5071,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       207
-    ]
+    ],
+    "original": {
+      "question": "Электрон может находиться на второй боровской орбите атома водорода в течение 1 нс. Неопределенность его энергии в данном случае составляет:",
+      "answer": "",
+      "page": 50,
+      "questionImages": [
+        {
+          "file": "media/lms/092f6e2f8f65ef543a53d70e.jpg",
+          "width": 1074,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5c27db2ad5f24d8842c72283.jpg",
+          "width": 175,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в основном состоянии. Плотность вероятности нахождения частицы минимальна в точке:",
@@ -2178,7 +5100,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       208
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциальной бесконечно глубокой яме шириной l находится в основном состоянии. Плотность вероятности нахождения частицы минимальна в точке:",
+      "answer": "x = 0.",
+      "page": 51,
+      "questionImages": [
+        {
+          "file": "media/lms/8dd7bd719e0cbdc1bd7543ea.jpg",
+          "width": 1035,
+          "height": 247
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится абсолютная величина энергии связи электрона и ядра в атоме водорода при переходе его с первой на третью боровскую орбиту?",
@@ -2188,7 +5122,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       209
-    ]
+    ],
+    "original": {
+      "question": "Как изменится абсолютная величина энергии связи электрона и ядра в атоме водорода при переходе его с первой на третью боровскую орбиту?",
+      "answer": "Уменьшится в 9 раз.",
+      "page": 51,
+      "questionImages": [
+        {
+          "file": "media/lms/de48e283bfe9c70c52404fd4.jpg",
+          "width": 1122,
+          "height": 238
+        }
+      ]
+    }
   },
   {
     "question": "Радиус второй боровской орбиты 212 пм. Найти длину волны Де-Бройля электрона в этом состоянии",
@@ -2198,7 +5144,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       210
-    ]
+    ],
+    "original": {
+      "question": "Радиус второй боровской орбиты 212 пм. Найти длину волны Де-Бройля электрона в этом состоянии",
+      "answer": "",
+      "page": 51,
+      "questionImages": [
+        {
+          "file": "media/lms/1dc17e5b6f8f2c467c63b567.jpg",
+          "width": 766,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2e8c498379855c3cf765e898.jpg",
+          "width": 119,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "При комптоновском рассеянии рентгеновских лучей на свободных электронах длина волны рассеянного излучения:",
@@ -2208,7 +5173,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       211
-    ]
+    ],
+    "original": {
+      "question": "При комптоновском рассеянии рентгеновских лучей на свободных электронах длина волны рассеянного излучения:",
+      "answer": "",
+      "page": 51,
+      "answerImages": [
+        {
+          "file": "media/lms/c50f4cef5b04d86f92ff731d.jpg",
+          "width": 224,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Энергетическая светимость тела уменьшилась в 256 раз. Во сколько раз при этом уменьшилась термодинамическая температура чёрного тела?",
@@ -2218,7 +5195,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       212
-    ]
+    ],
+    "original": {
+      "question": "Энергетическая светимость тела уменьшилась в 256 раз. Во сколько раз при этом уменьшилась термодинамическая температура чёрного тела?",
+      "answer": "",
+      "page": 51,
+      "questionImages": [
+        {
+          "file": "media/lms/f9dac800f7e380c8b06d2921.jpg",
+          "width": 1126,
+          "height": 78
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d5f7074035681fb46b302051.jpg",
+          "width": 100,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Какими свойствами в отношении излучения и поглощения обладает абсолютно черное тело?",
@@ -2228,7 +5224,63 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       213
-    ]
+    ],
+    "original": {
+      "question": "Какими свойствами в отношении излучения и поглощения обладает абсолютно черное тело?",
+      "answer": "Поглощает весь падающий свет и излучает сплошной спектр.",
+      "page": 52,
+      "questionImages": [
+        {
+          "file": "media/lms/c99b7ac6445c5d4f23cc98f2.jpg",
+          "width": 898,
+          "height": 185
+        }
+      ]
+    }
+  },
+  {
+    "question": "Соотношение неопределенностей Гайзенберга:",
+    "answers": [
+      "Ограничивает точность совместного определения импульса и координаты."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      214
+    ],
+    "original": {
+      "question": "Соотношение неопределенностей Гайзенберга:",
+      "answer": "Ограничивает точность совместного определения импульса и координаты.",
+      "page": 52,
+      "questionImages": [
+        {
+          "file": "media/lms/84693f6f412cdc4b46b0e5fa.jpg",
+          "width": 688,
+          "height": 209
+        }
+      ]
+    }
+  },
+  {
+    "question": "В заполненной электронной оболочке с главным квантовым числом n = 4 сколько электронов имеют l = 0 и одновременно mₛ = 1/2?",
+    "answers": [
+      "1 электрон."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      215
+    ],
+    "original": {
+      "question": "Заполненной электронной оболочке соответствует квантовое число n=4. Сколько электронов в этой оболочке имеют квантовое число l=0 и одновременно ms=1/2",
+      "answer": "1 электрон.",
+      "page": 52,
+      "questionImages": [
+        {
+          "file": "media/lms/684b5d7dc225ea8928204a4e.jpg",
+          "width": 1124,
+          "height": 265
+        }
+      ]
+    }
   },
   {
     "question": "Выберите не правильное утверждение для волновой функции",
@@ -2238,7 +5290,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       216
-    ]
+    ],
+    "original": {
+      "question": "Выберите не правильное утверждение для волновой функции",
+      "answer": "",
+      "page": 52,
+      "questionImages": [
+        {
+          "file": "media/lms/f63793c92b77d16a750c0c17.jpg",
+          "width": 1045,
+          "height": 172
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c6d2b48ea212813a592f0e8c.jpg",
+          "width": 493,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "В атоме водорода при переходе с испусканием фотона главное квантовое число электрона уменьшается от 3 до 1. Как при этом меняется орбитальное квантовое число l при разрешённом переходе?",
@@ -2248,7 +5319,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       217
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "l уменьшается от 1 до 0 (p → s).",
+      "page": 52,
+      "questionImages": [
+        {
+          "file": "media/lms/a1a684e5f5719fbda74dda42.jpg",
+          "width": 686,
+          "height": 453
+        }
+      ]
+    }
   },
   {
     "question": "Волновая функция не может:",
@@ -2258,7 +5341,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       218
-    ]
+    ],
+    "original": {
+      "question": "Волновая функция не может:",
+      "answer": "Обращаться в бесконечность в особых точках.",
+      "page": 53,
+      "questionImages": [
+        {
+          "file": "media/lms/473d6872cd7bf53087b5fb78.jpg",
+          "width": 670,
+          "height": 333
+        }
+      ]
+    }
   },
   {
     "question": "К бозонам не относятся:",
@@ -2268,7 +5363,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       219
-    ]
+    ],
+    "original": {
+      "question": "К бозонам не относятся:",
+      "answer": "Нейтроны (s = 1/2).",
+      "page": 53,
+      "questionImages": [
+        {
+          "file": "media/lms/c20fca8d01d521934caf67bc.jpg",
+          "width": 386,
+          "height": 328
+        }
+      ]
+    }
   },
   {
     "question": "Энергия пары взаимодействующих частиц электрон-протон:",
@@ -2278,7 +5385,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       220
-    ]
+    ],
+    "original": {
+      "question": "Энергия пары взаимодействующих частиц электрон-протон:",
+      "answer": "Квантуется, если энергия отрицательна.",
+      "page": 53,
+      "questionImages": [
+        {
+          "file": "media/lms/6515ca431c186ff60fe3f22a.jpg",
+          "width": 642,
+          "height": 334
+        }
+      ]
+    }
   },
   {
     "question": "Сколько электронов в заполненной оболочке с n = 4 имеют орбитальное квантовое число l = 1?",
@@ -2288,7 +5407,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       221
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "6 электронов.",
+      "page": 54,
+      "questionImages": [
+        {
+          "file": "media/lms/f5a77754564dbbb7a8c3725e.jpg",
+          "width": 801,
+          "height": 190
+        }
+      ]
+    }
   },
   {
     "question": "Запрет Паули справедлив для частицы, которая может иметь спиновые числа:",
@@ -2298,7 +5429,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       222
-    ]
+    ],
+    "original": {
+      "question": "Запрет Паули справедлив для частицы, которая может иметь спиновые числа:",
+      "answer": "",
+      "page": 54,
+      "answerImages": [
+        {
+          "file": "media/lms/551b913af0eaf0f10e22b78c.jpg",
+          "width": 271,
+          "height": 63
+        }
+      ]
+    }
   },
   {
     "question": "Радиус первой боровской орбиты 52,9 пм. Найти длину волны Де-Бройля электрона в этом состоянии",
@@ -2308,7 +5451,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       223
-    ]
+    ],
+    "original": {
+      "question": "Радиус первой боровской орбиты 52,9 пм. Найти длину волны Де-Бройля электрона в этом состоянии",
+      "answer": "",
+      "page": 54,
+      "questionImages": [
+        {
+          "file": "media/lms/c415199489dec3b2af043b9f.jpg",
+          "width": 714,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/87d1fd9033069acd5611aad6.jpg",
+          "width": 112,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Найти отношение орбитальных моментов импульса электрона в f-состоянии и в d-состоянии.",
@@ -2318,7 +5480,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       224
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 54,
+      "questionImages": [
+        {
+          "file": "media/lms/2a188ba6ac3d9190ee517f84.jpg",
+          "width": 652,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f7c94094132ffdbac812f12f.jpg",
+          "width": 88,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "На сколько пикометров изменится длина волны рентгеновского излучения при рассеянии на покоящемся электроне на угол 60°? Комптоновская длина волны электрона равна 2,43 пм.",
@@ -2328,7 +5509,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       225
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 54,
+      "questionImages": [
+        {
+          "file": "media/lms/e878422ee4ab05ded9e93aaa.jpg",
+          "width": 761,
+          "height": 58
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4f1133f19d9b02efc85ae59b.jpg",
+          "width": 118,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз изменится максимальная кинетическая энергия вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 4,5 эВ?",
@@ -2338,7 +5538,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       226
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Увеличится в 2 раза.",
+      "page": 54,
+      "questionImages": [
+        {
+          "file": "media/lms/734301cd2745758d63c745a2.jpg",
+          "width": 818,
+          "height": 166
+        }
+      ]
+    }
   },
   {
     "question": "Спектральная поглощательная свособность поверхности тела в системе СИ измеряется в",
@@ -2348,17 +5560,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       227
-    ]
+    ],
+    "original": {
+      "question": "Спектральная поглощательная свособность поверхности тела в системе СИ измеряется в",
+      "answer": "",
+      "page": 54,
+      "answerImages": [
+        {
+          "file": "media/lms/e12ace599bf3ad183ea17646.jpg",
+          "width": 149,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Какое тело называется абсолютно чёрным?",
     "answers": [
-      "Полностью при любой температуре поглощающее весь падающий на него свет."
+      "Полностью при любой температуре поглощающее весь падающий на него свет"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       228
-    ]
+    ],
+    "original": {
+      "question": "Какое тело называется абсолютно чёрным?",
+      "answer": "Полностью при любой температуре поглощающее весь падающий на него свет",
+      "page": 55
+    }
   },
   {
     "question": "Частица в бесконечно глубокой потенциальной яме шириной l находится в возбуждённом состоянии с n = 3. Какова вероятность обнаружения частицы в интервале 2l/3 < x < 5l/6?",
@@ -2368,7 +5597,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       229
-    ]
+    ],
+    "original": {
+      "question": "Частица в потенциально бесконечно глубокой яме шириной находится в возбужденном состоянии с n=3. Какова вероятность обнаружения частицы в интервале 2l/3<x<5l/6?",
+      "answer": "",
+      "page": 55,
+      "questionImages": [
+        {
+          "file": "media/lms/3a0e89c8efaf8dd5dadf67cf.jpg",
+          "width": 594,
+          "height": 228
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/eea36c0ce78d112ccdd5270d.jpg",
+          "width": 167,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Электрон может находиться во втором энергетическом состоянии атома водорода Т= 1 нс. Поэтому, ширина второго энергетического уровня имеет величину порядка:",
@@ -2378,7 +5626,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       230
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Порядка 0,6·10⁻⁶ эВ.",
+      "page": 55,
+      "questionImages": [
+        {
+          "file": "media/lms/a98b0b060e19ab13b9964d78.jpg",
+          "width": 525,
+          "height": 436
+        }
+      ]
+    }
   },
   {
     "question": "Какой набор квантовых чисел запрещен в атоме водорода?",
@@ -2388,7 +5648,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       231
-    ]
+    ],
+    "original": {
+      "question": "Какой набор квантовых чисел запрещен в атоме водорода?",
+      "answer": "n = 3, l = 0, m = 1.",
+      "page": 55,
+      "questionImages": [
+        {
+          "file": "media/lms/c607d2787ab82f38326212de.jpg",
+          "width": 542,
+          "height": 376
+        }
+      ]
+    }
   },
   {
     "question": "Электрон в атоме водорода находится в состоянии с n = 2 и l = 0. Каков его орбитальный момент импульса?",
@@ -2398,7 +5670,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       232
-    ]
+    ],
+    "original": {
+      "question": "Электрон в атоме водорода находится в состоянии с n = 2, l = 0.Каково значение момента импульса электрона?",
+      "answer": "",
+      "page": 55,
+      "questionImages": [
+        {
+          "file": "media/lms/fbfb72d35b3d83e317004837.jpg",
+          "width": 953,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d57f12a776f5811df1d824a0.jpg",
+          "width": 90,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "В каких взаимодействиях может участвовать электрон?",
@@ -2408,7 +5699,31 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       233
-    ]
+    ],
+    "original": {
+      "question": "В каких взаимодействиях может участвовать электрон? Выберите три ответа",
+      "answer": "",
+      "page": 56,
+      "questionImages": [
+        {
+          "file": "media/lms/4df2cc067f382974e62d92c3.jpg",
+          "width": 534,
+          "height": 163
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b96288f42cf0e693e3b3434b.jpg",
+          "width": 195,
+          "height": 78
+        },
+        {
+          "file": "media/lms/f18b2c3d1f70fa57faa15f35.jpg",
+          "width": 125,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Какой способ получения энергии реализуется на современных атомных электростанциях?",
@@ -2418,7 +5733,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       234
-    ]
+    ],
+    "original": {
+      "question": "Какой способ получения энергии реализуется на современных атомных электростанциях?",
+      "answer": "",
+      "page": 56,
+      "answerImages": [
+        {
+          "file": "media/lms/ea57d27089efe3d519cc02e8.jpg",
+          "width": 229,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Какой закон сохранения запрещает реакцию n + n + n + p → ⁴₂He?",
@@ -2428,7 +5755,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       235
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 56,
+      "questionImages": [
+        {
+          "file": "media/lms/1bbcee893628689bdf84e00f.jpg",
+          "width": 650,
+          "height": 90
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/938561dd19fadba895c53bcf.jpg",
+          "width": 435,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Протон может взаимодействовать с нейтроном при помощи….",
@@ -2438,7 +5784,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       236
-    ]
+    ],
+    "original": {
+      "question": "Протон может взаимодействовать с нейтроном при помощи….",
+      "answer": "",
+      "page": 56,
+      "questionImages": [
+        {
+          "file": "media/lms/610edf01e54b6c233bf176d9.jpg",
+          "width": 645,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5e2a1053a60b5b807f0bc579.jpg",
+          "width": 273,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Основной закон радиоактивного распада выражается формулой (Т - период полураспада, A - постоянная [",
@@ -2448,7 +5813,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       237
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 56,
+      "questionImages": [
+        {
+          "file": "media/lms/beac891b994b7a72905686c0.jpg",
+          "width": 821,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7d9f8ff46caa2a0da88dbe7e.jpg",
+          "width": 164,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Основной закон радиоактивного распада выражается формулой (Т - период полураспада, A - постоянная распада):",
@@ -2458,7 +5842,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       238
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 56,
+      "questionImages": [
+        {
+          "file": "media/lms/94a6d7ebb005f9b3e299d59d.jpg",
+          "width": 797,
+          "height": 44
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/87709e66e9310aadb36a7660.jpg",
+          "width": 160,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Расположите фундаментальные взаимодействия в порядке увеличения их интенсивности:",
@@ -2468,7 +5871,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       239
-    ]
+    ],
+    "original": {
+      "question": "Расположите фундаментальные взаимодействия в порядке увеличения их интенсивности:",
+      "answer": "",
+      "page": 57,
+      "answerImages": [
+        {
+          "file": "media/lms/47f6ed1d784cfb2090a170e0.jpg",
+          "width": 462,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Какие законы сохранения запрещают реакцию n + p → ²₁H + ν̄ₑ?",
@@ -2478,7 +5893,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       240
-    ]
+    ],
+    "original": {
+      "question": "Какие законы сохранения запрещают написанную ниже ядерную реакцию?",
+      "answer": "Закон сохранения лептонного заряда и закон сохранения момента импульса",
+      "page": 57,
+      "questionImages": [
+        {
+          "file": "media/lms/b89512ae5bc08a519e96962d.jpg",
+          "width": 586,
+          "height": 70
+        }
+      ]
+    }
   },
   {
     "question": "При поглощении ядрами алюминия ά-частиц образуется радиоактивный изотоп фосфора. Выберите правильное уравнение этой реакции:",
@@ -2488,7 +5915,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       241
-    ]
+    ],
+    "original": {
+      "question": "При поглощении ядрами алюминия ά-частиц образуется радиоактивный изотоп фосфора. Выберите правильное уравнение этой реакции:",
+      "answer": "",
+      "page": 57,
+      "questionImages": [
+        {
+          "file": "media/lms/ec8a62efe9d2cfd731bc1cbf.jpg",
+          "width": 764,
+          "height": 118
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d56123098f5f4f0ea494ef0f.jpg",
+          "width": 258,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Под действием внешнего магнитного поля изменяется траектория движения:",
@@ -2498,7 +5944,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       242
-    ]
+    ],
+    "original": {
+      "question": "Под действием внешнего магнитного поля изменяется траектория движения:",
+      "answer": "",
+      "page": 57,
+      "answerImages": [
+        {
+          "file": "media/lms/9e8f744697f0f775a9a41ade.jpg",
+          "width": 143,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Чему равен период полураспада изотопа, если за 16 суток число ядер уменьшилось в 4 раза?",
@@ -2508,7 +5966,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       243
-    ]
+    ],
+    "original": {
+      "question": "Чему равен период полураспада изотопа, если за 16 суток число ядер уменьшилось в 4 раза?",
+      "answer": "",
+      "page": 57,
+      "questionImages": [
+        {
+          "file": "media/lms/26376e71bc1eb59b59f97ad7.jpg",
+          "width": 714,
+          "height": 48
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dfae3802b0519f74e7321e9d.jpg",
+          "width": 126,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Какой закон сохранения запрещает реакцию n + p → e⁺ + νₑ?",
@@ -2518,7 +5995,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       244
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Закон сохранения барионного заряда.",
+      "page": 57,
+      "questionImages": [
+        {
+          "file": "media/lms/21b22a32de94d771e41f9763.jpg",
+          "width": 645,
+          "height": 433
+        }
+      ]
+    }
   },
   {
     "question": "Какой набор правильно отражает структуру ядра ³⁷₁₈Ar?",
@@ -2528,7 +6017,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       245
-    ]
+    ],
+    "original": {
+      "question": "Какой набор правильно отражает структуру ядра аргона",
+      "answer": "",
+      "page": 58,
+      "answerImages": [
+        {
+          "file": "media/lms/f9fe938b2513a826096eda4c.jpg",
+          "width": 266,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Запись реакции радиоактивного распада изотопа фосфора с испусканием позитрона:",
@@ -2538,7 +6039,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       246
-    ]
+    ],
+    "original": {
+      "question": "Реакция радиоактивного распада изотопа фосфора с испусканием позитрона:",
+      "answer": "",
+      "page": 58,
+      "answerImages": [
+        {
+          "file": "media/lms/977aee9c5f348842ef3e7cfe.jpg",
+          "width": 298,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Реакция радиоактивного распада изотопа фосфора с испусканием позитрона:",
@@ -2548,7 +6061,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       247
-    ]
+    ],
+    "original": {
+      "question": "Реакция радиоактивного распада изотопа фосфора с испусканием позитрона:",
+      "answer": "",
+      "page": 58,
+      "answerImages": [
+        {
+          "file": "media/lms/53f3847e5e1cc80823ec82f6.jpg",
+          "width": 217,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Какие взаимодействия ответственны за β-распад атомного ядра?",
@@ -2558,7 +6083,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       248
-    ]
+    ],
+    "original": {
+      "question": "Какие взаимодействия ответственны за β-распад атомного ядра?",
+      "answer": "",
+      "page": 58,
+      "answerImages": [
+        {
+          "file": "media/lms/87158b6525124016c2a28fbd.jpg",
+          "width": 147,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Активность изотопа, как функция времени, выражается формулой (T - период полураспада, λ - постоянная распада):",
@@ -2568,7 +6105,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       249
-    ]
+    ],
+    "original": {
+      "question": "Активность изотопа, как функция времени, выражается формулой (T - период полураспада, λ - постоянная распада):",
+      "answer": "",
+      "page": 58,
+      "questionImages": [
+        {
+          "file": "media/lms/0dfdff7f81ea15d7e3c59fc0.jpg",
+          "width": 732,
+          "height": 64
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4680ef12d8a5e8967b9535ee.jpg",
+          "width": 177,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Наиболее распространенной ядерной реакцией деления ядер урана является:",
@@ -2578,7 +6134,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       250
-    ]
+    ],
+    "original": {
+      "question": "Наиболее распространенной ядерной реакцией деления ядер урана является:",
+      "answer": "",
+      "page": 58,
+      "answerImages": [
+        {
+          "file": "media/lms/e84b1e4b110f4b97c93942b0.jpg",
+          "width": 403,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Что представляет собой β⁻-излучение?",
@@ -2588,7 +6156,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       251
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 58,
+      "questionImages": [
+        {
+          "file": "media/lms/9a025a310c6079b9b9ce04a7.jpg",
+          "width": 231,
+          "height": 57
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d4b96ccc9bdae5ec0669c7d8.jpg",
+          "width": 231,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "При аннигиляции электрона и позитрона иногда образуются три одинаковых фотона, разлетающихся под углами 120° друг к другу. e+e > Т+т+Т Вследствие каких законов сохранения фотонов образуются именно три?",
@@ -2598,7 +6185,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       252
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Из приведённых вариантов — законы сохранения импульса и момента импульса. Возможность двух- или трёхфотонной аннигиляции зависит от спина начального состояния.",
+      "page": 59,
+      "questionImages": [
+        {
+          "file": "media/lms/0721cb94f9f69a723f2d094e.jpg",
+          "width": 1110,
+          "height": 301
+        }
+      ]
+    }
   },
   {
     "question": "Период полураспада ядер радиоактивного изотопа висмута 19 минут. За какое время распадается 75% ядер?",
@@ -2608,7 +6207,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       253
-    ]
+    ],
+    "original": {
+      "question": "Период полураспада ядер радиоактивного изотопа висмута 19 минут. За какое время распадается 75% ядер?",
+      "answer": "",
+      "page": 59,
+      "questionImages": [
+        {
+          "file": "media/lms/4a2f5a69f59a8c3009c7bff9.jpg",
+          "width": 1029,
+          "height": 55
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/96599b23ee18f477226f320a.jpg",
+          "width": 167,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Какие взаимодействия присущи всем частицам, имеющим электрический заряд? Выберите ДВА ответа.",
@@ -2618,7 +6236,31 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       254
-    ]
+    ],
+    "original": {
+      "question": "Какие взаимодействия присущи всем частицам, имеющим электрический заряд? Выберите ДВА ответа.",
+      "answer": "",
+      "page": 59,
+      "questionImages": [
+        {
+          "file": "media/lms/5101cc52fd9d578a951847d2.jpg",
+          "width": 999,
+          "height": 187
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/be05927af6ac9fc861a76e72.jpg",
+          "width": 254,
+          "height": 55
+        },
+        {
+          "file": "media/lms/b566cb0d99aea17ff3f804be.jpg",
+          "width": 233,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Активность радиоактивного препарата за 6 суток уменьшилась в 8 раз. Период полураспада этого препарата равен:",
@@ -2628,7 +6270,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       255
-    ]
+    ],
+    "original": {
+      "question": "Активность радиоактивного препарата за 6 суток уменьшилась в 8 раз. Период полураспада этого препарата равен:",
+      "answer": "",
+      "page": 59,
+      "questionImages": [
+        {
+          "file": "media/lms/56a925a35154df00522130a9.jpg",
+          "width": 799,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/90495dfd050c8fdf4737cbae.jpg",
+          "width": 129,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Какой изотоп образуется из ²³²₉₀Th после четырёх α-распадов и двух β⁻-распадов?",
@@ -2638,7 +6299,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       256
-    ]
+    ],
+    "original": {
+      "question": "Какой изотоп образуется из после четырёх α-распадов и двух β¯-распадов?",
+      "answer": "",
+      "page": 59,
+      "questionImages": [
+        {
+          "file": "media/lms/b0d075fb1ddb3d4c4bc318bb.jpg",
+          "width": 700,
+          "height": 55
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/51fd04bff9c4f06d31b4c9c0.jpg",
+          "width": 139,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "В каких единицах измеряется энергетическая светимость r поверхности тела в системе СИ?",
@@ -2648,7 +6328,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       257
-    ]
+    ],
+    "original": {
+      "question": "В каких единицах измеряется энергетическая светимость r поверхности тела в системе СИ?",
+      "answer": "",
+      "page": 59,
+      "answerImages": [
+        {
+          "file": "media/lms/32936e1e373d998103dbe751.jpg",
+          "width": 131,
+          "height": 47
+        }
+      ]
+    }
   },
   {
     "question": "Какие взаимодействия присущи всем без исключения частицам и телам?",
@@ -2658,7 +6350,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       258
-    ]
+    ],
+    "original": {
+      "question": "Какие взаимодействия присущи всем без исключения частицам и телам?",
+      "answer": "",
+      "page": 60,
+      "answerImages": [
+        {
+          "file": "media/lms/9fae90f452105dab5be2c6d5.jpg",
+          "width": 224,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Разные изотопы одного и того же химического элемента состоят из одинакового числа:",
@@ -2668,7 +6372,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       259
-    ]
+    ],
+    "original": {
+      "question": "Разные изотопы одного и того же химического элемента состоят из одинакового числа:",
+      "answer": "",
+      "page": 60,
+      "answerImages": [
+        {
+          "file": "media/lms/efb174960a651fa734b46ecd.jpg",
+          "width": 172,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "При аннигиляции электрона и позитрона, покоящихся в системе центра масс, обычно образуются два одинаковых фотона, летящих в противоположных направлениях. Какой закон запрещает образование только одного фотона?",
@@ -2678,7 +6394,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       260
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 60,
+      "questionImages": [
+        {
+          "file": "media/lms/00cc226c192bc826b77a213e.jpg",
+          "width": 725,
+          "height": 136
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5c74e5a547e6f8abbca9ca2d.jpg",
+          "width": 309,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Какой изотоп образуется из ²³⁸₉₂U после трёх α-распадов и двух β⁻-распадов?",
@@ -2688,7 +6423,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       261
-    ]
+    ],
+    "original": {
+      "question": "Какой изотроп обрауется из после трех ά-распадов и двух ß- минус распадов?",
+      "answer": "",
+      "page": 60,
+      "answerImages": [
+        {
+          "file": "media/lms/acd2d1dace66e10a2a648be4.jpg",
+          "width": 159,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Период полураспада ядер радиоактивного изотопа 2 минуты. За какое время активность образца уменьшается в 16 раз?",
@@ -2698,7 +6445,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       262
-    ]
+    ],
+    "original": {
+      "question": "Период полураспада ядер радиоактивного изотопа 2 минуты. За какое время активность образца уменьшается в 16 раз?",
+      "answer": "",
+      "page": 60,
+      "questionImages": [
+        {
+          "file": "media/lms/cd025566d6c31295e07db493.jpg",
+          "width": 1156,
+          "height": 79
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7dcd4c053309c8a1bbb339ce.jpg",
+          "width": 158,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Два нейтрона могут взаимодействовать друг с другом при помощи…",
@@ -2708,7 +6474,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       263
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 60,
+      "questionImages": [
+        {
+          "file": "media/lms/3c0820e3772468db00fb7c23.jpg",
+          "width": 369,
+          "height": 30
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6990ecb14a489e322884ac8f.jpg",
+          "width": 145,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Электрон может находиться во втором энергетическом состоянии атома водорода в течение времени τ = 1 нс. Поэтому, ширина второго энергетического уровня имеет величину порядка:",
@@ -2718,7 +6503,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       264
-    ]
+    ],
+    "original": {
+      "question": "Электрон может находиться во втором энергетическом состоянии атома водорода в течение времени τ = 1 нс. Поэтому, ширина второго энергетического уровня имеет величину порядка:",
+      "answer": "",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/984905e3e537a269b909b257.jpg",
+          "width": 555,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d3452fa34fbd238c35b559af.jpg",
+          "width": 88,
+          "height": 21
+        }
+      ]
+    }
   },
   {
     "question": "Какой закон сохранения запрещает реакцию n → p + e⁻ + νₑ, если последняя частица — нейтрино?",
@@ -2728,7 +6532,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       265
-    ]
+    ],
+    "original": {
+      "question": "Какие законы сохранения запрещают написанную ниже реакцию?",
+      "answer": "",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/cc8b102c7257dceb8c04ed80.jpg",
+          "width": 430,
+          "height": 65
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4432f19f537c91d991502626.jpg",
+          "width": 305,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Какой набор квантовых чисел запрещен в возбужденном состоянии атома водорода?",
@@ -2738,7 +6561,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       266
-    ]
+    ],
+    "original": {
+      "question": "Какой набор квантовых чисел запрещен в возбужденном состоянии атома водорода?",
+      "answer": "n = 2, l = 2, m = 1.",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/c68777ac6d1e98ab1399cd72.jpg",
+          "width": 675,
+          "height": 180
+        }
+      ]
+    }
   },
   {
     "question": "Максимум спектральной плотности сместился с λ₁ = 1,6 мкм на λ₂ = 2,4 мкм. Как и во сколько раз изменилась энергетическая светимость тела?",
@@ -2748,7 +6583,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       267
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Уменьшилась примерно в 5 раз.",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/4048f73fb6e1712f6263e02b.jpg",
+          "width": 1125,
+          "height": 167
+        }
+      ]
+    }
   },
   {
     "question": "В заполненной оболочке с n = 2 сколько электронов имеют одновременно mₛ = −1/2 и mₗ = 0?",
@@ -2758,7 +6605,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       268
-    ]
+    ],
+    "original": {
+      "question": "Заполненной электронной оболочке соответствует квантовое число n=2.Сколько электронов в этой оболочке имеют квантовое число ms=-1/2 и одновременно с этим квантовое число ml=0?",
+      "answer": "2 электрона.",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/ded67521b2d46936162fb4f9.jpg",
+          "width": 1123,
+          "height": 221
+        }
+      ]
+    }
   },
   {
     "question": "Что называется гиромагнитным отношением?",
@@ -2768,7 +6627,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       269
-    ]
+    ],
+    "original": {
+      "question": "Что называется гиромагнитным отношением?",
+      "answer": "Отношение магнитного момента к моменту импульса.",
+      "page": 61,
+      "questionImages": [
+        {
+          "file": "media/lms/d584347b82e664bfe6c1b292.jpg",
+          "width": 412,
+          "height": 166
+        }
+      ]
+    }
   },
   {
     "question": "В эффекте Комптона изменение длины волны рассеянных лучей зависит от:",
@@ -2778,7 +6649,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       270
-    ]
+    ],
+    "original": {
+      "question": "В эффекте Комптона изменение длины волны рассеянных лучей зависит от:",
+      "answer": "",
+      "page": 62,
+      "answerImages": [
+        {
+          "file": "media/lms/eb1e9beceb722da33beaf9c0.jpg",
+          "width": 695,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Какие взаимодействия преобладают в атомном ядре?",
@@ -2788,7 +6671,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       271
-    ]
+    ],
+    "original": {
+      "question": "Какие взаимодействия преобладают в атомном ядре?",
+      "answer": "",
+      "page": 62,
+      "answerImages": [
+        {
+          "file": "media/lms/3dc75a18b1e6f75d42997396.jpg",
+          "width": 133,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "При бомбардировке изотопа бора ¹⁰₅B нейтронами ¹₀n образуются α-частицы и ядро какого изотопа?",
@@ -2798,7 +6693,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       272
-    ]
+    ],
+    "original": {
+      "question": "При бомбардировке изотопа бора нейтронами образуются α-частицы и ядро",
+      "answer": "",
+      "page": 62,
+      "questionImages": [
+        {
+          "file": "media/lms/8ada389440f2eda0d2e44a93.jpg",
+          "width": 692,
+          "height": 158
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/67d058ca150f5d81e44ab74e.jpg",
+          "width": 186,
+          "height": 69
+        }
+      ]
+    }
   },
   {
     "question": "За время, равное трём периодам полураспада, распадается",
@@ -2808,17 +6722,34 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       273
-    ]
+    ],
+    "original": {
+      "question": "За время, равное трём периодам полураспада, распадается",
+      "answer": "",
+      "page": 62,
+      "answerImages": [
+        {
+          "file": "media/lms/3d7578b9e45826cf23110311.jpg",
+          "width": 550,
+          "height": 66
+        }
+      ]
+    }
   },
   {
     "question": "Что называется дефектом масс?",
     "answers": [
-      "Разность между суммой масс всех нейтронов и протонов, составляющих ядро, и массой ядра."
+      "Разность между суммой масс всех нейтронов и протонов, составляющих ядро, и массой ядра"
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       274
-    ]
+    ],
+    "original": {
+      "question": "Что называется дефектом масс?",
+      "answer": "Разность между суммой масс всех нейтронов и протонов, составляющих ядро, и массой ядра",
+      "page": 62
+    }
   },
   {
     "question": "Какая часть начального количества ядер радиоактивного изотопа распадется за время, равное двум периодам полураспада:",
@@ -2828,7 +6759,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       275
-    ]
+    ],
+    "original": {
+      "question": "Какая часть начального количества ядер радиоактивного изотопа распадется за время, равное двум периодам полураспада:",
+      "answer": "",
+      "page": 63,
+      "answerImages": [
+        {
+          "file": "media/lms/e2aa1f8ee622f29df70a6e76.jpg",
+          "width": 123,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Нейтрон может взаимодействовать с протоном при помощи…",
@@ -2838,7 +6781,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       276
-    ]
+    ],
+    "original": {
+      "question": "Нейтрон может взаимодействовать с протоном при помощи…",
+      "answer": "",
+      "page": 63,
+      "questionImages": [
+        {
+          "file": "media/lms/529c4c65eec48dee2076bcc1.jpg",
+          "width": 516,
+          "height": 49
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5829c36a16521fe9e632453e.jpg",
+          "width": 222,
+          "height": 47
+        }
+      ]
+    }
   },
   {
     "question": "При аннигиляции электрона и позитрона обычно образуются два одинаковых фотона, разлетающихся в противоположных направлениях. Найти длины волн этих фотонов",
@@ -2848,7 +6810,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       277
-    ]
+    ],
+    "original": {
+      "question": "При аннигиляции электрона и позитрона обычно образуются два одинаковых фотона, разлетающихся в противоположных направлениях. Найти длины волн этих фотонов",
+      "answer": "",
+      "page": 63,
+      "answerImages": [
+        {
+          "file": "media/lms/c0eb754b9124b4e3f33310f5.jpg",
+          "width": 119,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Ядра алюминия поглощают ά-частицы. В ходе написанной реакции образуется изотоп фосфора",
@@ -2858,7 +6832,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       278
-    ]
+    ],
+    "original": {
+      "question": "Ядра алюминия поглощают ά-частицы. В ходе написанной реакции образуется изотоп фосфора",
+      "answer": "",
+      "page": 63,
+      "answerImages": [
+        {
+          "file": "media/lms/0a345d5dd157dad50080c936.jpg",
+          "width": 247,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Какие взаимодействия играют главную роль в масштабах Вселенной?",
@@ -2868,7 +6854,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       279
-    ]
+    ],
+    "original": {
+      "question": "Какие взаимодействия играют главную роль в масштабах Вселенной?",
+      "answer": "",
+      "page": 63,
+      "answerImages": [
+        {
+          "file": "media/lms/5919ac9542d3b7c470b984f8.jpg",
+          "width": 184,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится масса системы, состоящей из нескольких свободных протонов и нейтронов при их объединении в атомное ядро?",
@@ -2878,7 +6876,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       280
-    ]
+    ],
+    "original": {
+      "question": "Как изменится масса системы, состоящей из несколькихсвободных протонов и нейтронов при их объединении в атомное",
+      "answer": "",
+      "page": 63,
+      "answerImages": [
+        {
+          "file": "media/lms/19dd46988c6552fecb1f64c7.jpg",
+          "width": 114,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Реакция β-распада ядра углерода с образованием антинейтрино имеет уравнение:",
@@ -2888,7 +6898,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       281
-    ]
+    ],
+    "original": {
+      "question": "Реакция β-распада ядра углерода с образованием антинейтрино имеет уравнение:",
+      "answer": "",
+      "page": 64,
+      "questionImages": [
+        {
+          "file": "media/lms/2afbc40a1afe459c2c13b671.jpg",
+          "width": 652,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/638558f0293c6d4e9bce18a2.jpg",
+          "width": 222,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Какой закон сохранения запрещает распад свободного протона по схеме p → n + e⁺ + νₑ?",
@@ -2898,7 +6927,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       282
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Для свободного протона реакция энергетически запрещена. В приведённых вариантах закона сохранения энергии нет.",
+      "page": 64,
+      "questionImages": [
+        {
+          "file": "media/lms/4ba725803e5b298137a6cf24.jpg",
+          "width": 561,
+          "height": 277
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильную формулировку для соотношения неопределенностей",
@@ -2908,7 +6949,48 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       283
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильную формулировку для соотношения неопределенностей",
+      "answer": "",
+      "page": 64,
+      "questionImages": [
+        {
+          "file": "media/lms/7376f0b24cc702f4267798ad.jpg",
+          "width": 661,
+          "height": 179
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4fbc3381c3edb2edd30b31ed.jpg",
+          "width": 174,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "question": "Соотношение неопределённостей Гайзенберга для координаты и импульса имеет вид:",
+    "answers": [
+      "Δx·Δpₓ ≥ ℏ/2 (в записи ЛМС порог обозначен как ℏ)."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      284
+    ],
+    "original": {
+      "question": "Соотношение неопределённостей Гайзенберга для координаты и импульса имеет вид:",
+      "answer": "",
+      "page": 64,
+      "answerImages": [
+        {
+          "file": "media/lms/d7bc4beb53055f2935ec111a.jpg",
+          "width": 241,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Соотношение неопределённостей Гайзенберга для угла и момента импульса имеет вид:",
@@ -2918,7 +7000,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       285
-    ]
+    ],
+    "original": {
+      "question": "Соотношение неопределённостей Гайзенберга для угла и момента импульса имеет вид:",
+      "answer": "",
+      "page": 64,
+      "answerImages": [
+        {
+          "file": "media/lms/b4929c4279da2a92d5e18320.jpg",
+          "width": 187,
+          "height": 57
+        }
+      ]
+    }
   },
   {
     "question": "Период полураспада T связан с константой λ радиоактивного распада соотношением:",
@@ -2928,7 +7022,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       286
-    ]
+    ],
+    "original": {
+      "question": "Период полураспада T связан с константой λ радиоактивного распада соотношением:",
+      "answer": "",
+      "page": 64,
+      "questionImages": [
+        {
+          "file": "media/lms/7e68e119b88e0384af7376db.jpg",
+          "width": 655,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fcddabb498a2d9ac40c9242c.jpg",
+          "width": 150,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Температура поверхности абсолютно чёрного тела увеличилась в 5 раз. Как при этом изменится энергетическая светимость",
@@ -2938,7 +7051,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       287
-    ]
+    ],
+    "original": {
+      "question": "Температура поверхности абсолютно чёрного тела увеличилась в 5 раз. Как при этом изменится энергетическая светимость",
+      "answer": "",
+      "page": 64,
+      "questionImages": [
+        {
+          "file": "media/lms/2eae859aa6c48d0f643939ba.jpg",
+          "width": 775,
+          "height": 34
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2a225bbeb52f976c301bb2e2.jpg",
+          "width": 177,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Чему равно отношение радиуса первой боровской орбиты для иона He⁺ к радиусу первой боровской орбиты для атома водорода?",
@@ -2948,7 +7080,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       288
-    ]
+    ],
+    "original": {
+      "question": "Чему равно отношение радиуса первой боровской орбиты иона к радиусу первой боровской орбиты для водорода?",
+      "answer": "1/2.",
+      "page": 65,
+      "questionImages": [
+        {
+          "file": "media/lms/683ac108bcad88530ba22412.jpg",
+          "width": 1083,
+          "height": 231
+        }
+      ]
+    }
   },
   {
     "question": "В каких взаимодействиях не может участвовать электрон?",
@@ -2958,7 +7102,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       289
-    ]
+    ],
+    "original": {
+      "question": "В каких взаимодействиях не может участвовать электрон?",
+      "answer": "",
+      "page": 65,
+      "answerImages": [
+        {
+          "file": "media/lms/e251cb799a4db00387e0a6fc.jpg",
+          "width": 177,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Два протона могут взаимодействовать друг с другом при помощи..",
@@ -2968,7 +7124,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       290
-    ]
+    ],
+    "original": {
+      "question": "Два протона могут взаимодействовать друг с другом при помощи..",
+      "answer": "Только π⁰-мезона.",
+      "page": 65,
+      "questionImages": [
+        {
+          "file": "media/lms/86f85473fdc518de452cc050.jpg",
+          "width": 640,
+          "height": 267
+        }
+      ]
+    }
   },
   {
     "question": "Во сколько раз изменится максимальная скорость вылетевших с поверхности металла электронов, если работа выхода 1,5 эВ, а энергия фотонов увеличится с 3 до 4,5 эВ",
@@ -2978,7 +7146,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       291
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 65,
+      "questionImages": [
+        {
+          "file": "media/lms/7178d4c84a65ce9eedf45580.jpg",
+          "width": 1099,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/69ce7a3254bbcdf4b4c32571.jpg",
+          "width": 227,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Какое выражение раскрывает смысл волновой функции?",
@@ -2988,7 +7175,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       292
-    ]
+    ],
+    "original": {
+      "question": "Какое выражение раскрывает смысл волновой функции?",
+      "answer": "",
+      "page": 65,
+      "questionImages": [
+        {
+          "file": "media/lms/f0438c3e2fe04c0c07ededd2.jpg",
+          "width": 433,
+          "height": 48
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/82c6432ddbbfec33bdf9eb1a.jpg",
+          "width": 212,
+          "height": 50
+        }
+      ]
+    }
   },
   {
     "question": "Что из названного ниже является моделью абсолютно чёрного тела?",
@@ -2998,7 +7204,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       293
-    ]
+    ],
+    "original": {
+      "question": "Что из названного ниже является моделью абсолютно чёрного тела?",
+      "answer": "Маленькое отверстие в полости.",
+      "page": 65,
+      "questionImages": [
+        {
+          "file": "media/lms/f5cd3b88a01e2fee767ff3db.jpg",
+          "width": 672,
+          "height": 215
+        }
+      ]
+    }
   },
   {
     "question": "Длина волны красной границы фотоэффекта определяется выражением",
@@ -3008,7 +7226,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       294
-    ]
+    ],
+    "original": {
+      "question": "Длина волны красной границы фотоэффекта определяется выражением",
+      "answer": "",
+      "page": 66,
+      "questionImages": [
+        {
+          "file": "media/lms/aa8c503f57a9866b1c9948f1.jpg",
+          "width": 561,
+          "height": 42
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a99adeec8cd407627bfa39d1.jpg",
+          "width": 144,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Термоядерная реакция соединения дейтерия с тритием имеет вид",
@@ -3018,7 +7255,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       295
-    ]
+    ],
+    "original": {
+      "question": "Термоядерная реакция соединения дейтерия с тритием имеет вид",
+      "answer": "",
+      "page": 66,
+      "answerImages": [
+        {
+          "file": "media/lms/aa3be0dd0a820a17469665f9.jpg",
+          "width": 241,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "При эффекте Комптона фотон с длиной волны 11,52 пм рассеялся под углом θ = 60°. Найти длину волны фотона после рассеяния.",
@@ -3028,7 +7277,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       296
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 66,
+      "questionImages": [
+        {
+          "file": "media/lms/3ff0d04ab2f119e8ff3029e5.jpg",
+          "width": 749,
+          "height": 67
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3343f62f6057d449d31ebfef.jpg",
+          "width": 132,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Какой закон сохранения запрещает реакцию n + p → ²₁H + e⁻ + ν̄ₑ?",
@@ -3038,7 +7306,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       297
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Закон сохранения электрического заряда.",
+      "page": 66,
+      "questionImages": [
+        {
+          "file": "media/lms/aec7a90db26af37a2aa6883d.jpg",
+          "width": 552,
+          "height": 247
+        }
+      ]
+    }
   },
   {
     "question": "Какие законы сохранения запрещают реакцию n + p → ²₁H без испускания других частиц?",
@@ -3048,7 +7328,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       298
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Захват без испускания дополнительной частицы запрещён совместным сохранением энергии и импульса.",
+      "page": 67,
+      "questionImages": [
+        {
+          "file": "media/lms/2cc77d6f40e91934ddd1d78c.jpg",
+          "width": 368,
+          "height": 209
+        }
+      ]
+    }
   },
   {
     "question": "Интенсивность света, падающего на фотокатод, уменьшилась. Что при этом уменьшается?",
@@ -3058,7 +7350,12 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       299
-    ]
+    ],
+    "original": {
+      "question": "Интенсивность света, падающего на фотокатод, уменьшилась. Что при этом уменьшается?",
+      "answer": "Число фотоэлектронов.",
+      "page": 68
+    }
   },
   {
     "question": "Как называется уравнение −(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ = EΨ при U ≠ 0?",
@@ -3068,21 +7365,48 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       300
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/e70cc0df740f3512cda84d08.jpg",
+          "width": 513,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b77cbfb2a07917bc11735524.jpg",
+          "width": 476,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение −(ℏ²/2m)·∇²Ψ + U·Ψ = EΨ при U ≠ 0?",
     "answers": [
-      "Стационарное уравнение Шрёдингера для частицы во внешнем поле в трёхмерном пространстве.",
-      "Стационарное уравнение Шрёдингера для частицы в трёхмерном пространстве.",
-      "Стационарное уравнение Шрёдингера для частицы во внешнем поле."
+      "Стационарное уравнение Шрёдингера для частицы во внешнем поле в трёхмерном пространстве."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      301,
-      304,
-      305
-    ]
+      301
+    ],
+    "original": {
+      "question": "",
+      "answer": "Стационарное уравнение Шрёдингера для частицы в трёхмерном пространстве.",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/5f78d0b65761ee8807793a1c.jpg",
+          "width": 474,
+          "height": 158
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение −(ℏ²/2m)·∂²Ψ/∂x² = EΨ?",
@@ -3092,7 +7416,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       302
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/c9e1061847c6295e4a74f1d9.jpg",
+          "width": 478,
+          "height": 112
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7da48153c08132f5ecc62be2.jpg",
+          "width": 478,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение −(ℏ²/2m)·∇²Ψ = EΨ?",
@@ -3102,7 +7445,77 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       303
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Стационарное уравнение Шрёдингера для свободной частицы.",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/1635a85f397990e3af26ab59.jpg",
+          "width": 455,
+          "height": 508
+        }
+      ]
+    }
+  },
+  {
+    "question": "Как называется уравнение −(ℏ²/2m)·∇²Ψ + U·Ψ = EΨ при U ≠ 0?",
+    "answers": [
+      "Стационарное уравнение Шрёдингера для частицы в трёхмерном пространстве."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      304
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/8bcd744213afa23951440b82.jpg",
+          "width": 734,
+          "height": 95
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/14488e797f5f8875af5b457f.jpg",
+          "width": 734,
+          "height": 34
+        }
+      ]
+    }
+  },
+  {
+    "question": "Как называется уравнение −(ℏ²/2m)·∇²Ψ + U·Ψ = EΨ при U ≠ 0?",
+    "answers": [
+      "Стационарное уравнение Шрёдингера для частицы во внешнем поле."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      305
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/c4f357c057542e5e5f683693.jpg",
+          "width": 799,
+          "height": 117
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/95b447f7021f438c3f0955a0.jpg",
+          "width": 799,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение −(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ = EΨ?",
@@ -3112,7 +7525,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       306
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 69,
+      "questionImages": [
+        {
+          "file": "media/lms/d13f45d5d3f470166ff55261.jpg",
+          "width": 609,
+          "height": 145
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/de4a296ea5f1dde8ad16d612.jpg",
+          "width": 570,
+          "height": 128
+        }
+      ]
+    }
   },
   {
     "question": "Запишите стационарное уравнение Шрёдингера для частицы с зарядом q и массой m во внешнем электрическом поле с потенциалом φ.",
@@ -3122,7 +7554,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       307
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 70,
+      "questionImages": [
+        {
+          "file": "media/lms/cfaf6594bb3be3280340b6fe.jpg",
+          "width": 883,
+          "height": 39
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dd17fb31fb55d207c902116a.jpg",
+          "width": 226,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Стационарное уравнение Шредингера для гармонического осциллятора с жесткостью k и массой m имеет вид:",
@@ -3132,7 +7583,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       308
-    ]
+    ],
+    "original": {
+      "question": "Стационарное уравнение Шредингера для гармонического осциллятора с жесткостью k и массой m имеет вид:",
+      "answer": "",
+      "page": 70,
+      "questionImages": [
+        {
+          "file": "media/lms/fab0a581e5fd4fc7a7670fe4.jpg",
+          "width": 762,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/178f1ec6c3db9ec6b85a7ea3.jpg",
+          "width": 247,
+          "height": 56
+        }
+      ]
+    }
   },
   {
     "question": "Стационарное уравнение Шредингера для частицы во внешнем поле имеет вид:",
@@ -3142,7 +7612,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       309
-    ]
+    ],
+    "original": {
+      "question": "Стационарное уравнение Шредингера для частицы во внешнем поле имеет вид:",
+      "answer": "",
+      "page": 70,
+      "questionImages": [
+        {
+          "file": "media/lms/edaa6f28064e3e31fb13cdd1.jpg",
+          "width": 459,
+          "height": 32
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f961c14209e914c8b78aaf39.jpg",
+          "width": 191,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Стационарное уравнение шредингера для гармонического осциллятора имеет вид:",
@@ -3152,7 +7641,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       310
-    ]
+    ],
+    "original": {
+      "question": "Стационарное уравнение шредингера для гармонического осциллятора имеет вид:",
+      "answer": "",
+      "page": 70,
+      "questionImages": [
+        {
+          "file": "media/lms/0da87539cac620c846236451.jpg",
+          "width": 755,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4752336712769369f62251a4.jpg",
+          "width": 346,
+          "height": 52
+        }
+      ]
+    }
   },
   {
     "question": "Стационарное уравнение Шрендингера для частицы массой m, находящейся в однородном поле силы тяжести, имеет",
@@ -3162,7 +7670,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       311
-    ]
+    ],
+    "original": {
+      "question": "Стационарное уравнение Шрендингера для частицы массой m, находящейся в однородном поле силы тяжести, имеет",
+      "answer": "Третий вариант — стационарное уравнение с потенциальной энергией mgh.",
+      "page": 70,
+      "questionImages": [
+        {
+          "file": "media/lms/a28fab2114bbe6f72bc44a48.jpg",
+          "width": 557,
+          "height": 189
+        }
+      ]
+    }
   },
   {
     "question": "Стационарное уравнение Шрёдингера для свободной частицы имеет вид:",
@@ -3172,7 +7692,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       312
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Первый вариант — −(ℏ²/2m)∇²Ψ = EΨ.",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/ea81d7aabfc84613001bd8db.jpg",
+          "width": 516,
+          "height": 490
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∇²Ψ + U·Ψ при U ≠ 0?",
@@ -3182,21 +7714,48 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       313
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Пространстве",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/8aeaff9999b177ecfba16e35.jpg",
+          "width": 749,
+          "height": 111
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∇²Ψ?",
     "answers": [
-      "Нестационарное уравнение Шрёдингера для частицы в трёхмерном пространстве.",
-      "Нестационарное уравнение Шрёдингера для свободной частицы.",
-      "Нестационарное уравнение Шрёдингера для свободной частицы в трёхмерном пространстве."
+      "Нестационарное уравнение Шрёдингера для частицы в трёхмерном пространстве."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      314,
-      316,
-      319
-    ]
+      314
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/71b44a6925f525943b8f57ef.jpg",
+          "width": 432,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/964c424fc0d414b83b5c2003.jpg",
+          "width": 432,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ?",
@@ -3206,7 +7765,60 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       315
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/a70ca6383306d7f2c2b1e506.jpg",
+          "width": 624,
+          "height": 145
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fc2ac1803393a312892ff763.jpg",
+          "width": 540,
+          "height": 38
+        },
+        {
+          "file": "media/lms/f88d8da944b9b68cd4896d3b.jpg",
+          "width": 540,
+          "height": 62
+        }
+      ]
+    }
+  },
+  {
+    "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∇²Ψ?",
+    "answers": [
+      "Нестационарное уравнение Шрёдингера для свободной частицы."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      316
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/ecbcf40434ebd8d9677d39ed.jpg",
+          "width": 444,
+          "height": 99
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ce44d6b4379038a14c0b0868.jpg",
+          "width": 337,
+          "height": 21
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x²?",
@@ -3216,7 +7828,31 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       317
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 71,
+      "questionImages": [
+        {
+          "file": "media/lms/a56204e1a0121951fa89f18e.jpg",
+          "width": 353,
+          "height": 96
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4141647b26d4aa74a2d30600.jpg",
+          "width": 353,
+          "height": 24
+        },
+        {
+          "file": "media/lms/d2c2b8c5cf4c7ade5fbb4e70.jpg",
+          "width": 353,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ при U ≠ 0?",
@@ -3226,7 +7862,48 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       318
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Частицы во внешнем поле",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/034012d60fa1fbfe3ae0121e.jpg",
+          "width": 712,
+          "height": 115
+        }
+      ]
+    }
+  },
+  {
+    "question": "Как называется уравнение iℏ·∂Ψ/∂t = −(ℏ²/2m)·∇²Ψ?",
+    "answers": [
+      "Нестационарное уравнение Шрёдингера для свободной частицы в трёхмерном пространстве."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      319
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/25294bef03114725065a8bb9.jpg",
+          "width": 879,
+          "height": 94
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0eeafcba3e9c9ca053aa147a.jpg",
+          "width": 879,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Нестационарное уравнение Шредингера для гармоничного осоциллятора имеет вид:",
@@ -3236,7 +7913,26 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       320
-    ]
+    ],
+    "original": {
+      "question": "Нестационарное уравнение Шредингера для гармоничного осоциллятора имеет вид:",
+      "answer": "",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/c6eba86588f468da900bc11c.jpg",
+          "width": 556,
+          "height": 158
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3d37880f94ad30bd65bb5895.jpg",
+          "width": 556,
+          "height": 107
+        }
+      ]
+    }
   },
   {
     "question": "Запишите нестационарное уравнение Шрёдингера для частицы с зарядом q и массой m во внешнем электрическом поле с потенциалом φ.",
@@ -3246,19 +7942,84 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       321
-    ]
+    ],
+    "original": {
+      "question": "Нестационарное уравнение Шредингера для заряженной частицы массой во внешнем электрическом поле с потенциалом",
+      "answer": "",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/598d0928cfd9de4ae3644091.jpg",
+          "width": 828,
+          "height": 26
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dbb570083805d03a9926e03c.jpg",
+          "width": 221,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для микрочастицы в одномерном внешнем поле?",
     "answers": [
-      "−(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ = EΨ.",
+      "−(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ = EΨ."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      322
+    ],
+    "original": {
+      "question": "Какое из уравнений написано для микрочастицы в одномерном внешнем поле?",
+      "answer": "",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/cfc10cd0b09b0b6a89d34038.jpg",
+          "width": 458,
+          "height": 32
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6059f3add8d06ebc81637a62.jpg",
+          "width": 212,
+          "height": 50
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какое из уравнений написано для микрочастицы в одномерном внешнем поле?",
+    "answers": [
       "iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x² + U(x)·Ψ."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      322,
       323
-    ]
+    ],
+    "original": {
+      "question": "Какое из уравнений написано для микрочастицы в одномерном внешнем поле?",
+      "answer": "",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/3dd9f68b8dff43e5283e21ec.jpg",
+          "width": 421,
+          "height": 135
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ad2e3cbf8e5c05b7256c8a2a.jpg",
+          "width": 421,
+          "height": 90
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для микрочастицы в одномерном пространстве?",
@@ -3268,7 +8029,19 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       324
-    ]
+    ],
+    "original": {
+      "question": "Какое из уравнений написано для микрочастицы в одномерном внешнем поле?",
+      "answer": "Третий вариант задаёт одномерное стационарное уравнение во внешнем поле. В первом варианте также одна координата, но уравнение нестационарное.",
+      "page": 72,
+      "questionImages": [
+        {
+          "file": "media/lms/8ccb600c41025a19abe07c4e.jpg",
+          "width": 757,
+          "height": 394
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для частицы в однородном поле силы тяжести?",
@@ -3278,19 +8051,84 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       325
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/36e2c33e21d908e9a3d03c51.jpg",
+          "width": 464,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/836b730ae23b9c33d91baa51.jpg",
+          "width": 370,
+          "height": 84
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для микрочастицы в трехмерном пространстве?",
     "answers": [
-      "−(ℏ²/2m)·∇²Ψ + U·Ψ = EΨ.",
+      "−(ℏ²/2m)·∇²Ψ + U·Ψ = EΨ."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      326
+    ],
+    "original": {
+      "question": "Какое из уравнений написано для микрочастицы в трехмерном пространстве?",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/700e2b20fa96a57753c00849.jpg",
+          "width": 476,
+          "height": 40
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2a67e99819938c567c181bf4.jpg",
+          "width": 207,
+          "height": 48
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какое из уравнений написано для микрочастицы в трехмерном пространстве?",
+    "answers": [
       "iℏ·∂Ψ/∂t = −(ℏ²/2m)·∇²Ψ."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      326,
       327
-    ]
+    ],
+    "original": {
+      "question": "Какое из уравнений написано для микрочастицы в трехмерном пространстве?",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/78439263328974dcdafe0d71.jpg",
+          "width": 589,
+          "height": 44
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d19f8d8c575e51cc29dcc7e8.jpg",
+          "width": 215,
+          "height": 60
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для микрочастицы во внешнем силовом поле?",
@@ -3300,21 +8138,113 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       328
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/0a508de49c903d81231fb394.jpg",
+          "width": 559,
+          "height": 58
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ac89a2c6344b68b0fdb75d93.jpg",
+          "width": 257,
+          "height": 53
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
     "answers": [
-      "iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x².",
-      "−(ℏ²/2m)·∇²Ψ = EΨ.",
+      "iℏ·∂Ψ/∂t = −(ℏ²/2m)·∂²Ψ/∂x²."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      329
+    ],
+    "original": {
+      "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/75e3930df408f9f236fb6d12.jpg",
+          "width": 508,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/82eaa26e5abf29c7f62f065e.jpg",
+          "width": 198,
+          "height": 54
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
+    "answers": [
+      "−(ℏ²/2m)·∇²Ψ = EΨ."
+    ],
+    "topic": "Тепловое излучение и квантовые явления",
+    "lmsNumbers": [
+      330
+    ],
+    "original": {
+      "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/9f571dc810ca8415ce411f6f.jpg",
+          "width": 469,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/24d9a74153646d9f8a28c15b.jpg",
+          "width": 238,
+          "height": 61
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
+    "answers": [
       "−(ℏ²/2m)·∂²Ψ/∂x² = EΨ."
     ],
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
-      329,
-      330,
       331
-    ]
+    ],
+    "original": {
+      "question": "Какое из уравнений Шредингера написано для свободной микрочастицы?",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/24fa45d361a0dd8d30565580.jpg",
+          "width": 585,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8ce6e617d83881d51d2835ab.jpg",
+          "width": 233,
+          "height": 70
+        }
+      ]
+    }
   },
   {
     "question": "Какое из уравнений написано для гармонического осциллятора?",
@@ -3324,19 +8254,55 @@ const physicsLmsQuestions = [
     "topic": "Тепловое излучение и квантовые явления",
     "lmsNumbers": [
       332
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 73,
+      "questionImages": [
+        {
+          "file": "media/lms/02b77ad72557f0b2ba58579b.jpg",
+          "width": 622,
+          "height": 56
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9ed466532394ba90fea870d0.jpg",
+          "width": 334,
+          "height": 54
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильное утверждение",
     "answers": [
-      "Напряжённость электрического поля и электрическая индукция — векторы. Потенциал электрического поля — скаляр.",
-      "Диамагнетики ослабляют магнитную индукцию внешнего поля; парамагнетики и ферромагнетики — усиливают."
+      "Напряжённость электрического поля и электрическая индукция — векторы. Потенциал электрического поля — скаляр."
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      333,
-      509
-    ]
+      333
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение",
+      "answer": "",
+      "page": 75,
+      "questionImages": [
+        {
+          "file": "media/lms/4489d49ea28dc0427b91eb80.jpg",
+          "width": 791,
+          "height": 271
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f9eb039653f2046ce717659f.jpg",
+          "width": 712,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Укажите правильное соотношение между скалярными и векторными характеристиками электростатического поля. Рассматриваются напряжённость поля, потенциал и поток напряжённости.",
@@ -3346,7 +8312,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       334
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 75,
+      "questionImages": [
+        {
+          "file": "media/lms/4d7e7d50c162a06cdf4e4e02.jpg",
+          "width": 783,
+          "height": 212
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/de11adea46ea1b105ab025a2.jpg",
+          "width": 714,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Запишите закон Кулона в векторной форме.",
@@ -3356,7 +8341,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       335
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 75,
+      "questionImages": [
+        {
+          "file": "media/lms/df9c90ac6d01cf2a7fd4c961.jpg",
+          "width": 251,
+          "height": 133
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d5ddefac78ba683a3e0cf087.jpg",
+          "width": 251,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "В центре сферы радиусом r находится точечный заряд q. Найти поток вектора напряжённости электрического поля через эту сферу.",
@@ -3367,6 +8371,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       336
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 75,
+      "questionImages": [
+        {
+          "file": "media/lms/23fee1dd969855b743e518b2.jpg",
+          "width": 699,
+          "height": 77
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/681be14de260fec3f043c269.jpg",
+          "width": 136,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "Φₑ = q/ε₀.",
       "distractors": [
@@ -3384,7 +8407,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       337
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 117,
+      "questionImages": [
+        {
+          "file": "media/lms/067516f5bb482673c039e6e5.jpg",
+          "width": 582,
+          "height": 42
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d82d5fa0e36abcc1f60f1a13.jpg",
+          "width": 582,
+          "height": 16
+        }
+      ]
+    }
   },
   {
     "question": "Как вектор поляризации P⃗ связан с напряжённостью поля E⃗, если χ — диэлектрическая восприимчивость?",
@@ -3395,6 +8437,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       338
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 76,
+      "questionImages": [
+        {
+          "file": "media/lms/c9fc6a33a26fe44472fd04e6.jpg",
+          "width": 677,
+          "height": 69
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/26346d6402c24451859f552d.jpg",
+          "width": 193,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "P⃗ = ε₀χE⃗.",
       "distractors": [
@@ -3412,7 +8473,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       339
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 76,
+      "questionImages": [
+        {
+          "file": "media/lms/9441c2bb246c3f3686f8f8bd.jpg",
+          "width": 616,
+          "height": 156
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0f96c7d8076542e5ce621ea6.jpg",
+          "width": 165,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Поток вектора напряжённости электрического поля определяется выражением:",
@@ -3422,7 +8502,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       340
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 76,
+      "questionImages": [
+        {
+          "file": "media/lms/c6684d1d1150784fbfebd60e.jpg",
+          "width": 659,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4d78dafc40e2ae26a2dd1c8a.jpg",
+          "width": 217,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Теплота, выделяющаяся при протекании электрического тока, зависит:",
@@ -3432,7 +8531,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       341
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 76,
+      "questionImages": [
+        {
+          "file": "media/lms/d3716e87d397a00b962d8f02.jpg",
+          "width": 551,
+          "height": 218
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/16a218b30193a20e943cc700.jpg",
+          "width": 304,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Работа тока зависит:",
@@ -3442,7 +8560,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       342
-    ]
+    ],
+    "original": {
+      "question": "Работа тока зависит:",
+      "answer": "",
+      "page": 76,
+      "answerImages": [
+        {
+          "file": "media/lms/9918cd0018f3974068ac53a7.jpg",
+          "width": 283,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна напряжённость поля бесконечной равномерно заряженной плоскости с поверхностной плотностью заряда σ?",
@@ -3453,6 +8583,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       343
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 76,
+      "questionImages": [
+        {
+          "file": "media/lms/cf8829100d7572003d5af932.jpg",
+          "width": 478,
+          "height": 229
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/043c395e95fadc5e7288b807.jpg",
+          "width": 278,
+          "height": 57
+        }
+      ]
+    },
     "quiz": {
       "answer": "E = 2πkσ = σ/(2ε₀).",
       "distractors": [
@@ -3470,7 +8619,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       344
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 77,
+      "questionImages": [
+        {
+          "file": "media/lms/ae1767c099a2f759af0414fd.jpg",
+          "width": 796,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d3515993ee97ece14949c2b0.jpg",
+          "width": 126,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Выберите из предложенных электрических полей однородное.",
@@ -3480,7 +8648,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       345
-    ]
+    ],
+    "original": {
+      "question": "Выберите из предложенных электрических полей однородное.",
+      "answer": "",
+      "page": 77,
+      "questionImages": [
+        {
+          "file": "media/lms/a3a57d116fd0dbecf70f31c4.jpg",
+          "width": 660,
+          "height": 243
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/88abf89e9210499605d6b15a.jpg",
+          "width": 615,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "В каком направлении должен быть ориентирован электрический диполь около отрицательного точечного заряда для минимума потенциальной энергии?",
@@ -3490,7 +8677,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       346
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциальная энергия в поле точечного отрицательного заряда минимальна",
+      "answer": "Направление 3, к отрицательному заряду.",
+      "page": 77,
+      "questionImages": [
+        {
+          "file": "media/lms/aa7132c332cf57315f064774.jpg",
+          "width": 732,
+          "height": 417
+        }
+      ]
+    }
   },
   {
     "question": "Линии индукции электрического поля",
@@ -3500,7 +8699,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       347
-    ]
+    ],
+    "original": {
+      "question": "Линии индукции электрического поля",
+      "answer": "Могут начинаться и заканчиваться только на свободных зарядах.",
+      "page": 77
+    }
   },
   {
     "question": "Выберите векторную величину – характеристику электрического поля",
@@ -3510,7 +8714,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       348
-    ]
+    ],
+    "original": {
+      "question": "Выберите векторную величину – характеристику электрического поля",
+      "answer": "",
+      "page": 77,
+      "questionImages": [
+        {
+          "file": "media/lms/8935c025c2ac3d5fdf38c5b3.jpg",
+          "width": 579,
+          "height": 189
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4040eb76fabe2cde70020531.jpg",
+          "width": 330,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна потенциальная энергия взаимодействия двух точечных зарядов q₁ и q₂, находящихся на расстоянии r?",
@@ -3521,6 +8744,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       349
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 78,
+      "questionImages": [
+        {
+          "file": "media/lms/104cfbb603b47b04d837f353.jpg",
+          "width": 579,
+          "height": 77
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5dd1d5e94db6ddf6180bf19e.jpg",
+          "width": 187,
+          "height": 34
+        }
+      ]
+    },
     "quiz": {
       "answer": "W = kq₁q₂/r.",
       "distractors": [
@@ -3538,7 +8780,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       350
-    ]
+    ],
+    "original": {
+      "question": "Как изменится заряд заряженного воздушного конденсатора, если, отключив от источника, погрузить его в жидкий диэлектрик?",
+      "answer": "Не изменится.",
+      "page": 514
+    }
   },
   {
     "question": "Закон Джоуля-Ленца имеет вид",
@@ -3549,6 +8796,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       351
     ],
+    "original": {
+      "question": "Закон Джоуля-Ленца имеет вид",
+      "answer": "",
+      "page": 78,
+      "answerImages": [
+        {
+          "file": "media/lms/1376e9f20528e1049e1f79e6.jpg",
+          "width": 244,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "Q = I²Rt.",
       "distractors": [
@@ -3567,6 +8826,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       352
     ],
+    "original": {
+      "question": "Шесть одинаковых резисторов соединены параллельно. Как изменится сопротивление цепи, если один резистор отключить",
+      "answer": "",
+      "page": 78,
+      "answerImages": [
+        {
+          "file": "media/lms/60fe5933c309e5a0178b4273.jpg",
+          "width": 250,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "Увеличится в 1,2 раза.",
       "distractors": [
@@ -3584,7 +8855,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       353
-    ]
+    ],
+    "original": {
+      "question": "Шесть одинаковых резисторов соединены параллельно. Как изменится сопротивление цепи, если три резистора отключить",
+      "answer": "",
+      "page": 78,
+      "answerImages": [
+        {
+          "file": "media/lms/f6d68c9e1ea88c4fc6028683.jpg",
+          "width": 192,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "В однородном электрическом поле на диполь действует",
@@ -3594,7 +8877,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       354
-    ]
+    ],
+    "original": {
+      "question": "В однородном электрическом поле на диполь действует",
+      "answer": "",
+      "page": 78,
+      "answerImages": [
+        {
+          "file": "media/lms/ed59a5e461faf49378863457.jpg",
+          "width": 395,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Линии электрической индукции перпендикулярны границе двух диэлектриков с ε₁ = 1 и ε₂ = 2. Как сравниваются D₁ и D₂ при отсутствии свободного поверхностного заряда?",
@@ -3604,7 +8899,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       355
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 79,
+      "questionImages": [
+        {
+          "file": "media/lms/b029c4ecbb1b1b3d288bce84.jpg",
+          "width": 722,
+          "height": 65
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0d8888a42412ac0ec7b991ff.jpg",
+          "width": 453,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "При изменении внешнего сопротивления в электрической цепи",
@@ -3614,7 +8928,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       356
-    ]
+    ],
+    "original": {
+      "question": "При изменении внешнего сопротивления в электрической цепи",
+      "answer": "Изменятся ток в цепи и напряжение на клеммах источника. Внутреннее сопротивление источника не изменится.",
+      "page": 79
+    }
   },
   {
     "question": "Радиус шарового проводника и заряд увеличили в 2 раза, диэлектрическую проницаемость окружающей среды уменьшили в 3 раза. Электроёмкость проводника:",
@@ -3625,6 +8944,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       357
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 79,
+      "questionImages": [
+        {
+          "file": "media/lms/f77f38d4944b022648918f1c.jpg",
+          "width": 710,
+          "height": 70
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d83bfb8845ef4c7eebae084f.jpg",
+          "width": 261,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "Уменьшится в 1,5 раза.",
       "distractors": [
@@ -3642,17 +8980,34 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       358
-    ]
+    ],
+    "original": {
+      "question": "На связанных электрических зарядах",
+      "answer": "",
+      "page": 79,
+      "answerImages": [
+        {
+          "file": "media/lms/e09467e4a1171758f316136e.jpg",
+          "width": 740,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Электроемкость заряженного проводника зависит:",
     "answers": [
-      "От размеров проводника, его формы и свойств окружающей среды."
+      "От размеров проводника, его формы и свойств окружающей среды"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       359
-    ]
+    ],
+    "original": {
+      "question": "Электроемкость заряженного проводника зависит:",
+      "answer": "От размеров проводника, его формы и свойств окружающей среды",
+      "page": 79
+    }
   },
   {
     "question": "Электрическим током называется:",
@@ -3663,6 +9018,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       360
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 79,
+      "questionImages": [
+        {
+          "file": "media/lms/4cf490ecce8ffde10c9f92af.jpg",
+          "width": 657,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f290095e578941140607192f.jpg",
+          "width": 657,
+          "height": 39
+        }
+      ]
+    },
     "quiz": {
       "answer": "Упорядоченное направленное движение электрических зарядов.",
       "distractors": [
@@ -3681,6 +9055,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       361
     ],
+    "original": {
+      "question": "Электрический заряд находится в центре сферы радиусом.. Чему равен поток вектора электрической индукции через эту сферу",
+      "answer": "q.",
+      "page": 80,
+      "questionImages": [
+        {
+          "file": "media/lms/40187d067630983181157421.jpg",
+          "width": 810,
+          "height": 268
+        }
+      ]
+    },
     "quiz": {
       "answer": "Φ_D = q.",
       "distractors": [
@@ -3698,7 +9084,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       362
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 80,
+      "questionImages": [
+        {
+          "file": "media/lms/57de0fe557477a848a8a2ba4.jpg",
+          "width": 1009,
+          "height": 80
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c1cb4e58140d17f5c594c832.jpg",
+          "width": 142,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Некоторая область пространства ограничена замкнутой поверхностью. Внутри этой области частично оказался диэлектрик со свободными электрическими зарядами. Поток вектора электрической индукции через эту поверхность равен",
@@ -3708,7 +9113,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       363
-    ]
+    ],
+    "original": {
+      "question": "Некоторая область пространства ограничена замкнутой поверхностью. Внутри этой области частично оказался диэлектрик со свободными электрическими зарядами. Поток вектора электрической индукции через эту поверхность равен",
+      "answer": "",
+      "page": 80,
+      "answerImages": [
+        {
+          "file": "media/lms/d467b657711e9654d0afe143.jpg",
+          "width": 222,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Диполь p⃗ расположен в центре сферы радиуса r. Чему равен поток E⃗ через сферу?",
@@ -3719,6 +9136,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       364
     ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 80,
+      "questionImages": [
+        {
+          "file": "media/lms/adda322e1af0d1aa0a595d51.jpg",
+          "width": 335,
+          "height": 143
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7975c09b760541fd2b8ba955.jpg",
+          "width": 116,
+          "height": 32
+        }
+      ]
+    },
     "quiz": {
       "answer": "0.",
       "distractors": [
@@ -3736,7 +9172,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       365
-    ]
+    ],
+    "original": {
+      "question": "Какое направление имеет вектор напряженности электрического поля, созданного диполем р, расположенным в начале координат",
+      "answer": "",
+      "page": 81,
+      "answerImages": [
+        {
+          "file": "media/lms/8bb384deae99b6c1446cf621.jpg",
+          "width": 89,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ соединены последовательно. Как соотносятся заряды на конденсаторах?",
@@ -3747,6 +9195,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       366
     ],
+    "original": {
+      "question": "",
+      "answer": "Заряд на всех конденсаторах одинаковый",
+      "page": 82,
+      "questionImages": [
+        {
+          "file": "media/lms/8f9a59a98b8fcac13bb2a962.jpg",
+          "width": 934,
+          "height": 241
+        }
+      ]
+    },
     "quiz": {
       "answer": "Заряд одинаков на всех трёх конденсаторах.",
       "distractors": [
@@ -3764,7 +9224,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       367
-    ]
+    ],
+    "original": {
+      "question": "Электроёмкость заряженного проводника не зависит:",
+      "answer": "",
+      "page": 82,
+      "answerImages": [
+        {
+          "file": "media/lms/e43f57b6a9bd49f42d8042e9.jpg",
+          "width": 278,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Из названных ниже электрических полей выберите однородное",
@@ -3774,7 +9246,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       368
-    ]
+    ],
+    "original": {
+      "question": "Из названных ниже электрических полей выберите однородное",
+      "answer": "",
+      "page": 82,
+      "questionImages": [
+        {
+          "file": "media/lms/1b857a583b08cb5c99e1b033.jpg",
+          "width": 493,
+          "height": 208
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/295f05381eb58b06c863c3a5.jpg",
+          "width": 453,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Потенциал электрического поля системы зарядов в некоторой точке пространства",
@@ -3784,7 +9275,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       369
-    ]
+    ],
+    "original": {
+      "question": "Потенциал электрического поля системы зарядов в некоторой точке пространства",
+      "answer": "Равен работе сил поля по переносу единичного положительного заряда из данной точки пространства на бесконечность.",
+      "page": 82
+    }
   },
   {
     "question": "Поток вектора напряжённости р! электрического поля через замкнутую поверхность равен:",
@@ -3794,7 +9290,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       370
-    ]
+    ],
+    "original": {
+      "question": "Поток вектора напряжённости р! электрического поля через замкнутую поверхность равен:",
+      "answer": "",
+      "page": 82,
+      "answerImages": [
+        {
+          "file": "media/lms/1f71e21f4621ed289396aaf1.jpg",
+          "width": 281,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Выберите скалярную величину –характеристику электрического поля",
@@ -3804,7 +9312,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       371
-    ]
+    ],
+    "original": {
+      "question": "Выберите скалярную величину –характеристику электрического поля",
+      "answer": "Потенциал электрического поля.",
+      "page": 89,
+      "questionImages": [
+        {
+          "file": "media/lms/e681c1e5caefc1b23d0ac492.jpg",
+          "width": 669,
+          "height": 229
+        }
+      ]
+    }
   },
   {
     "question": "Поток вектора напряженности электрического поля через замкнутую поверхность",
@@ -3814,7 +9334,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       372
-    ]
+    ],
+    "original": {
+      "question": "Поток вектора напряженности электрического поля через замкнутую поверхность",
+      "answer": "",
+      "page": 83,
+      "answerImages": [
+        {
+          "file": "media/lms/6404ecf82f9c00aff37b0839.jpg",
+          "width": 280,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Электроемкость конденсатора не зависит:",
@@ -3824,7 +9356,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       373
-    ]
+    ],
+    "original": {
+      "question": "Электроемкость конденсатора не зависит:",
+      "answer": "",
+      "page": 100,
+      "answerImages": [
+        {
+          "file": "media/lms/7f9dc7a90e4aa125d72d7144.jpg",
+          "width": 599,
+          "height": 21
+        }
+      ]
+    }
   },
   {
     "question": "Какими свойствами обладает поле электрического диполя",
@@ -3834,7 +9378,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       374
-    ]
+    ],
+    "original": {
+      "question": "Какими свойствами обладает поле электрического диполя",
+      "answer": "",
+      "page": 95,
+      "answerImages": [
+        {
+          "file": "media/lms/81b8fe6a6e8e31a1dff9e92a.jpg",
+          "width": 276,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Диэлектрик с относительной проницаемостью ε = 2 помещён в электростатическое поле с напряжённостью 3 В/м. Найти электрическую индукцию. Принять ε₀ = 8,85·10⁻¹² Ф/м.",
@@ -3844,7 +9400,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       375
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "53,1 пКл/м² по формуле D = ε₀εE. В исходном скриншоте эта строка отмечена крестиком.",
+      "page": 83,
+      "questionImages": [
+        {
+          "file": "media/lms/0db972762a7f3f422ca93171.jpg",
+          "width": 1152,
+          "height": 252
+        }
+      ]
+    }
   },
   {
     "question": "Напишите закон Ома в дифференциальной форме",
@@ -3854,7 +9422,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       376
-    ]
+    ],
+    "original": {
+      "question": "Напишите закон Ома в дифференциальной форме",
+      "answer": "",
+      "page": 84,
+      "answerImages": [
+        {
+          "file": "media/lms/bbb5a08b13b8352aecfef349.jpg",
+          "width": 157,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Закон Ома в дифференциальной форме записывается формулой:",
@@ -3864,7 +9444,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       377
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 84,
+      "questionImages": [
+        {
+          "file": "media/lms/5dd842025880e828a01e3c92.jpg",
+          "width": 471,
+          "height": 49
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/77aec1afa4d8c0d21c3ffa19.jpg",
+          "width": 163,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "В неоднородном электрическом поле на диполь, ориентированный вдоль силовой линии, действует",
@@ -3874,7 +9473,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       378
-    ]
+    ],
+    "original": {
+      "question": "В неоднородном электрическом поле на диполь, ориентированный вдоль силовых линиий,",
+      "answer": "",
+      "page": 84,
+      "answerImages": [
+        {
+          "file": "media/lms/fe57ddb5dd55993a7fd70e59.jpg",
+          "width": 534,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Из названных ниже электрических полей выберите центральное(ые)",
@@ -3884,7 +9495,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       379
-    ]
+    ],
+    "original": {
+      "question": "Из названных ниже электрических полей выберите центральное(ые)",
+      "answer": "",
+      "page": 84,
+      "questionImages": [
+        {
+          "file": "media/lms/a765dd9197d43d58765305c7.jpg",
+          "width": 509,
+          "height": 232
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/69e704aafb8ee0014909f034.jpg",
+          "width": 238,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Некоторая область пространства ограничена замкнутой поверхностью. Поток вектора электрической индукции через эту поверхность",
@@ -3894,7 +9524,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       380
-    ]
+    ],
+    "original": {
+      "question": "Некоторая область пространства ограничена замкнутой поверхностью. Поток вектора электрической индукции через эту поверхность",
+      "answer": "",
+      "page": 84,
+      "answerImages": [
+        {
+          "file": "media/lms/bad27d08a37b86063af2d5ae.jpg",
+          "width": 430,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Из названных ниже электрических полей выберите нецентральное",
@@ -3904,7 +9546,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       381
-    ]
+    ],
+    "original": {
+      "question": "Из названных ниже электрических полей выберите нецентральное",
+      "answer": "Поле точечного диполя.",
+      "page": 84,
+      "questionImages": [
+        {
+          "file": "media/lms/3226ad3604b0106546e1995f.jpg",
+          "width": 643,
+          "height": 501
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ соединены параллельно. Площади обкладок одинаковы. В каком конденсаторе напряжённость поля наибольшая?",
@@ -3914,7 +9568,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       382
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 85,
+      "questionImages": [
+        {
+          "file": "media/lms/68ffef86e1ea465c9cfac34d.jpg",
+          "width": 1142,
+          "height": 363
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/537f235e6fcf6d6b7441de5d.jpg",
+          "width": 129,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряжённости электрического поля идут вдоль границы двух диэлектриков с ε₁ = 1 и ε₂ = 2. Как соотносятся величины E₁ и E₂ вблизи границы?",
@@ -3924,7 +9597,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       383
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 85,
+      "questionImages": [
+        {
+          "file": "media/lms/59659ccf323a8baa95c647da.jpg",
+          "width": 573,
+          "height": 125
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/04bc581f573d621c96f00405.jpg",
+          "width": 342,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряженности электрического поля направлены перпендикулярно границе раздела диэлектриков; 1 €2 2. При этом",
@@ -3934,7 +9626,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       384
-    ]
+    ],
+    "original": {
+      "question": "Линии напряженности электрического поля направлены перпендикулярно границы раздела диэлектриков",
+      "answer": "",
+      "page": 85,
+      "questionImages": [
+        {
+          "file": "media/lms/34967673b198e74283365375.jpg",
+          "width": 652,
+          "height": 72
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d18f2592240341cb7e27a70d.jpg",
+          "width": 464,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ соединены параллельно. На каком заряд наибольший?",
@@ -3944,7 +9655,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       385
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 85,
+      "questionImages": [
+        {
+          "file": "media/lms/dd449e252fc56eac11818508.jpg",
+          "width": 768,
+          "height": 349
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/086d7eee5eb8e2c418181cae.jpg",
+          "width": 116,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "От чего зависит сопротивление однородного проводника?",
@@ -3954,7 +9684,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       386
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 86,
+      "questionImages": [
+        {
+          "file": "media/lms/572935dccf79e8dec025cc43.jpg",
+          "width": 500,
+          "height": 47
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3b1a58170bba543202109544.jpg",
+          "width": 500,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "От чего зависит удельное сопротивление вещества?",
@@ -3964,7 +9713,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       387
-    ]
+    ],
+    "original": {
+      "question": "От чего зависит удельное сопротивление вещества?",
+      "answer": "",
+      "page": 86,
+      "answerImages": [
+        {
+          "file": "media/lms/7d728e1599c732b102ef757e.jpg",
+          "width": 252,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Отчего зависит удельное сопротивление вещества?",
@@ -3974,7 +9735,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       388
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 86,
+      "questionImages": [
+        {
+          "file": "media/lms/ba9f0c266019367c12316431.jpg",
+          "width": 441,
+          "height": 48
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6cf76c9d3225f36149e03510.jpg",
+          "width": 386,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "При переходе линий напряжённости электрического поля через границу раздела диэлектриков:",
@@ -3984,7 +9764,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       389
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 86,
+      "questionImages": [
+        {
+          "file": "media/lms/0f163f6c8b53dd0c3a51c96d.jpg",
+          "width": 633,
+          "height": 283
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1fff274961396b636c2d1da7.jpg",
+          "width": 150,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Диполь расположен в начале координат и ориентирован по +Ox. Каков потенциал в точке 1 на оси Oy на расстоянии r от центра диполя?",
@@ -3994,7 +9793,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       390
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 86,
+      "questionImages": [
+        {
+          "file": "media/lms/0f4926a2fb51e14c00188ef4.jpg",
+          "width": 360,
+          "height": 210
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2a971b4a9c25b12a24c94448.jpg",
+          "width": 125,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "У диполя возможны три ориентации относительно силовой линии E⃗: вдоль, перпендикулярно и навстречу линии. В каком положении энергия минимальна?",
@@ -4004,7 +9822,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       391
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциальная энергия минимальна",
+      "answer": "",
+      "page": 87,
+      "questionImages": [
+        {
+          "file": "media/lms/ba9a818d18ec6ebc050f3afd.jpg",
+          "width": 390,
+          "height": 108
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/da515cd1465076c3c2e800ea.jpg",
+          "width": 334,
+          "height": 12
+        }
+      ]
+    }
   },
   {
     "question": "В каком случае циркуляция вектора напряжённости электростатического поля вдоль замкнутого контура равна нулю?",
@@ -4014,7 +9851,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       392
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Всегда.",
+      "page": 87,
+      "questionImages": [
+        {
+          "file": "media/lms/21891ecb48aa61d8de9b39b7.jpg",
+          "width": 1283,
+          "height": 274
+        }
+      ]
+    }
   },
   {
     "question": "Кроме свободных электрических зарядов в поляризованном диэлектрике возникают поляризационные заряды. На свободных электрических зарядах в диэлектрике",
@@ -4024,7 +9873,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       393
-    ]
+    ],
+    "original": {
+      "question": "Кроме свободных электрических зарядов в поляризованном диэлектрике возникают поляризационные заряды. На свободных электрических зарядах в диэлектрике",
+      "answer": "",
+      "page": 87,
+      "answerImages": [
+        {
+          "file": "media/lms/ce6b294bbce19859408cf2b5.jpg",
+          "width": 685,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Кроме свободных электрических зарядов в поляризованном диэлектрике возникают связанные поляризационные заряды. На этих связанных электрических зарядах",
@@ -4034,7 +9895,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       394
-    ]
+    ],
+    "original": {
+      "question": "Кроме свободных электрических зарядов в поляризованном диэлектрике возникают поляризационные заряды. На свободных электрических зарядах в диэлектрике",
+      "answer": "",
+      "page": 87,
+      "answerImages": [
+        {
+          "file": "media/lms/0ca7a02cd54ed4c052a2ee0f.jpg",
+          "width": 579,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "На свободных электрических зарядах в диэлектрике",
@@ -4044,7 +9917,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       395
-    ]
+    ],
+    "original": {
+      "question": "На свободных электрических зарядах в диэлектрике",
+      "answer": "Начинаются и заканчиваются линии напряжённости и линии индукции электрического поля.",
+      "page": 87
+    }
   },
   {
     "question": "Согласно принципу суперпозиции в электростатике",
@@ -4054,7 +9932,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       396
-    ]
+    ],
+    "original": {
+      "question": "Согласно принципу суперпозиции в электростатике",
+      "answer": "",
+      "page": 87,
+      "answerImages": [
+        {
+          "file": "media/lms/b203088ab29d32d5448d8432.jpg",
+          "width": 847,
+          "height": 21
+        }
+      ]
+    }
   },
   {
     "question": "Поток вектора индукции электрического поля через замкнутую поверхность:",
@@ -4064,7 +9954,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       397
-    ]
+    ],
+    "original": {
+      "question": "Поток вектора индукции электрического поля через замкнутую поверхность:",
+      "answer": "",
+      "page": 88,
+      "answerImages": [
+        {
+          "file": "media/lms/b89b9ae3257e2d9878f11135.jpg",
+          "width": 431,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "На границе раздела диэлектриков",
@@ -4074,7 +9976,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       398
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 88,
+      "questionImages": [
+        {
+          "file": "media/lms/11e35cc291998dd487f71c82.jpg",
+          "width": 729,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/27d3531e6792ec173172dc1f.jpg",
+          "width": 445,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Электрическая емкость С батареи двух параллельно соединенных конденсаторов:",
@@ -4084,7 +10005,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       399
-    ]
+    ],
+    "original": {
+      "question": "Электрическая емкость С батареи двух параллельно соединенных конденсаторов:",
+      "answer": "",
+      "page": 88,
+      "answerImages": [
+        {
+          "file": "media/lms/871f677a410c859f141c68d3.jpg",
+          "width": 201,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Электрическая емкость С батареи двух последовательно соединенных конденсаторов:",
@@ -4094,7 +10027,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       400
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 88,
+      "questionImages": [
+        {
+          "file": "media/lms/511068fba3aae6de9a17b93c.jpg",
+          "width": 485,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fb9e777e9f8db65fdfb0ac2c.jpg",
+          "width": 136,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Запишите формулу электроёмкости плоского конденсатора. S — площадь обкладки, d — расстояние между обкладками.",
@@ -4104,7 +10056,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       401
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 88,
+      "questionImages": [
+        {
+          "file": "media/lms/490bf7983b0b1029ecd37ff9.jpg",
+          "width": 1106,
+          "height": 89
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4513fb8819fc2fffda92cbbf.jpg",
+          "width": 210,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "На границе раздела диэлектриков возникают поляризованные заряды. Их возникновение связано с",
@@ -4114,7 +10085,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       402
-    ]
+    ],
+    "original": {
+      "question": "На границе раздела диэлектриков возникают поляризованные заряды. Их возникновение связано с",
+      "answer": "",
+      "page": 88,
+      "answerImages": [
+        {
+          "file": "media/lms/d6eef2a10048f6feadaa3a91.jpg",
+          "width": 570,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Напряжённость радиального поля Eᵣ = −A/r³, где A — константа. Какой потенциал задаёт это поле?",
@@ -4124,7 +10107,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       403
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "φ = −A/(2r²), если нуль потенциала выбран на бесконечности.",
+      "page": 89,
+      "questionImages": [
+        {
+          "file": "media/lms/08fbf6dad096d01b529db708.jpg",
+          "width": 1091,
+          "height": 267
+        }
+      ]
+    }
   },
   {
     "question": "О чём свидетельствует теорема о циркуляции вектора напряженности электростатического поля?",
@@ -4134,7 +10129,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       404
-    ]
+    ],
+    "original": {
+      "question": "(о чем свидетельствует) Теорема о циркуляции вектора напряженности электростатического поля",
+      "answer": "",
+      "page": 89,
+      "answerImages": [
+        {
+          "file": "media/lms/180f421e2325b3a0d0a5cd6f.jpg",
+          "width": 310,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна напряженность поля электрического диполя с дипольным моментом 3 мкКл-м на расстоянии 3 м от него на продолжении оси? Для вычислений использовать Gays 8,85:10 /m.",
@@ -4144,7 +10151,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       405
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 89,
+      "questionImages": [
+        {
+          "file": "media/lms/a3207baae2169a8c8c17a0f7.jpg",
+          "width": 1137,
+          "height": 93
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6df046c760f60be063a73831.jpg",
+          "width": 190,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Конденсаторы C₁ = 100 мкФ, C₂ = 5 мкФ и C₃ = 25 мкФ соединены последовательно. Площади обкладок одинаковы. На каком конденсаторе напряжение наибольшее?",
@@ -4154,7 +10180,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       406
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 89,
+      "questionImages": [
+        {
+          "file": "media/lms/fad301ec90e541d5808afd6d.jpg",
+          "width": 1101,
+          "height": 98
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d3e4a6c2307489b59db25918.jpg",
+          "width": 141,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 100 мкФ, C₂ = 5 мкФ и C₃ = 25 мкФ соединены последовательно. Площади обкладок одинаковы. В каком конденсаторе напряжённость поля наибольшая?",
@@ -4164,7 +10209,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       407
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 89,
+      "questionImages": [
+        {
+          "file": "media/lms/6970fd94ef0fa04cc91aeacc.jpg",
+          "width": 1081,
+          "height": 90
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5136ed78b1b69dbe905983d2.jpg",
+          "width": 707,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 100 мкФ, C₂ = 5 мкФ и C₃ = 25 мкФ соединены последовательно. На каком заряд наибольший?",
@@ -4174,7 +10238,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       408
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 90,
+      "questionImages": [
+        {
+          "file": "media/lms/96aec77fafd1eb6248c56f0c.jpg",
+          "width": 774,
+          "height": 55
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d54893881f6bceaa32b1cdbb.jpg",
+          "width": 281,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Что является источником стационарного электрического поля?",
@@ -4184,7 +10267,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       409
-    ]
+    ],
+    "original": {
+      "question": "Что является источником стационарного электрического поля?",
+      "answer": "",
+      "page": 90,
+      "answerImages": [
+        {
+          "file": "media/lms/3b4140b8dc6f30874d77bb5e.jpg",
+          "width": 326,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Найти величину напряжённости поля бесконечной равномерно заряженной нити с линейной плотностью заряда τ. Используйте k = 9·10⁹ Н·м²/Кл².",
@@ -4194,7 +10289,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       410
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "E = 2kτ/r.",
+      "page": 90,
+      "questionImages": [
+        {
+          "file": "media/lms/6430a09c012cad99b0954017.jpg",
+          "width": 548,
+          "height": 93
+        }
+      ]
+    }
   },
   {
     "question": "Мощность постоянного тока не зависит от:",
@@ -4204,7 +10311,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       411
-    ]
+    ],
+    "original": {
+      "question": "Мощность постоянного тока не зависит от:",
+      "answer": "",
+      "page": 90,
+      "answerImages": [
+        {
+          "file": "media/lms/15a802a98b4dd5a6391f34fa.jpg",
+          "width": 169,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Два одинаковых металлических шарика с зарядами 1 и 5 мкКл привели в соприкосновение и развели на расстояние, втрое большее начального. Найти отношение начальной силы кулоновского взаимодействия шариков к конечной",
@@ -4214,7 +10333,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       412
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 90,
+      "questionImages": [
+        {
+          "file": "media/lms/a67c33a937148b7e93b5e276.jpg",
+          "width": 556,
+          "height": 105
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7d01cdbe8a7d273ee2b97d3b.jpg",
+          "width": 102,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Сила взаимодействия пары электрических зарядов:",
@@ -4224,7 +10362,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       413
-    ]
+    ],
+    "original": {
+      "question": "Сила взаимодействия пары электрических зарядов:",
+      "answer": "",
+      "page": 91,
+      "answerImages": [
+        {
+          "file": "media/lms/4b3e2cb0809ba88ddbc201ed.jpg",
+          "width": 281,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Напряжённость электрического поля Е внутри равномерно заряженной сферы радиуса R на расстоянии г oT ee центра равна:",
@@ -4234,7 +10384,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       414
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 91,
+      "questionImages": [
+        {
+          "file": "media/lms/8a8ecfb693046d4c6f6feb01.jpg",
+          "width": 541,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a5d4d313355e48058d16dd8e.jpg",
+          "width": 142,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится энергия заряженного воздушного конденсатора, если отключив от источника, погрузить его в жидкий диэлектрик",
@@ -4244,7 +10413,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       415
-    ]
+    ],
+    "original": {
+      "question": "Как изменится энергия заряженного воздушного конденсатора, если отключив от источника, погрузить его в жидкий диэлектрик",
+      "answer": "",
+      "page": 91,
+      "answerImages": [
+        {
+          "file": "media/lms/6b18a0cfc76f76ed17a48098.jpg",
+          "width": 154,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Конденсаторы C₁ = 2 мкФ, C₂ = 6 мкФ и C₃ = 8 мкФ параллельно подключили к источнику. Какой из них обладает наибольшей энергией?",
@@ -4254,7 +10435,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       416
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 91,
+      "questionImages": [
+        {
+          "file": "media/lms/7d0349c06819e1745ec19c26.jpg",
+          "width": 570,
+          "height": 81
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8765d974dc2ce5e3abd4b3cd.jpg",
+          "width": 103,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Точечный заряд создает вокруг себя поле, потенциал которого",
@@ -4264,7 +10464,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       417
-    ]
+    ],
+    "original": {
+      "question": "Точечный заряд создает вокруг себя поле, потенциал которого",
+      "answer": "",
+      "page": 91,
+      "answerImages": [
+        {
+          "file": "media/lms/170e6d812c296d0130932055.jpg",
+          "width": 553,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна величина напряжённости поля точечного заряда q на расстоянии r?",
@@ -4274,7 +10486,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       418
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 92,
+      "questionImages": [
+        {
+          "file": "media/lms/2da4fe6111e4a8b2edd471c0.jpg",
+          "width": 579,
+          "height": 89
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b31ecdf12c3099adc5f0c171.jpg",
+          "width": 143,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "В центре сферы радиусом r находится точечный диполь с электрическим моментом p⃗. Найти поток E⃗ через эту сферу.",
@@ -4284,7 +10515,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       419
-    ]
+    ],
+    "original": {
+      "question": "В центре сферы радиусом г находится точечный диполь с электрическим моментом р. Найти поток вектора напряженности электрического поля через эту сферу:",
+      "answer": "",
+      "page": 92,
+      "answerImages": [
+        {
+          "file": "media/lms/0252ced25d2bbe6f3674d338.jpg",
+          "width": 120,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Точечный заряд создает напряженность электрического поля",
@@ -4294,7 +10537,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       420
-    ]
+    ],
+    "original": {
+      "question": "Точечный заряд создает напряженность электрического поля",
+      "answer": "",
+      "page": 92,
+      "answerImages": [
+        {
+          "file": "media/lms/a74f78e1a6ea5e09e35ffb35.jpg",
+          "width": 194,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "В каком положении диполя его потенциальная энергия максимальна?",
@@ -4304,7 +10559,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       421
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциальная энергия максимальна?",
+      "answer": "Когда диполь ориентирован навстречу силовой линии.",
+      "page": 92,
+      "questionImages": [
+        {
+          "file": "media/lms/1f1a362716e39d28f162d912.jpg",
+          "width": 477,
+          "height": 166
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряженности электрического поля в диэлектрике",
@@ -4314,7 +10581,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       422
-    ]
+    ],
+    "original": {
+      "question": "Линии напряженности электрического поля в диэлектрике",
+      "answer": "",
+      "page": 92,
+      "answerImages": [
+        {
+          "file": "media/lms/f545ff06af9b68370efe8988.jpg",
+          "width": 775,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Эквипотенциальная поверхность электростатического поля:",
@@ -4324,7 +10603,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       423
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 93,
+      "questionImages": [
+        {
+          "file": "media/lms/4e256c06898dbb16f5029427.jpg",
+          "width": 513,
+          "height": 48
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a2235c279cf95060222c30e8.jpg",
+          "width": 379,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Связь потенциала с напряжённостью электрического поля;",
@@ -4334,7 +10632,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       424
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 94,
+      "questionImages": [
+        {
+          "file": "media/lms/13af4c9bba6f87abdf73354f.jpg",
+          "width": 491,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/bc3bc2ee9e2f149f7f393d35.jpg",
+          "width": 183,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Как должен быть ориентирован электрический диполь относительно эквипотенциальной поверхности и направления поля, чтобы его потенциальная энергия была максимальной?",
@@ -4344,7 +10661,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       425
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциальная энергия максимальна",
+      "answer": "",
+      "page": 94,
+      "answerImages": [
+        {
+          "file": "media/lms/10df4e42a71ef785dfb52901.jpg",
+          "width": 537,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Как будет вести себя электрический диполь в поле отрицательного точечного заряда",
@@ -4354,7 +10683,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       426
-    ]
+    ],
+    "original": {
+      "question": "Как будет вести себя электрический диполь в поле отрицательного точечного заряда",
+      "answer": "",
+      "page": 95,
+      "answerImages": [
+        {
+          "file": "media/lms/cf7278698f477717e7ecbc88.jpg",
+          "width": 391,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Поверхностная плотность связанных зарядов, возникающих в диэлектрике под действие внешнего электрического поля",
@@ -4364,7 +10705,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       427
-    ]
+    ],
+    "original": {
+      "question": "Поверхностная плотность связанных зарядов, возникающих в диэлектрике под действие внешнего электрического поля",
+      "answer": "Зависит от напряжённости поля и диэлектрической восприимчивости.",
+      "page": 95,
+      "questionImages": [
+        {
+          "file": "media/lms/8b5c41f72e396aa6c7d921a3.jpg",
+          "width": 549,
+          "height": 153
+        }
+      ]
+    }
   },
   {
     "question": "Два электрических заряда отталкиваются друг от друга, если...",
@@ -4374,7 +10727,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       428
-    ]
+    ],
+    "original": {
+      "question": "Два электрических заряда отталкиваются друг от друга, если...",
+      "answer": "",
+      "page": 95,
+      "answerImages": [
+        {
+          "file": "media/lms/fca99dfa14a4297e77cbd3c5.jpg",
+          "width": 291,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Как будут вести себя два электрических диполя, находящиеся на оси (ох), ориентированные друг навстречу другу?",
@@ -4384,7 +10749,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       429
-    ]
+    ],
+    "original": {
+      "question": "Как будут вести себя два электрических диполя, находящиеся на оси (ох), ориентированные друг навстречу другу?",
+      "answer": "",
+      "page": 95,
+      "answerImages": [
+        {
+          "file": "media/lms/3d56a79389911ffb7b470478.jpg",
+          "width": 530,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится ёмкость воздушного конденсатора, если погрузить его в жидкий диэлектрик с ε > 1, сохраняя подключение к источнику?",
@@ -4394,7 +10771,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       430
-    ]
+    ],
+    "original": {
+      "question": "Как изменится электроемкость заряженного воздушного конденсатора, если, не отключая от источника, погрузить его в жидкий диэлектрик?",
+      "answer": "",
+      "page": 96,
+      "questionImages": [
+        {
+          "file": "media/lms/0c69bd611a4d3a2f37462dfa.jpg",
+          "width": 637,
+          "height": 73
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cef688f711b6dbe12ddff94c.jpg",
+          "width": 163,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Для силы постоянного тока справедлива формула (в ней 4 - заряд; t - время; R - сопротивление):",
@@ -4404,27 +10800,56 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       431
-    ]
+    ],
+    "original": {
+      "question": "Для силы постоянного тока справедлива формула (в ней q - заряд; t - время; R - сопротивление):",
+      "answer": "",
+      "page": 96,
+      "questionImages": [
+        {
+          "file": "media/lms/1bc4222757ed24bd74b0800e.jpg",
+          "width": 925,
+          "height": 76
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/428bce96e259fe1cffad774a.jpg",
+          "width": 172,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Некоторая область пространства ограничена замкнутой поверхностью. Поток вектора напряженности электрического поля через эту поверхность",
     "answers": [
-      "Является скалярной величиной."
+      "Является скалярной величиной"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       432
-    ]
+    ],
+    "original": {
+      "question": "Некоторая область пространства ограничена замкнутой поверхностью. Поток вектора напряженности электрического поля через эту поверхность",
+      "answer": "Является скалярной величиной",
+      "page": 96
+    }
   },
   {
     "question": "Как изменится напряжение заряженного воздушного конденсатора, если отключив его от источника, погрузить в жидкий диэлектрик?",
     "answers": [
-      "Уменьшится."
+      "Уменьшится"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       433
-    ]
+    ],
+    "original": {
+      "question": "Как изменится напряжение заряженного воздушного конденсатора, если отключив его от источника, погрузить в жидкий диэлектрик?",
+      "answer": "Уменьшится",
+      "page": 96
+    }
   },
   {
     "question": "Из приведенных ниже величин, характеризующих электрическое поле и его источники, выберите ту, которая не является вектором. (скаляром)",
@@ -4434,7 +10859,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       434
-    ]
+    ],
+    "original": {
+      "question": "Из приведенных ниже величин, характеризующих электрическое поле и его источники, выберите ту, которая не является вектором. (скаляром)",
+      "answer": "",
+      "page": 96,
+      "questionImages": [
+        {
+          "file": "media/lms/80efc720a68fd6f582bf4e74.jpg",
+          "width": 1143,
+          "height": 288
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ac4361d9744ce227decbfaf6.jpg",
+          "width": 534,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна величина напряжённости E поля положительного точечного заряда q на расстоянии r?",
@@ -4444,7 +10888,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       435
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 97,
+      "questionImages": [
+        {
+          "file": "media/lms/9c08c5ef2d0e6467bbe341bb.jpg",
+          "width": 1032,
+          "height": 66
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cc7814dcfb99f156c7da1e7c.jpg",
+          "width": 238,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Три конденсатора C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ соединены последовательно. На каком напряжение наибольшее?",
@@ -4454,7 +10917,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       436
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 97,
+      "questionImages": [
+        {
+          "file": "media/lms/ed26f8d40fd2b12abd58186b.jpg",
+          "width": 1105,
+          "height": 326
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3182152701c7419eac93edd2.jpg",
+          "width": 131,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Из сформулированных ниже утверждений выберите правильное",
@@ -4464,7 +10946,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       437
-    ]
+    ],
+    "original": {
+      "question": "Из сформулированных ниже утверждений выбереите правильное",
+      "answer": "Скалярами",
+      "page": 97,
+      "questionImages": [
+        {
+          "file": "media/lms/8f8ffa7286e716254fbf84ba.jpg",
+          "width": 1106,
+          "height": 274
+        }
+      ]
+    }
   },
   {
     "question": "Электроёмкость конденсатора зависит.",
@@ -4474,17 +10968,39 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       438
-    ]
+    ],
+    "original": {
+      "question": "Электроёмкость конденсатора зависит.",
+      "answer": "",
+      "page": 97,
+      "answerImages": [
+        {
+          "file": "media/lms/1c3e5c2a5e536f438f112681.jpg",
+          "width": 394,
+          "height": 25
+        },
+        {
+          "file": "media/lms/69ded2b8226b65a9a7f6c973.jpg",
+          "width": 375,
+          "height": 50
+        }
+      ]
+    }
   },
   {
-    "question": "Какое из предложенных электрических полей можно считать однородным",
+    "question": "Какое из предложенных электрических полей можно считать однородным ( из названных ниже …",
     "answers": [
-      "Поле между обкладками плоского конденсатора."
+      "Поле между обкладками плоского конденсатора"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       439
-    ]
+    ],
+    "original": {
+      "question": "Какое из предложенных электрических полей можно считать однородным ( из названных ниже …",
+      "answer": "Поле между обкладками плоского конденсатора",
+      "page": 98
+    }
   },
   {
     "question": "Энергия системы точечных зарядов имеет вид:",
@@ -4494,7 +11010,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       440
-    ]
+    ],
+    "original": {
+      "question": "Энергия системы точечных зарядов имеет вид:",
+      "answer": "",
+      "page": 98,
+      "answerImages": [
+        {
+          "file": "media/lms/a872cc0b4f2644d5d1b0a190.jpg",
+          "width": 300,
+          "height": 41
+        }
+      ]
+    }
   },
   {
     "question": "Выберите не векторную величину – характеристику электрического поля",
@@ -4504,7 +11032,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       441
-    ]
+    ],
+    "original": {
+      "question": "Выберите не векторную величину – характеристику электрического поля",
+      "answer": "Поток вектора напряженности электрического поля",
+      "page": 98,
+      "questionImages": [
+        {
+          "file": "media/lms/7deb06ef4a2de5b0392871e8.jpg",
+          "width": 700,
+          "height": 235
+        }
+      ]
+    }
   },
   {
     "question": "Закон Ома для неоднородного участка цепи",
@@ -4514,7 +11054,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       442
-    ]
+    ],
+    "original": {
+      "question": "Закон Ома для неоднородного участка цепи",
+      "answer": "",
+      "page": 98,
+      "answerImages": [
+        {
+          "file": "media/lms/38628cff57886ea542ea6766.jpg",
+          "width": 255,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится мощность, потребляемая электрической лампой, если, не изменяя её электрическое сопротивление, уменьшить напряжение на ней в 3 раза?",
@@ -4524,7 +11076,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       443
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 98,
+      "questionImages": [
+        {
+          "file": "media/lms/f7e1549daa8a18a39dae69a4.jpg",
+          "width": 1110,
+          "height": 84
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a9ef12d9bea2ff7085459a03.jpg",
+          "width": 283,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Запишите выражение для потенциала электрического поля точечного заряда в вакууме.",
@@ -4534,7 +11105,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       444
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 99,
+      "questionImages": [
+        {
+          "file": "media/lms/58d40c33773a6b836d60fbac.jpg",
+          "width": 688,
+          "height": 95
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4fdc943f56bfd6a97e6cc42f.jpg",
+          "width": 186,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является вектором",
@@ -4544,7 +11134,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       445
-    ]
+    ],
+    "original": {
+      "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является вектором",
+      "answer": "Градиент потенциала электрического поля",
+      "page": 99,
+      "questionImages": [
+        {
+          "file": "media/lms/ff2647d2d5ad7b4d3a946f45.jpg",
+          "width": 781,
+          "height": 235
+        }
+      ]
+    }
   },
   {
     "question": "Работа постоянного тока определяется выражением:",
@@ -4554,7 +11156,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       446
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 99,
+      "questionImages": [
+        {
+          "file": "media/lms/4f8d0cb9535f551e904482fa.jpg",
+          "width": 414,
+          "height": 46
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/eda5dc9644aaf4985d828987.jpg",
+          "width": 174,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "В каком из положений потенциальная энергия диполя максимальна: 1 — вдоль силовой линии, 2 — перпендикулярно, 3 — навстречу?",
@@ -4564,7 +11185,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       447
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциаьная энергия максимальна?",
+      "answer": "",
+      "page": 99,
+      "questionImages": [
+        {
+          "file": "media/lms/287bd55e1737f0277cc28e39.jpg",
+          "width": 532,
+          "height": 165
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/244ac8d3244dab71458a2b64.jpg",
+          "width": 467,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Потенциальная энергия взаимодействия точечных заряов равна:",
@@ -4574,7 +11214,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       448
-    ]
+    ],
+    "original": {
+      "question": "Потенциальная энергия взаимодействия точечных заряов равна:",
+      "answer": "",
+      "page": 100,
+      "answerImages": [
+        {
+          "file": "media/lms/8e71c361b1135a4544e1f8f9.jpg",
+          "width": 204,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Плотность тока в медном проводнике равна 3 А/мм². Удельное сопротивление равно 17 нОм·м. Найдите напряжённость электрического поля.",
@@ -4584,7 +11236,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       449
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 100,
+      "questionImages": [
+        {
+          "file": "media/lms/d3c8506c08362924df6af184.jpg",
+          "width": 1076,
+          "height": 97
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3d849f0ec52262f55e14727b.jpg",
+          "width": 190,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Сила взаимодействия точечных зарядов равна:",
@@ -4594,7 +11265,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       450
-    ]
+    ],
+    "original": {
+      "question": "Сила взаимодействия точечных зарядов равна:",
+      "answer": "",
+      "page": 100,
+      "answerImages": [
+        {
+          "file": "media/lms/308407bc012b0a4f9425ae78.jpg",
+          "width": 208,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "При переходе линий индукции электрического поля через границу раздела диэлектрикое рр о о",
@@ -4604,7 +11287,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       451
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 101,
+      "questionImages": [
+        {
+          "file": "media/lms/6c61a6490b1e3608fdd79700.jpg",
+          "width": 582,
+          "height": 280
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e3a0cdb5a08843d0004e69f8.jpg",
+          "width": 155,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Дипольный момент p⃗ направлен вдоль +Ox. Точка 2 находится на расстоянии r от центра диполя, направление к точке составляет угол θ с +Ox. Каков потенциал поля в точке 2?",
@@ -4614,7 +11316,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       452
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 101,
+      "questionImages": [
+        {
+          "file": "media/lms/6bb98efe1c8a4071d564a477.jpg",
+          "width": 324,
+          "height": 192
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cae7021e3f192c1fa6038cca.jpg",
+          "width": 131,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Из приведённых ниже величин, характеризующих электрическое поле и его источники, выберите ту, которая является вектором.",
@@ -4624,7 +11345,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       453
-    ]
+    ],
+    "original": {
+      "question": "Из приведённых ниже величин, характеризующих электрическое поле и его источники, выберите ту, которая является вектором.",
+      "answer": "Электрический дипольный момент.",
+      "page": 101,
+      "questionImages": [
+        {
+          "file": "media/lms/4f89affce2e7aef308063259.jpg",
+          "width": 334,
+          "height": 312
+        }
+      ]
+    }
   },
   {
     "question": "Из приведённых ниже величин, характеризующих источники электрического поля, выберите ту, которая является вектором",
@@ -4634,7 +11367,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       454
-    ]
+    ],
+    "original": {
+      "question": "Из приведенных ниже величин, характеризующих электрическое поле и его источники, выберите ту, которая является вектором",
+      "answer": "Дипольный момент",
+      "page": 101,
+      "questionImages": [
+        {
+          "file": "media/lms/dfe4c7b0a662c90d7121e55d.jpg",
+          "width": 723,
+          "height": 465
+        }
+      ]
+    }
   },
   {
     "question": "Точечные заряды +q и +2q расположены на оси Ox в точках x = −1 м и x = +1 м соответственно. На каком участке оси напряжённость поля равна нулю?",
@@ -4644,7 +11389,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       455
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 103,
+      "questionImages": [
+        {
+          "file": "media/lms/398582278a1ca19674faa739.jpg",
+          "width": 733,
+          "height": 144
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/268d7fa7e3cd2c408f37bbeb.jpg",
+          "width": 135,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Точечные заряды −q и +2q расположены на оси Ox в точках x = −1 м и x = +1 м соответственно. На каком участке оси напряжённость поля равна нулю?",
@@ -4654,7 +11418,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       456
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 103,
+      "questionImages": [
+        {
+          "file": "media/lms/c92c72e1f66d6e1e035b6914.jpg",
+          "width": 892,
+          "height": 137
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b8b2d8eb247870abb2dfaa81.jpg",
+          "width": 160,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Два точечных заряда −q и +q находятся на оси Ox в точках x = −1 м и x = +1 м соответственно. В какой точке оси напряжённость поля равна нулю?",
@@ -4664,7 +11447,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       457
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 103,
+      "questionImages": [
+        {
+          "file": "media/lms/f0fafdc815de9df126eb4814.jpg",
+          "width": 1132,
+          "height": 203
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c5f4f8f420cdab081345394f.jpg",
+          "width": 234,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Точечные заряды +q и −2q расположены на оси Ox в точках x = −1 м и x = +1 м соответственно. На каком участке оси напряжённость поля равна нулю?",
@@ -4673,9 +11475,27 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      458,
-      794
-    ]
+      458
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 103,
+      "questionImages": [
+        {
+          "file": "media/lms/fe8aedf0deea581c93153429.jpg",
+          "width": 803,
+          "height": 235
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/de066b076b37a59008f85b32.jpg",
+          "width": 138,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Два точечных заряда −q и +q находятся на оси Ox в точках x = −1 м и x = +1 м соответственно. В какой точке оси потенциал поля равен нулю?",
@@ -4685,7 +11505,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       459
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 104,
+      "questionImages": [
+        {
+          "file": "media/lms/9163da7d855634497270a4c4.jpg",
+          "width": 795,
+          "height": 169
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/800f54fc582776a9577440b1.jpg",
+          "width": 111,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Точечные заряды −q и +2q расположены на оси Ox в точках x = −1 м и x = +1 м соответственно. На каких двух участках оси потенциал поля равен нулю?",
@@ -4695,7 +11534,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       460
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 104,
+      "questionImages": [
+        {
+          "file": "media/lms/ed2cb4039c87362c7e575739.jpg",
+          "width": 1054,
+          "height": 181
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/96f93debc6a4158693f840b8.jpg",
+          "width": 179,
+          "height": 57
+        }
+      ]
+    }
   },
   {
     "question": "Два точечных заряда −2q и +q находятся на оси Ox в точках x = −1 м и x = +1 м соответственно. На каких двух участках оси потенциал поля равен нулю?",
@@ -4705,7 +11563,31 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       461
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 104,
+      "questionImages": [
+        {
+          "file": "media/lms/5e9ecd5d064727f87d369c0e.jpg",
+          "width": 1131,
+          "height": 200
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f08c6f9fccbb7ff861004334.jpg",
+          "width": 177,
+          "height": 40
+        },
+        {
+          "file": "media/lms/f2467186d14da164d5ccda73.jpg",
+          "width": 164,
+          "height": 40
+        }
+      ]
+    }
   },
   {
     "question": "Два положительных точечных заряда 1 нКл и 2 нКл находятся на расстоянии 2 м друг от друга. Найти величину напряжённости поля в середине отрезка между ними.",
@@ -4715,7 +11597,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       462
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "9 В/м.",
+      "page": 105,
+      "questionImages": [
+        {
+          "file": "media/lms/595d77957e078c83786e2c57.jpg",
+          "width": 693,
+          "height": 289
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₂. Внутри S₂ находятся q₁, q₂, q₄. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4725,7 +11619,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       463
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 106,
+      "questionImages": [
+        {
+          "file": "media/lms/0072549a0b7abda61b1ece7b.jpg",
+          "width": 976,
+          "height": 651
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0bdbfd2c69a3dde73adfec8b.jpg",
+          "width": 126,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₁, q₃, q₄. Внутри S₂ находятся q₃, q₄. Внутри S₃ находятся q₃. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4735,7 +11648,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       464
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 106,
+      "questionImages": [
+        {
+          "file": "media/lms/149fc63a1187a42acf07755f.jpg",
+          "width": 731,
+          "height": 479
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/064dc901b93ded5f5ad500fe.jpg",
+          "width": 115,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃, q₅. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4745,7 +11677,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       465
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 107,
+      "questionImages": [
+        {
+          "file": "media/lms/e4d9e6888f08c4239b021c7e.jpg",
+          "width": 984,
+          "height": 653
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d9d1bf9a6925885cb9139800.jpg",
+          "width": 141,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₂, q₃. Внутри S₂ находятся q₂, q₃, q₄, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4755,7 +11706,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       466
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 107,
+      "questionImages": [
+        {
+          "file": "media/lms/e94a14cedba90dbfeb943c90.jpg",
+          "width": 982,
+          "height": 649
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9b150fe6f55eb30a1fc1eb2d.jpg",
+          "width": 135,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₂. Внутри S₂ находятся q₁, q₂. Внутри S₃ находятся q₁, q₂, q₄. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4765,7 +11735,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       467
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 108,
+      "questionImages": [
+        {
+          "file": "media/lms/fc13b98c66dcc7afca00cc2e.jpg",
+          "width": 1013,
+          "height": 667
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0b6bdb4299f294d1b36929e6.jpg",
+          "width": 134,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₁, q₃. Внутри S₂ находятся q₁, q₃, q₄, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4775,7 +11764,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       468
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 108,
+      "questionImages": [
+        {
+          "file": "media/lms/f7eed9553d4ad4f5a1fd3763.jpg",
+          "width": 817,
+          "height": 528
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/12887c87c35b4c6bfb60fae3.jpg",
+          "width": 119,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₂, q₃. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4785,7 +11793,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       469
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 109,
+      "questionImages": [
+        {
+          "file": "media/lms/ab532ed355c13733a23771cd.jpg",
+          "width": 975,
+          "height": 652
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f83efc818a328f1e646c5aae.jpg",
+          "width": 129,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃, q₅. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4794,9 +11821,27 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      470,
-      795
-    ]
+      470
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 109,
+      "questionImages": [
+        {
+          "file": "media/lms/9b6a21f455af5bfd536046a8.jpg",
+          "width": 635,
+          "height": 418
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1211ebc30f36864ce7704073.jpg",
+          "width": 83,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₁, q₃, q₄, q₅. Внутри S₂ находятся q₃, q₄. Внутри S₃ находятся q₃. Через какую поверхность поток вектора E⃗ максимален по модулю?",
@@ -4806,7 +11851,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       471
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 110,
+      "questionImages": [
+        {
+          "file": "media/lms/a17bf569748f730ec64b245b.jpg",
+          "width": 984,
+          "height": 653
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f9cdf2d5a22293f06becc402.jpg",
+          "width": 126,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃, q₅. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ равен нулю?",
@@ -4815,9 +11879,56 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      472,
+      472
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 111,
+      "questionImages": [
+        {
+          "file": "media/lms/19b40db4c39f9150b8d28c92.jpg",
+          "width": 825,
+          "height": 707
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a19b3a3615a284024d280ae8.jpg",
+          "width": 97,
+          "height": 31
+        }
+      ]
+    }
+  },
+  {
+    "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃, q₅. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ равен нулю?",
+    "answers": [
+      "S₂."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
       473
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 111,
+      "questionImages": [
+        {
+          "file": "media/lms/8b8676ddea65303193730cfb.jpg",
+          "width": 776,
+          "height": 521
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/76e2062954d40677a250b683.jpg",
+          "width": 776,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₅. Через какую поверхность поток вектора E⃗ равен нулю?",
@@ -4827,7 +11938,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       474
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 112,
+      "questionImages": [
+        {
+          "file": "media/lms/5342ef72d316bf38b63362fb.jpg",
+          "width": 998,
+          "height": 658
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/302312255246b3e598151eeb.jpg",
+          "width": 142,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₁, q₃, q₄. Внутри S₂ находятся q₃, q₄. Внутри S₃ находятся q₃. Через какую поверхность поток вектора E⃗ равен нулю?",
@@ -4837,7 +11967,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       475
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 112,
+      "questionImages": [
+        {
+          "file": "media/lms/81833a5b0d11f7bcf83c1f9b.jpg",
+          "width": 854,
+          "height": 536
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/af086a721bdcc3bef08312fc.jpg",
+          "width": 130,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₂, q₃. Внутри S₂ находятся q₂, q₃, q₄. Внутри S₃ находятся q₁, q₂, q₃, q₄, q₅. Через какую поверхность поток вектора E⃗ равен нулю?",
@@ -4847,7 +11996,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       476
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Такой поверхности нет",
+      "page": 113,
+      "questionImages": [
+        {
+          "file": "media/lms/0d76ce464997e30e2023ca77.jpg",
+          "width": 744,
+          "height": 429
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃. Внутри S₂ находятся q₃, q₄. Внутри S₃ находятся q₁, q₃, q₄. Через какую поверхность поток вектора E⃗ равен нулю?",
@@ -4857,7 +12018,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       477
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 113,
+      "questionImages": [
+        {
+          "file": "media/lms/f7b8aae6192fb222ae935cf2.jpg",
+          "width": 869,
+          "height": 563
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/36c6f38bef391743f6357b88.jpg",
+          "width": 117,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри поверхности S₂ находятся неизвестный заряд q₀ и заряды q₂, q₃. Каким должен быть q₀, чтобы поток вектора E⃗ через S₂ равнялся нулю?",
@@ -4867,7 +12047,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       478
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 114,
+      "questionImages": [
+        {
+          "file": "media/lms/981ca8b4a50f0e2667fda35d.jpg",
+          "width": 766,
+          "height": 423
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6d0e2a07ca81554c957409be.jpg",
+          "width": 150,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри поверхности S₃ находятся неизвестный заряд q₀ и заряды q₁, q₂, q₃, q₅. Каким должен быть q₀, чтобы поток вектора E⃗ через S₃ равнялся нулю?",
@@ -4876,9 +12075,49 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      479,
+      479
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 114,
+      "questionImages": [
+        {
+          "file": "media/lms/08285acf5e84194ae1c61d7b.jpg",
+          "width": 1242,
+          "height": 804
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/703316a06720aa8289ab2886.jpg",
+          "width": 260,
+          "height": 43
+        }
+      ]
+    }
+  },
+  {
+    "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри поверхности S₃ находятся неизвестный заряд q₀ и заряды q₁, q₂, q₃, q₅. Каким должен быть q₀, чтобы поток вектора E⃗ через S₃ равнялся нулю?",
+    "answers": [
+      "-1 мкКл."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
       480
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "−1 мкКл.",
+      "page": 115,
+      "questionImages": [
+        {
+          "file": "media/lms/75aebd9be3f75b5a4320cc51.jpg",
+          "width": 767,
+          "height": 543
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри поверхности S₁ находятся неизвестный заряд q₀ и заряды q₃. Каким должен быть q₀, чтобы поток вектора E⃗ через S₁ равнялся нулю?",
@@ -4888,7 +12127,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       481
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 115,
+      "questionImages": [
+        {
+          "file": "media/lms/7fcb54fabc75220d17172db7.jpg",
+          "width": 745,
+          "height": 473
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/569d2e266d11fa9f5bb3351f.jpg",
+          "width": 159,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся заряд q₃ и неизвестный заряд q₀. Каким должен быть q₀, чтобы поток вектора E⃗ через S₁ равнялся нулю?",
@@ -4898,7 +12156,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       482
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "−3 мкКл.",
+      "page": 116,
+      "questionImages": [
+        {
+          "file": "media/lms/0264058aab827b1998ccf96f.jpg",
+          "width": 1263,
+          "height": 781
+        }
+      ]
+    }
   },
   {
     "question": "Для протекания электрического тока необходимо и достаточно:",
@@ -4908,7 +12178,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       483
-    ]
+    ],
+    "original": {
+      "question": "Для протекания электрического тока необходимо и достаточно:",
+      "answer": "",
+      "page": 117,
+      "answerImages": [
+        {
+          "file": "media/lms/39cde3eee8c27e57ad600599.jpg",
+          "width": 449,
+          "height": 50
+        }
+      ]
+    }
   },
   {
     "question": "Мощность тока определяется выражением:",
@@ -4918,19 +12200,48 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       484
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 117,
+      "questionImages": [
+        {
+          "file": "media/lms/6fbe2ebf4d64dbb4a7325656.jpg",
+          "width": 326,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f11a294df86a17e5773544b8.jpg",
+          "width": 155,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является скаляром",
     "answers": [
-      "Поток вектора напряженности электрического поля.",
-      "Потенциал электрического поля."
+      "Поток вектора напряженности электрического поля."
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      485,
-      585
-    ]
+      485
+    ],
+    "original": {
+      "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является скаляром",
+      "answer": "Поток вектора напряженности электрического поля.",
+      "page": 117,
+      "questionImages": [
+        {
+          "file": "media/lms/a4ed03b589f3d25c9a94e646.jpg",
+          "width": 682,
+          "height": 207
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводам текут одинаковые токи в одном направлении. Где находится точка, в которой магнитная индукция равна нулю:",
@@ -4940,7 +12251,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       486
-    ]
+    ],
+    "original": {
+      "question": "По двум длинным параллельным проводам текут одинаковые токи в одном направлении. Где находится точка, в которой магнитная индукция равна нулю:",
+      "answer": "",
+      "page": 117,
+      "answerImages": [
+        {
+          "file": "media/lms/4283ad4140ad9da621b2ca6f.jpg",
+          "width": 225,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Запишите связь между магнитной индукцией B⃗ и напряжённостью H⃗. μ — относительная магнитная проницаемость.",
@@ -4950,7 +12273,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       487
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "B = μ₀μH, если μ — относительная магнитная проницаемость.",
+      "page": 118,
+      "questionImages": [
+        {
+          "file": "media/lms/3cc102bc4c406c6cbbe8aff6.jpg",
+          "width": 715,
+          "height": 63
+        }
+      ]
+    }
   },
   {
     "question": "Как в линейной среде с относительной магнитной проницаемостью μ связаны векторы магнитной индукции B⃗ и напряжённости H⃗?",
@@ -4960,7 +12295,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       488
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 118,
+      "questionImages": [
+        {
+          "file": "media/lms/dceeae754cd67ec94309ecd7.jpg",
+          "width": 817,
+          "height": 233
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/732c0e423b3fbffce894e430.jpg",
+          "width": 170,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить ток за пределами контура?",
@@ -4970,7 +12324,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       489
-    ]
+    ],
+    "original": {
+      "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить ток за пределами контура?",
+      "answer": "Не изменится.",
+      "page": 118
+    }
   },
   {
     "question": "Постоянные магниты могут являться.",
@@ -4980,7 +12339,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       490
-    ]
+    ],
+    "original": {
+      "question": "Постоянные магниты могут являться.",
+      "answer": "",
+      "page": 118,
+      "answerImages": [
+        {
+          "file": "media/lms/5b777797ac1e2c54572d39c6.jpg",
+          "width": 279,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Циркуляция вектора магнитной индукции определяется выражением:",
@@ -4990,7 +12361,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       491
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 118,
+      "questionImages": [
+        {
+          "file": "media/lms/4d35dfb97a5b7129c4de5368.jpg",
+          "width": 523,
+          "height": 54
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f924a3a550522c541bb5315c.jpg",
+          "width": 215,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Прямой проводник длиной 10 см движется со скоростью 5 м/с перпендикулярно силовым линиям магнитного поля. Напряжение на концах равно 0,05 В. Найдите магнитную индукцию.",
@@ -5000,7 +12390,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       492
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 118,
+      "questionImages": [
+        {
+          "file": "media/lms/0d689dc6cced2f497962aba5.jpg",
+          "width": 586,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/76d6328e7553493eae26c267.jpg",
+          "width": 101,
+          "height": 16
+        }
+      ]
+    }
   },
   {
     "question": "Два прямолинейных параллельных проводника, по которым текут токи в одном направлении.",
@@ -5010,7 +12419,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       493
-    ]
+    ],
+    "original": {
+      "question": "Два прямолинейных параллельных проводника, по которым текут токи в одном направлении.",
+      "answer": "",
+      "page": 118,
+      "answerImages": [
+        {
+          "file": "media/lms/4bb01e37eb3fbc6a120c01a9.jpg",
+          "width": 186,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Магнитный момент контура с током численно определяется:",
@@ -5020,7 +12441,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       494
-    ]
+    ],
+    "original": {
+      "question": "Магнитный момент контура с током численно определяется:",
+      "answer": "",
+      "page": 118,
+      "answerImages": [
+        {
+          "file": "media/lms/1e7c87849b8e09968d908fc5.jpg",
+          "width": 377,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Магнитный момент определяется выражением",
@@ -5030,7 +12463,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       495
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/2d71def0cf991349525c3ac9.jpg",
+          "width": 313,
+          "height": 44
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7a6be6add635245a14df6da8.jpg",
+          "width": 162,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "За 0,5 с магнитный поток через контур изменился от 10 до 20 Вб. Чему равен модуль ЭДС в контуре?",
@@ -5040,7 +12492,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       496
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/a2d276dbf7ddf0a9d7430115.jpg",
+          "width": 623,
+          "height": 48
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/595e5972900b1a5ee82d39b9.jpg",
+          "width": 129,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна циркуляция напряжённости магнитного поля H⃗ по замкнутому контуру, охватывающему один провод с током I?",
@@ -5050,7 +12521,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       497
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/c850bd3c825ca5b814613b3e.jpg",
+          "width": 758,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9460fbe823b5d199da80b8ad.jpg",
+          "width": 164,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильную формулировку для закона электромагнитной индукции Фарадея",
@@ -5060,7 +12550,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       498
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/4e1f9fcb98e3a60d829c344b.jpg",
+          "width": 612,
+          "height": 224
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e6a8602794ebbdacf5426616.jpg",
+          "width": 174,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Теорема о циркуляции вектора магнитной индукции свидетельствует-",
@@ -5070,7 +12579,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       499
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/296b2dfc46621f68aaaf77d5.jpg",
+          "width": 383,
+          "height": 34
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f8e392311f2cd91bdaffdcb7.jpg",
+          "width": 286,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "На проводник длиной 0,5 м, направленный перпендикулярно силовым линиям магнитного поля с индукцией 0,10 Тл, действует сила 1 Н. Какой ток течет по проводнику?",
@@ -5080,7 +12608,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       500
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/05aba6de69aacf33818cd948.jpg",
+          "width": 559,
+          "height": 55
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1d225bcf0763149df19d4c7c.jpg",
+          "width": 105,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Выберите ДВЕ формулы, задающие объёмную плотность энергии магнитного поля,",
@@ -5090,7 +12637,31 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       501
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/6522a2919bb987a9a4274a36.jpg",
+          "width": 377,
+          "height": 125
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0ef2bfcfff66dcea3f9ef9ca.jpg",
+          "width": 112,
+          "height": 19
+        },
+        {
+          "file": "media/lms/66add4ae3cafbc9223093f28.jpg",
+          "width": 114,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Выберите ДВЕ формулы, задающие объёмную плотность энергии магнитного поля.",
@@ -5100,7 +12671,31 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       502
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 119,
+      "questionImages": [
+        {
+          "file": "media/lms/0f568af0bc43e7a488b83757.jpg",
+          "width": 547,
+          "height": 185
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/13581b88cfb8d565e86abc4c.jpg",
+          "width": 174,
+          "height": 27
+        },
+        {
+          "file": "media/lms/5e205b3db8f4869935fa7665.jpg",
+          "width": 158,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Как ведёт себя плоскость контура с током в однородном магнитном поле?",
@@ -5110,7 +12705,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       503
-    ]
+    ],
+    "original": {
+      "question": "Как ведёт себя плоскость контура с током в однородном магнитном поле?",
+      "answer": "",
+      "page": 120,
+      "answerImages": [
+        {
+          "file": "media/lms/8d64e3679b0b3ec87b4ab545.jpg",
+          "width": 401,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Магнитный диполь во внешнем неоднородном магнитном поле повернется вдоль линий индукции и станет двигаться",
@@ -5120,7 +12727,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       504
-    ]
+    ],
+    "original": {
+      "question": "Магнитный диполь во внешнем неоднородном магнитном поле повернется вдоль линий индукции и станет двигаться",
+      "answer": "",
+      "page": 120,
+      "answerImages": [
+        {
+          "file": "media/lms/f0f1832659e06e2c54e4bc4f.jpg",
+          "width": 331,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Две катушки намотаны на один сердечник. По одной течет постоянный ток, концы второй замкнуты через амперметр. В момент прекращения тока в первой катушке амперметр показывает ток во второй. В каком направлении течет этот ток?",
@@ -5130,7 +12749,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       505
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 121,
+      "questionImages": [
+        {
+          "file": "media/lms/8482dbc83d1e62555ee3e276.jpg",
+          "width": 968,
+          "height": 75
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c16f6df321323ee896f7f68c.jpg",
+          "width": 414,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Теорема Гаусса для магнитного потока свидетельствует о-",
@@ -5140,7 +12778,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       506
-    ]
+    ],
+    "original": {
+      "question": "Теорема Гаусса для магнитного потока свидетельствует о-",
+      "answer": "",
+      "page": 121,
+      "answerImages": [
+        {
+          "file": "media/lms/f3948e360c52b84b05811c25.jpg",
+          "width": 283,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Скорость изменения тока в контуре с индуктивностью 0,6 Гн равна 0,15 А/с. Возникающая в контуре ЭДС равна:",
@@ -5150,7 +12800,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       507
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 121,
+      "questionImages": [
+        {
+          "file": "media/lms/23dfe057b18e4d27d0b089f4.jpg",
+          "width": 943,
+          "height": 72
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d54c117601b9b64206b3f618.jpg",
+          "width": 174,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится циркуляция B⃗ по замкнутому контуру, если внутри контура проложить второй провод с током той же силы, но противоположного направления?",
@@ -5160,7 +12829,55 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       508
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 121,
+      "questionImages": [
+        {
+          "file": "media/lms/4b6e8811ffdf1988b791a966.jpg",
+          "width": 579,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d6a430ce80d5b9320e7b7d85.jpg",
+          "width": 228,
+          "height": 31
+        }
+      ]
+    }
+  },
+  {
+    "question": "Выберите правильное утверждение.",
+    "answers": [
+      "Диамагнетики ослабляют магнитную индукцию внешнего поля; парамагнетики и ферромагнетики — усиливают."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      509
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение.",
+      "answer": "",
+      "page": 122,
+      "questionImages": [
+        {
+          "file": "media/lms/c6d6fa58251183f5f3769228.jpg",
+          "width": 570,
+          "height": 310
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7444f587c21b3112137ab2d6.jpg",
+          "width": 491,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Две катушки намотаны на один сердечник. По первой течёт постоянный ток, а вторая замкнута через амперметр. При прекращении тока в первой амперметр показывает ток во второй. Какое явление наблюдается?",
@@ -5170,7 +12887,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       510
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 122,
+      "questionImages": [
+        {
+          "file": "media/lms/28b8876dceb1d3f3bfa56e60.jpg",
+          "width": 567,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b9553f23456efa134cef0c6b.jpg",
+          "width": 181,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Сила Лоренца равна",
@@ -5180,7 +12916,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       511
-    ]
+    ],
+    "original": {
+      "question": "Сила Лоренца равна",
+      "answer": "F⃗ = q(v⃗ × B⃗).",
+      "page": 122
+    }
   },
   {
     "question": "Заряженная частица влетает в вязкую среду, в которой создано однородное магнитное поле. Скорость частицы перпендикулярна линиям индукции и постепенно уменьшается. Что происходит со временем с радиусом кривизны ее траектории?",
@@ -5190,7 +12931,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       512
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 122,
+      "questionImages": [
+        {
+          "file": "media/lms/299ff02222de41e1cbeecf54.jpg",
+          "width": 1009,
+          "height": 74
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ace3c9747f95e0c7321dfe62.jpg",
+          "width": 199,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Теорема Гаусса для магнитного потока через замкнутую поверхность утверждает:",
@@ -5200,7 +12960,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       513
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 122,
+      "questionImages": [
+        {
+          "file": "media/lms/1dc389f231fb1aa0b8be8b5d.jpg",
+          "width": 469,
+          "height": 36
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c8378d979ac020f404e386d9.jpg",
+          "width": 166,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Парамагнетизм связан с.",
@@ -5210,7 +12989,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       514
-    ]
+    ],
+    "original": {
+      "question": "Парамагнетизм связан с.",
+      "answer": "",
+      "page": 123,
+      "answerImages": [
+        {
+          "file": "media/lms/7656e5ef0f9f382e55ba763c.jpg",
+          "width": 414,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Какими свойствами обладает магнитное поле, создаваемое постоянным током?",
@@ -5220,7 +13011,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       515
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Стационарное и вихревое.",
+      "page": 123,
+      "questionImages": [
+        {
+          "file": "media/lms/305d128317a9fed1ce6dbe36.jpg",
+          "width": 498,
+          "height": 252
+        }
+      ]
+    }
   },
   {
     "question": "Вокруг проводника с током в вакууме создается магнитное поле с индукцией 10 Тл. Какова будет магнитная индукция вокруг этого проводника с тем же значением силы тока, если его поместить в другую среду с магнитной проницаемостью 1,15?",
@@ -5230,7 +13033,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       516
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 123,
+      "questionImages": [
+        {
+          "file": "media/lms/b79281aa0fa5ff641624c701.jpg",
+          "width": 809,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7d010f23885e1894070beec4.jpg",
+          "width": 139,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Для каких типов магнетиков справедлив закон Кюри или Кюри — Вейса?",
@@ -5240,7 +13062,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       517
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Для парамагнетиков и ферромагнетиков. Для ферромагнетиков закон Кюри — Вейса применяют выше температуры Кюри.",
+      "page": 123,
+      "questionImages": [
+        {
+          "file": "media/lms/ca2570a26057f9c2825c47f8.jpg",
+          "width": 476,
+          "height": 260
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает три проводника с токами 2I, 4I и −8I. Положительное направление обхода согласовано с первыми двумя токами по правилу буравчика. Чему равна циркуляция H⃗?",
@@ -5250,7 +13084,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       518
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 123,
+      "questionImages": [
+        {
+          "file": "media/lms/94400d97eeb4f66d6fd3ea5a.jpg",
+          "width": 825,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2632dac2f177e69ff725b6b4.jpg",
+          "width": 91,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна магнитная индукция B на расстоянии b от бесконечного прямого провода с током I?",
@@ -5260,7 +13113,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       519
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 123,
+      "questionImages": [
+        {
+          "file": "media/lms/7572de92d9a2f080446b269b.jpg",
+          "width": 488,
+          "height": 41
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4a246f768b0aa6e15744a2bd.jpg",
+          "width": 126,
+          "height": 51
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна циркуляция магнитной индукции B⃗ по замкнутому контуру, который охватывает один провод с током I?",
@@ -5270,17 +13142,41 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       520
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 124,
+      "questionImages": [
+        {
+          "file": "media/lms/92de7f4d9e7b070737114951.jpg",
+          "width": 640,
+          "height": 23
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e4f09e2b45c62e10a703615b.jpg",
+          "width": 146,
+          "height": 25
+        }
+      ]
+    }
   },
   {
-    "question": "Циркуляция вектора напряженности электростатического поля вдоль любого замкнутого контура равна om",
+    "question": "Циркуляция вектора напряженности электростатического поля вдоль любого замкнутого контура",
     "answers": [
-      "Всегда равна нулю."
+      "Всегда"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       521
-    ]
+    ],
+    "original": {
+      "question": "Циркуляция вектора напряженности электростатического поля вдоль любого замкнутого контура",
+      "answer": "Всегда",
+      "page": 124
+    }
   },
   {
     "question": "Чему равна циркуляция электростатического поля E⃗ по замкнутому контуру?",
@@ -5290,7 +13186,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       522
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 124,
+      "questionImages": [
+        {
+          "file": "media/lms/cc4818e18850fa4c20f5413f.jpg",
+          "width": 1109,
+          "height": 188
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b2be06429786a5c7140aa3e4.jpg",
+          "width": 1109,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "что можно сказать о циркуляции вектора напряженности электростатического поля вдоль любого замкнутого контура в вакууме?",
@@ -5300,7 +13215,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       523
-    ]
+    ],
+    "original": {
+      "question": "что можно сказать о циркуляции вектора напряженности электростатического поля вдоль любого замкнутого контура в вакууме?",
+      "answer": "",
+      "page": 124,
+      "answerImages": [
+        {
+          "file": "media/lms/c3d79708831df5ee5bb55501.jpg",
+          "width": 242,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Металлический стержень перпендикулярен магнитному полю и движется вдоль B⃗. Что при этом происходит?",
@@ -5310,7 +13237,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       524
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 125,
+      "questionImages": [
+        {
+          "file": "media/lms/92c76b8c6a2f7237713857cb.jpg",
+          "width": 641,
+          "height": 256
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/150b6bbdf3c3a56b53dda44c.jpg",
+          "width": 233,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Металлический стержень движется поперёк собственной оси, параллельно вектору магнитной индукции. Что при этом происходит?",
@@ -5320,7 +13266,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       525
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Ничего не происходит. Скорость стержня параллельна вектору магнитной индукции.",
+      "page": 125,
+      "questionImages": [
+        {
+          "file": "media/lms/f980b834c89a3fbfebd9cbd5.jpg",
+          "width": 1155,
+          "height": 508
+        }
+      ]
+    }
   },
   {
     "question": "Металлический стержень движется перпендикулярно самому стержню и вектору магнитной индукции. Что происходит на его концах?",
@@ -5330,7 +13288,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       526
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 125,
+      "questionImages": [
+        {
+          "file": "media/lms/051a7832d6b1c022277535a5.jpg",
+          "width": 549,
+          "height": 217
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f62e45edd07fac6174529c5b.jpg",
+          "width": 354,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Ферромагнетизм связан с...",
@@ -5340,7 +13317,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       527
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 126,
+      "questionImages": [
+        {
+          "file": "media/lms/2a5ca83f2818e6bd9f41037f.jpg",
+          "width": 490,
+          "height": 34
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cd3b2414497c1a65394ca81f.jpg",
+          "width": 490,
+          "height": 14
+        }
+      ]
+    }
   },
   {
     "question": "Закон Био-Савара-Лапласа имеет вид:",
@@ -5350,7 +13346,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       528
-    ]
+    ],
+    "original": {
+      "question": "Закон Био-Савара-Лапласа имеет вид:",
+      "answer": "",
+      "page": 126,
+      "answerImages": [
+        {
+          "file": "media/lms/32c035e84f58f6a2ce9f10d6.jpg",
+          "width": 308,
+          "height": 69
+        }
+      ]
+    }
   },
   {
     "question": "Сердечники, увеличивающие индуктивность катушек, изготавливают из",
@@ -5360,7 +13368,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       529
-    ]
+    ],
+    "original": {
+      "question": "Сердечники, увеличивающие индуктивность катушек, изготавливают из",
+      "answer": "",
+      "page": 126,
+      "answerImages": [
+        {
+          "file": "media/lms/f1543b346e84e43f5f8eece0.jpg",
+          "width": 333,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Сила тока в проволочном витке радиусом 0,5 м равна 4A. Чему равен магнитный момент данного витка?",
@@ -5370,7 +13390,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       530
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 126,
+      "questionImages": [
+        {
+          "file": "media/lms/c291cc66e678a471c75f2c0c.jpg",
+          "width": 707,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9bef82e77cc8c1e4a87889c0.jpg",
+          "width": 167,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Теорема Гаусса для магнитного потока свидетельствует:",
@@ -5380,7 +13419,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       531
-    ]
+    ],
+    "original": {
+      "question": "Теорема Гаусса для магнитного потока свидетельствует:",
+      "answer": "",
+      "page": 126,
+      "answerImages": [
+        {
+          "file": "media/lms/f6a95aaa6e78c47faef5c933.jpg",
+          "width": 326,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Электрон движется параллельно проводу, в том же направлении, в котором течет электрический ток. Как направлена сила Лоренца?",
@@ -5390,7 +13441,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       532
-    ]
+    ],
+    "original": {
+      "question": "Электрон движется параллельно проводу, в том же направлении, в котором течет электрический ток. Как направлена сила Лоренца?",
+      "answer": "",
+      "page": 128,
+      "answerImages": [
+        {
+          "file": "media/lms/80f863a1dbe31ef65524bbfa.jpg",
+          "width": 283,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Какой величины ток течет по проводнику, находящемуся в однородном магнитном поле с индукцией 0,1 Тл, если его длина 0,1 м, ион выталкивается из этого поля силой 1,5 Н. Угол между направлением тока и магнитного поля 45°.",
@@ -5400,7 +13463,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       533
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 127,
+      "questionImages": [
+        {
+          "file": "media/lms/19470c3bf6b0f0074215fbec.jpg",
+          "width": 977,
+          "height": 81
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d6f7c88acf62a6853219cb5f.jpg",
+          "width": 142,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Какое или какие свойства характерны для всех без исключения веществ?",
@@ -5410,7 +13492,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       534
-    ]
+    ],
+    "original": {
+      "question": "Какое или какие свойства характерны для всех без исключения веществ?",
+      "answer": "",
+      "page": 127,
+      "answerImages": [
+        {
+          "file": "media/lms/295c3e1cda6f4c43e1ad40ab.jpg",
+          "width": 195,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Какой величины ток течет по проводнику, находящемуся в однородном магнитном поле с индукцией 0-1 Тл, если его длина 0,1 м, ион выталкивается из этого поля силой 1,5 Н. Угол между направлением тока и магнитного поля 60`.",
@@ -5420,7 +13514,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       535
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 127,
+      "questionImages": [
+        {
+          "file": "media/lms/7992372898fd7c69780abbb0.jpg",
+          "width": 780,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cf11e0ad02fc97568bfec9d4.jpg",
+          "width": 138,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Электрон влетает в однородное магнитное поле перпендикулярно силовым линиям. По какой траектории он будет двигаться?",
@@ -5430,17 +13543,34 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       536
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "По окружности.",
+      "page": 127,
+      "questionImages": [
+        {
+          "file": "media/lms/ec47dfb46711f6a08266184c.jpg",
+          "width": 845,
+          "height": 63
+        }
+      ]
+    }
   },
   {
     "question": "Металлический обруч, плоскость которого перепндикулярна вектору магнитной индукции внешнего поля движется в направлении этого вектора",
     "answers": [
-      "Ничего не происходит, если внешний магнитный поток через обруч при движении сохраняется."
+      "Ничего не происходит."
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       537
-    ]
+    ],
+    "original": {
+      "question": "Металлический обруч, плоскость которого перепндикулярна вектору магнитной индукции внешнего поля движется в направлении этого вектора",
+      "answer": "Ничего не происходит.",
+      "page": 127
+    }
   },
   {
     "question": "Механический момент, действующий на контур с током в магнитном поле, равен",
@@ -5450,7 +13580,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       538
-    ]
+    ],
+    "original": {
+      "question": "Механический момент, действующий на контур с током в магнитном поле, равен",
+      "answer": "",
+      "page": 127,
+      "answerImages": [
+        {
+          "file": "media/lms/b7755143b58af8c04a9308be.jpg",
+          "width": 161,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Найти магнитную индукцию на расстоянии 1 м от бесконечного прямого проводника диаметром 2 мм с током 1 А в воздухе. Принять μ₀ = 4π·10⁻⁷ Гн/м. Ответ дать в микротеслах.",
@@ -5460,7 +13602,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       539
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 128,
+      "questionImages": [
+        {
+          "file": "media/lms/e54e11bee2532e6fd8ec4aee.jpg",
+          "width": 1161,
+          "height": 81
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cb3d383f06ebf8c6aefe4939.jpg",
+          "width": 182,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Электрон движется параллельно проводу, в направлении, противоположном электрическому току. Как направлена сила Лоренца",
@@ -5470,7 +13631,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       540
-    ]
+    ],
+    "original": {
+      "question": "Электрон движется параллельно проводу, в направлении, противоположном электрическому току. Как направлена сила Лоренца",
+      "answer": "",
+      "page": 128,
+      "answerImages": [
+        {
+          "file": "media/lms/7de95ae5562381c2e83dd649.jpg",
+          "width": 332,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает три проводника с токами 2I, 4I и −3I. Положительное направление обхода согласовано с первыми двумя токами. Как изменится циркуляция H⃗ при удалении третьего проводника?",
@@ -5480,7 +13653,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       541
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 128,
+      "questionImages": [
+        {
+          "file": "media/lms/bac6b5e026186fe6f6a566d5.jpg",
+          "width": 821,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2c03b8a4b60cbaf2f2697a79.jpg",
+          "width": 194,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Магнитная стрелка, находящаяся рядом с проводником с током:",
@@ -5490,7 +13682,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       542
-    ]
+    ],
+    "original": {
+      "question": "Магнитная стрелка, находящаяся рядом с проводником с током:",
+      "answer": "",
+      "page": 128,
+      "answerImages": [
+        {
+          "file": "media/lms/8ac8e2b78e330ae625f7984f.jpg",
+          "width": 479,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "На границе раздела магнетиков:",
@@ -5500,7 +13704,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       543
-    ]
+    ],
+    "original": {
+      "question": "На границе раздела магнетиков:",
+      "answer": "",
+      "page": 129,
+      "answerImages": [
+        {
+          "file": "media/lms/444ffd72046481336eb38b2a.jpg",
+          "width": 894,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Электрические токи, текущие по проводам, создают.",
@@ -5510,7 +13726,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       544
-    ]
+    ],
+    "original": {
+      "question": "Электрические токи, текущие по проводам, создают.",
+      "answer": "",
+      "page": 129,
+      "answerImages": [
+        {
+          "file": "media/lms/fc8fa0ea484c75aa980d81d7.jpg",
+          "width": 295,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится циркуляция вектора магнитной индукции, охватывающему проводник с током, если добавить ток за пределами контура",
@@ -5520,7 +13748,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       545
-    ]
+    ],
+    "original": {
+      "question": "Как изменится циркуляция вектора магнитной индукции, охватывающему проводник с током, если добавить ток за пределами контура",
+      "answer": "Не изменится.",
+      "page": 129,
+      "questionImages": [
+        {
+          "file": "media/lms/4ad85e9ef16c82edcd618b24.jpg",
+          "width": 949,
+          "height": 192
+        }
+      ]
+    }
   },
   {
     "question": "Явление гистерезиса характерно...",
@@ -5530,17 +13770,41 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       546
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 129,
+      "questionImages": [
+        {
+          "file": "media/lms/f2cfde8506655846f1b68b58.jpg",
+          "width": 371,
+          "height": 54
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a8a69dc082842f3ba62b8ec2.jpg",
+          "width": 303,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если контур деформировать?",
     "answers": [
-      "Не изменится."
+      "Не изменится"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       547
-    ]
+    ],
+    "original": {
+      "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если контур деформировать?",
+      "answer": "Не изменится",
+      "page": 130
+    }
   },
   {
     "question": "Контур охватывает токи 2I, 4I и −2I. Положительный обход согласован с первыми двумя токами. Как изменится циркуляция H⃗ при удалении третьего проводника?",
@@ -5550,7 +13814,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       548
-    ]
+    ],
+    "original": {
+      "question": "Контур охватывает три проводника, токи в которых соответственно… направление обхода контура связано с направлением токов в первом и втором проводниках правилом буравчика. Как изменится циркуляция вектора вдоль контура, если третий проводник удалить",
+      "answer": "",
+      "page": 130,
+      "questionImages": [
+        {
+          "file": "media/lms/d72554d79fd58da7e7569e28.jpg",
+          "width": 808,
+          "height": 91
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/11f83f65a4ae944e692baace.jpg",
+          "width": 241,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Электрическое поле, создаваемое переменным магнитным полем",
@@ -5560,7 +13843,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       549
-    ]
+    ],
+    "original": {
+      "question": "Электрическое поле, создаваемое переменным магнитным полем",
+      "answer": "",
+      "page": 130,
+      "answerImages": [
+        {
+          "file": "media/lms/f512d0a8a12f30f4d7f65d4c.jpg",
+          "width": 226,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Ток I направлен вдоль +Oy. В плоскости xy при x > 0 находится небольшой проволочный виток. Что произойдёт в момент включения тока?",
@@ -5570,7 +13865,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       550
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 131,
+      "questionImages": [
+        {
+          "file": "media/lms/c79e3911936c57da0b6da67b.jpg",
+          "width": 1066,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d0f74e528152d73a87eded24.jpg",
+          "width": 584,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Закон Ампера имеет вид:",
@@ -5580,7 +13894,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       551
-    ]
+    ],
+    "original": {
+      "question": "Закон Ампера имеет вид:",
+      "answer": "",
+      "page": 132,
+      "answerImages": [
+        {
+          "file": "media/lms/2b62fc0175faee5765d65366.jpg",
+          "width": 515,
+          "height": 109
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдёт с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить ещё один ток (1, >1,) обратного направления в пределах контура?",
@@ -5590,7 +13916,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       552
-    ]
+    ],
+    "original": {
+      "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить еще один ток обратного направления в пределах контура",
+      "answer": "Поменяет знак.",
+      "page": 132,
+      "questionImages": [
+        {
+          "file": "media/lms/a280e460cc4d9fd70d34e448.jpg",
+          "width": 1171,
+          "height": 88
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдет с электрическим диполем в поле положительного точечного заряда?",
@@ -5600,7 +13938,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       553
-    ]
+    ],
+    "original": {
+      "question": "Что произойдет с электрическим диполем в поле положительного точечного заряда?",
+      "answer": "Развернётся от заряда и будет притягиваться к нему.",
+      "page": 132,
+      "questionImages": [
+        {
+          "file": "media/lms/29aef77182da3f4456a33f4f.jpg",
+          "width": 566,
+          "height": 518
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ подключили параллельно. На каком напряжение наибольшее?",
@@ -5610,7 +13960,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       554
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Напряжение на всех конденсаторах одинаково.",
+      "page": 133,
+      "questionImages": [
+        {
+          "file": "media/lms/e0315baffcc1995905f1cfe4.jpg",
+          "width": 669,
+          "height": 1148
+        }
+      ]
+    }
   },
   {
     "question": "Конденсаторы C₁ = 2 мкФ, C₂ = 6 мкФ и C₃ = 8 мкФ соединили последовательно и подключили к источнику. Какой обладает наибольшей энергией?",
@@ -5620,7 +13982,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       555
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 133,
+      "questionImages": [
+        {
+          "file": "media/lms/1ee363c12a59786547a73c5a.jpg",
+          "width": 1163,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f84452b9b653c822c1ee8af8.jpg",
+          "width": 140,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Проводник длиной 0,5 м перпендикулярен линиям поля с индукцией 1 Тл. На него действует сила 0,1 Н. Какой ток течёт по проводнику?",
@@ -5630,7 +14011,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       556
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 133,
+      "questionImages": [
+        {
+          "file": "media/lms/71248d3ef33cd649a021570b.jpg",
+          "width": 751,
+          "height": 76
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9a732e27c9ed6cc459fcccb3.jpg",
+          "width": 125,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "У электрического диполя три возможные ориентации относительно силовой линии E⃗. 1 — вдоль линии, 2 — перпендикулярно линии, 3 — навстречу линии. В каком положении энергия равна нулю?",
@@ -5640,7 +14040,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       557
-    ]
+    ],
+    "original": {
+      "question": "В каком положении диполя его потенциальная энергия равна нулю?",
+      "answer": "",
+      "page": 134,
+      "questionImages": [
+        {
+          "file": "media/lms/a6ac8a7851c85479c87ec209.jpg",
+          "width": 547,
+          "height": 164
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2f0e4bd8f5e65a2e4f2e8ce4.jpg",
+          "width": 547,
+          "height": 18
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряженности электрического поля можно предстваить",
@@ -5650,7 +14069,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       558
-    ]
+    ],
+    "original": {
+      "question": "Линии напряженности электрического поля можно предстваить",
+      "answer": "",
+      "page": 134,
+      "answerImages": [
+        {
+          "file": "media/lms/6a4bec7977932d743bf0838e.jpg",
+          "width": 698,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Магнитное поле, создаваемое переменным электрическим полем",
@@ -5660,7 +14091,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       559
-    ]
+    ],
+    "original": {
+      "question": "Магнитное поле, создаваемое переменным электрическим полем",
+      "answer": "",
+      "page": 134,
+      "answerImages": [
+        {
+          "file": "media/lms/06d2759db224b3ec2ca84c51.jpg",
+          "width": 278,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает токи 2I, 8I и −4I. Направление обхода согласовано с первыми двумя токами. Чему равна циркуляция H⃗?",
@@ -5670,7 +14113,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       560
-    ]
+    ],
+    "original": {
+      "question": "Контур охватывает три проводника, токи в которых соответственно… Направление обхода контура связано с направлением токов в первом и втором проводниках правилом буравчика. Циркуляция вектора по контуру равна",
+      "answer": "6I.",
+      "page": 134,
+      "questionImages": [
+        {
+          "file": "media/lms/72a0bc3f31160bfade715e8b.jpg",
+          "width": 1029,
+          "height": 194
+        }
+      ]
+    }
   },
   {
     "question": "Прямой проводник длиной 10 см движется со скоростью 5 см/с перпендикулярно магнитным силовым линиям. При этом напряжение на концах проводника равно 0,5 В. Найти индукцию магнитного поля:",
@@ -5680,7 +14135,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       561
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 134,
+      "questionImages": [
+        {
+          "file": "media/lms/269f64030ae4a5821e877622.jpg",
+          "width": 897,
+          "height": 55
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0e5901384fa14a088dbbac91.jpg",
+          "width": 102,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Напряжённость электрического поля Е внутри равномерно заряженной сферы радиуса К на расстоянии г отее центра равна:",
@@ -5690,7 +14164,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       562
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 134,
+      "questionImages": [
+        {
+          "file": "media/lms/fa3ed9a674b15e8911b8e432.jpg",
+          "width": 986,
+          "height": 146
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c2ad6a1c6088f63b0a95d545.jpg",
+          "width": 170,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Если зарядить проводник, то в нем установится равновесное распределение заряда, обладающее рядом свойств. Назовите среди перечисленных ниже утверждений ошибочное",
@@ -5700,7 +14193,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       563
-    ]
+    ],
+    "original": {
+      "question": "Если зарядить проводник, то в нем установится равновесное распределение заяда, обладающее рядом свойств. Назовите среди перечисленных ниже утверждений ошибочное",
+      "answer": "",
+      "page": 147,
+      "answerImages": [
+        {
+          "file": "media/lms/c4663b2384a93a346b0d76e7.jpg",
+          "width": 673,
+          "height": 14
+        }
+      ]
+    }
   },
   {
     "question": "Потенциал точечного заряда",
@@ -5710,7 +14215,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       564
-    ]
+    ],
+    "original": {
+      "question": "Потенциал точечного заряда",
+      "answer": "",
+      "page": 135,
+      "answerImages": [
+        {
+          "file": "media/lms/3368d25ce4d42826a4325a3b.jpg",
+          "width": 745,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "От чего не зависит сопротивление однородного проводника",
@@ -5720,7 +14237,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       565
-    ]
+    ],
+    "original": {
+      "question": "От чего не зависит сопротивление однородного проводника",
+      "answer": "",
+      "page": 135,
+      "questionImages": [
+        {
+          "file": "media/lms/3331dcd721a73c33f38b914d.jpg",
+          "width": 519,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/716f64fa1e9bc4a36e12203c.jpg",
+          "width": 519,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Дипольный момент p⃗ направлен вдоль +Ox. Точка 3 лежит на положительной полуоси Ox на расстоянии r от центра диполя. Какова напряжённость поля в этой точке?",
@@ -5730,7 +14266,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       566
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 136,
+      "questionImages": [
+        {
+          "file": "media/lms/1b6a9358503dd0c6a22784f6.jpg",
+          "width": 565,
+          "height": 309
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f9d4371c906cb2bc11119d01.jpg",
+          "width": 192,
+          "height": 64
+        }
+      ]
+    }
   },
   {
     "question": "Потенциал радиального поля φ = −A/r², A — константа. Найти величину напряжённости поля.",
@@ -5740,7 +14295,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       567
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "E = 2A/r³.",
+      "page": 136,
+      "questionImages": [
+        {
+          "file": "media/lms/a0278f3e8eece0ccd3295128.jpg",
+          "width": 789,
+          "height": 236
+        }
+      ]
+    }
   },
   {
     "question": "Проводник создаёт в вакууме магнитное поле с индукцией 10 мТл. Какой станет индукция при том же токе в среде с относительной магнитной проницаемостью 1,05?",
@@ -5750,7 +14317,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       568
-    ]
+    ],
+    "original": {
+      "question": "Проводник с током создает в вакууме магнитное поле с индукцией… Какой станет магнитная индукция от этого проводника с тем де током, если его поместить в среду с магнитной проницаемостью",
+      "answer": "",
+      "page": 136,
+      "questionImages": [
+        {
+          "file": "media/lms/813077c3ddccd682d0c40d25.jpg",
+          "width": 778,
+          "height": 73
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9e5c150c53c6c02eb545978b.jpg",
+          "width": 152,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна циркуляция вектора B⃗ по замкнутому контуру, который охватывает один провод с током I?",
@@ -5760,7 +14346,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       569
-    ]
+    ],
+    "original": {
+      "question": "чему равна циркуляция вектора магнитной индукции по замкнутому контуру площадью, охватывающему один провод с током",
+      "answer": "",
+      "page": 137,
+      "questionImages": [
+        {
+          "file": "media/lms/6294cc1d4bf5f7cef7f84cc6.jpg",
+          "width": 750,
+          "height": 76
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c05a4bdf82310cf461d0c72e.jpg",
+          "width": 184,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Какой величины ток течет по проводнику, находящемуся в однородном магнитном поле с индукцией 0,1 Тл, Е длина 0,1 м. и он выталкивается из этого поля силой 1,5 Н. Угол между направлением тока и магнитного поля 30",
@@ -5770,7 +14375,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       570
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 137,
+      "questionImages": [
+        {
+          "file": "media/lms/72d9130def0699f780a91ff2.jpg",
+          "width": 778,
+          "height": 66
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7cb8e8cdf71d53d62cf21a24.jpg",
+          "width": 137,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряженности электрического поля",
@@ -5780,7 +14404,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       571
-    ]
+    ],
+    "original": {
+      "question": "Линии напряженности электрического поля",
+      "answer": "",
+      "page": 137,
+      "answerImages": [
+        {
+          "file": "media/lms/e4208bd217fe6caef9369437.jpg",
+          "width": 777,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Сформулируйте закон электромагнитной индукции Фарадея",
@@ -5790,7 +14426,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       572
-    ]
+    ],
+    "original": {
+      "question": "Сформулируйте закон электромагнитной индукции Фарадея",
+      "answer": "",
+      "page": 137,
+      "answerImages": [
+        {
+          "file": "media/lms/77c212095e6740cebe2514e0.jpg",
+          "width": 200,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Проводник длиной 0,1 м помещён в магнитное поле с индукцией 0,1 Тл. На него действует сила 1,5 Н. Проводник перпендикулярен полю. Какой ток течёт по проводнику?",
@@ -5800,7 +14448,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       573
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 137,
+      "questionImages": [
+        {
+          "file": "media/lms/1a459427020974d209fb00c0.jpg",
+          "width": 1105,
+          "height": 90
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/57e5c45e92857c747632a425.jpg",
+          "width": 158,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Замкнутая поверхность охватывает диэлектрический шар со свободными зарядами. Чему равен поток напряжённости E⃗ через поверхность?",
@@ -5810,7 +14477,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       574
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/c44d4602d2c6c62ee3a4d012.jpg",
+          "width": 1086,
+          "height": 83
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/090e7a0583f925a284698d4e.jpg",
+          "width": 236,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильное выражение для потока магнитной индукции",
@@ -5820,7 +14506,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       575
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильное выражение для потока магнитной индукции",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/33843867723016e0a1960173.jpg",
+          "width": 557,
+          "height": 209
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a267e85aedf5383d17440ac4.jpg",
+          "width": 246,
+          "height": 43
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится энергия воздушного конденсатора, если, оставив его подключённым к источнику, погрузить его в жидкий диэлектрик с ε > 1?",
@@ -5830,7 +14535,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       576
-    ]
+    ],
+    "original": {
+      "question": "Как изменится энергия заряженного воздушного конденсатора, если не отключая от источника, погрузить его в жидкий диэлектрик",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/5526dea8d86a6745adbc96e6.jpg",
+          "width": 700,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5dddc2eedfdf90eaf133e3b3.jpg",
+          "width": 147,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Замкнутая поверхность охватывает часть нейтрального диэлектрика со связанными зарядами. Чему равен поток электрической индукции D⃗ через поверхность?",
@@ -5840,7 +14564,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       577
-    ]
+    ],
+    "original": {
+      "question": "Некоторая область пространства ограничена замкнутой поверхностью. Внутри этой области частично оказался нейтральный диэлектрик с поляризованными зарядами. Поток вектора электрической индукции через эту поверхность равен",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/b3bedba452fa44cc81d2e8a8.jpg",
+          "width": 819,
+          "height": 50
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2ea15303edf77c179881e409.jpg",
+          "width": 125,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает три проводника с токами 12I, 8I и −14I. Положительное направление обхода согласовано с первыми двумя токами. Чему равна циркуляция H⃗?",
@@ -5850,7 +14593,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       578
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/ef8aaa136992c61828b3e722.jpg",
+          "width": 1168,
+          "height": 85
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0c1ed8617f47c2eda671c157.jpg",
+          "width": 133,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Радиальная составляющая напряжённости поля равна Eᵣ = −3A/r³, A — константа. Найти потенциал поля.",
@@ -5860,7 +14622,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       579
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 138,
+      "questionImages": [
+        {
+          "file": "media/lms/af075389ee7021c65fb329f5.jpg",
+          "width": 1151,
+          "height": 96
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3c47fccb0417f27effdba19c.jpg",
+          "width": 281,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Молекулы полярных диэлектриков",
@@ -5870,7 +14651,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       580
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 139,
+      "questionImages": [
+        {
+          "file": "media/lms/0df61a8bc476a8314a906612.jpg",
+          "width": 566,
+          "height": 42
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d726af3274544bf451d22263.jpg",
+          "width": 489,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Потенциал электрического поля точечного заряда в вакууме имеет вид",
@@ -5880,7 +14680,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       581
-    ]
+    ],
+    "original": {
+      "question": "Потенциал электрического поля точечного заряда в вакууме имеет вид",
+      "answer": "",
+      "page": 139,
+      "answerImages": [
+        {
+          "file": "media/lms/466fc19aa7150b7214ea3021.jpg",
+          "width": 213,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Дипольный момент равен 3 нКл·м. Найдите напряжённость поля на продолжении оси диполя на расстоянии 3 м. Используйте ε₀ = 8,85·10⁻¹² Ф/м.",
@@ -5890,7 +14702,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       582
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 139,
+      "questionImages": [
+        {
+          "file": "media/lms/e2d503bfff76d97961782e98.jpg",
+          "width": 770,
+          "height": 56
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b6340ea4d35af14e50472f23.jpg",
+          "width": 110,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Диполь находится рядом с положительным точечным зарядом. При какой ориентации диполя его потенциальная энергия максимальна?",
@@ -5900,7 +14731,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       583
-    ]
+    ],
+    "original": {
+      "question": "На рисунке показаны три положения диполя около положительного заряда. В каком положении диполя его потенциальная энергия максимальна",
+      "answer": "",
+      "page": 139,
+      "questionImages": [
+        {
+          "file": "media/lms/2d0bd6c1a68124cbd700243e.jpg",
+          "width": 955,
+          "height": 224
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4132be1407958b3bea2a8e41.jpg",
+          "width": 621,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Конденсаторы C₁ = 2 мкФ, C₂ = 6 мкФ и C₃ = 0,8 мкФ соединены последовательно и подключены к напряжению U. Какой из них обладает наибольшей энергией?",
@@ -5910,7 +14760,55 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       584
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 139,
+      "questionImages": [
+        {
+          "file": "media/lms/ab0ac50ba6b4940f8121c9f1.jpg",
+          "width": 478,
+          "height": 199
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/61dd9f3359067d93be0fbb92.jpg",
+          "width": 101,
+          "height": 24
+        }
+      ]
+    }
+  },
+  {
+    "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является скаляром",
+    "answers": [
+      "Потенциал электрического поля."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      585
+    ],
+    "original": {
+      "question": "Из приведенных ниже величин, характеризующих электрическое поле, выберите ту, которая является скаляром",
+      "answer": "",
+      "page": 140,
+      "questionImages": [
+        {
+          "file": "media/lms/93cca497f10600a1a3c336bc.jpg",
+          "width": 585,
+          "height": 126
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b397b5c26192281aadad5727.jpg",
+          "width": 214,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Плоские воздушные конденсаторы C₁ = 10 мкФ, C₂ = 50 мкФ и C₃ = 25 мкФ соединены последовательно. Площади обкладок одинаковы. В каком напряжённость поля наибольшая?",
@@ -5920,7 +14818,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       586
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 140,
+      "questionImages": [
+        {
+          "file": "media/lms/a2bd54351c27e8416b84f0c9.jpg",
+          "width": 770,
+          "height": 236
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a4f4dbfa46d91e03bc55471e.jpg",
+          "width": 394,
+          "height": 21
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна магнитная индукция в центре кругового витка радиусом R с током I?",
@@ -5930,7 +14847,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       587
-    ]
+    ],
+    "original": {
+      "question": "Величина магнитной индукции в центре кругового тока радиусом определяется выражением",
+      "answer": "",
+      "page": 140,
+      "questionImages": [
+        {
+          "file": "media/lms/827145526410ac1fddd5a9f9.jpg",
+          "width": 790,
+          "height": 64
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2d38d3c3aca0fdeb15514d12.jpg",
+          "width": 204,
+          "height": 83
+        }
+      ]
+    }
   },
   {
     "question": "Линии электрической индукции идут вдоль границы диэлектриков с ε₁ = 1 и ε₂ = 2. Как соотносятся D₁ и D₂?",
@@ -5940,7 +14876,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       588
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 140,
+      "questionImages": [
+        {
+          "file": "media/lms/42a361eddfce854320515e06.jpg",
+          "width": 796,
+          "height": 184
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/032c38fc2882eb3296e854ac.jpg",
+          "width": 686,
+          "height": 63
+        }
+      ]
+    }
   },
   {
     "question": "Электрический заряд q находится в центре сферы радиусом r. Чему равен поток вектора E⃗ через эту сферу?",
@@ -5950,7 +14905,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       589
-    ]
+    ],
+    "original": {
+      "question": "Электрический заряд находится в центре сверы радиусом.. Чему равен поток вектора напряженности электрического поля через эту сферу",
+      "answer": "",
+      "page": 141,
+      "questionImages": [
+        {
+          "file": "media/lms/c762178f01a97318373ebc70.jpg",
+          "width": 703,
+          "height": 232
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d95227a2eb47c48b80f889aa.jpg",
+          "width": 284,
+          "height": 62
+        }
+      ]
+    }
   },
   {
     "question": "Две катушки намотаны на один сердечник. Концы одной замкнуты через амперметр. В момент включения тока во второй катушке амперметр показывает ток в первой. В каком направлении течет этот ток в первой катушке?",
@@ -5960,7 +14934,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       590
-    ]
+    ],
+    "original": {
+      "question": "Две катушки намотаны на один сердечник. Концы одной замкнуты через амперметр. В момент включения тока во второй катушке амперметр показывает ток в первой. В каком направлении течет этот ток в первой катушке?",
+      "answer": "В направлении, обратном направлению тока во второй катушке.",
+      "page": 141,
+      "questionImages": [
+        {
+          "file": "media/lms/5ab9242180b1a16e5523f3e6.jpg",
+          "width": 656,
+          "height": 675
+        }
+      ]
+    }
   },
   {
     "question": "Выберите правильное выражение для циркуляции вектора магнитной индукции",
@@ -5970,7 +14956,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       591
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильное выражение для циркуляции вектора магнитной индукции",
+      "answer": "",
+      "page": 141,
+      "questionImages": [
+        {
+          "file": "media/lms/693cb1463a5d18a70711df34.jpg",
+          "width": 819,
+          "height": 284
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/066d0bab4806933e996a9dc8.jpg",
+          "width": 308,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Дипольный момент p⃗ направлен вдоль +Ox, точка наблюдения лежит в первом квадранте. Радиус-вектор точки образует с +Ox острый угол θ (на схеме около 40°). Куда направлено E⃗?",
@@ -5981,6 +14986,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       592
     ],
+    "original": {
+      "question": "Какое направление имеет вектор напряженности электрического поля, созданного диполем, расположенным в начале координат",
+      "answer": "Направление 3.",
+      "page": 142,
+      "questionImages": [
+        {
+          "file": "media/lms/a9753a314aa531ae18b0e5b8.jpg",
+          "width": 1183,
+          "height": 594
+        }
+      ]
+    },
     "sourceNote": "Угол оценён по схеме, поскольку числовое значение в PDF не дано."
   },
   {
@@ -5991,7 +15008,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       593
-    ]
+    ],
+    "original": {
+      "question": "Как ведет себя электрический диполь во внешнем поле",
+      "answer": "",
+      "page": 143,
+      "answerImages": [
+        {
+          "file": "media/lms/66d6b55ccc210a5b35edd713.jpg",
+          "width": 774,
+          "height": 16
+        }
+      ]
+    }
   },
   {
     "question": "Сила тока в проводнике равномерно нарастает от 1 А до ЗА в течение 10 с. Найти электрический заряд. протекший за это время.",
@@ -6001,17 +15030,41 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       594
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 143,
+      "questionImages": [
+        {
+          "file": "media/lms/e551748cb9091183214af125.jpg",
+          "width": 760,
+          "height": 67
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5c9a718dd1f28ee96b09b257.jpg",
+          "width": 129,
+          "height": 30
+        }
+      ]
+    }
   },
   {
-    "question": "Как будут вести себя два электрических диполя, находящиеся на оси (ох), ориентированные в положительном направлении оси?",
+    "question": "Как ведут себя два электрических диполя, находящиеся на оси, ориентированные в положительном направлении оси",
     "answers": [
-      "Будут притягиваться."
+      "Будут притягиваться"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       595
-    ]
+    ],
+    "original": {
+      "question": "Как ведут себя два электрических диполя, находящиеся на оси, ориентированные в положительном направлении оси",
+      "answer": "Будут притягиваться",
+      "page": 188
+    }
   },
   {
     "question": "Дипольный момент p⃗ направлен вдоль +Ox. Точка 3 расположена на положительной полуоси Ox на расстоянии r. Чему равен потенциал поля в точке 3?",
@@ -6021,7 +15074,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       596
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "φ = p/(4πε₀r²).",
+      "page": 143,
+      "questionImages": [
+        {
+          "file": "media/lms/bfb670c94d4ebabdf31d7310.jpg",
+          "width": 607,
+          "height": 751
+        }
+      ]
+    }
   },
   {
     "question": "Силовую линию электростатического поля можно представить:",
@@ -6031,7 +15096,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       597
-    ]
+    ],
+    "original": {
+      "question": "Силовую линию электростатического поля можно представить:",
+      "answer": "Как линию, по касательным к которой направлен вектор напряжённости электрического поля.",
+      "page": 510
+    }
   },
   {
     "question": "Выберите утверждение, справедливое для потока вектора электрической индукции через замкнутую поверхность",
@@ -6041,7 +15111,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       598
-    ]
+    ],
+    "original": {
+      "question": "Выберите утверждение, справедливое для потока вектора электрической индукции через замкнутую поверхность",
+      "answer": "",
+      "page": 144,
+      "questionImages": [
+        {
+          "file": "media/lms/400f51c5b1cd768363542b05.jpg",
+          "width": 1097,
+          "height": 222
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/797fc7b606723e13b24cc4a2.jpg",
+          "width": 1007,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Дипольный момент p⃗ направлен вдоль +Ox. Точка 1 находится на оси Oy на расстоянии r от центра диполя. Чему равна величина напряжённости поля в точке 1?",
@@ -6051,7 +15140,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       599
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "E = p/(4πε₀r³).",
+      "page": 145,
+      "questionImages": [
+        {
+          "file": "media/lms/54fb21364fe0cf1ee0f45a6e.jpg",
+          "width": 656,
+          "height": 734
+        }
+      ]
+    }
   },
   {
     "question": "Какова напряжённость поля бесконечной равномерно заряженной плоскости с поверхностной плотностью заряда σ?",
@@ -6061,7 +15162,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       600
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 145,
+      "questionImages": [
+        {
+          "file": "media/lms/34205cc767fda1e4fc62d0f7.jpg",
+          "width": 729,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c584774c64024a1c2078f524.jpg",
+          "width": 148,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Диполь находится рядом с положительным точечным зарядом. При какой ориентации диполя его потенциальная энергия минимальна?",
@@ -6071,7 +15191,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       601
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 146,
+      "questionImages": [
+        {
+          "file": "media/lms/e18a06fae09d34605e953c0e.jpg",
+          "width": 652,
+          "height": 234
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4c8eb842463a1e338b9b4ff8.jpg",
+          "width": 652,
+          "height": 16
+        }
+      ]
+    }
   },
   {
     "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить еще один ток в пределах контура",
@@ -6081,7 +15220,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       602
-    ]
+    ],
+    "original": {
+      "question": "Что произойдет с циркуляцией вектора магнитной индукции по контуру, охватывающему проводник с током, если добавить еще один ток в пределах контура",
+      "answer": "",
+      "page": 146,
+      "answerImages": [
+        {
+          "file": "media/lms/6cfc392b09859cb07de13fc2.jpg",
+          "width": 487,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Ток в проводе направлен вдоль −Oz. В плоскости yz на стороне y > 0 расположен небольшой проволочный виток. Что произойдёт при увеличении тока?",
@@ -6091,7 +15242,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       603
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "В витке возникнет кратковременный ток, текущий по часовой стрелке -.",
+      "page": 148,
+      "questionImages": [
+        {
+          "file": "media/lms/ad8b5516a76c9334c3cf6aaa.jpg",
+          "width": 1136,
+          "height": 436
+        }
+      ]
+    }
   },
   {
     "question": "Три конденсатора с одинаковым допустимым напряжением, C₁ = 2,5 мкФ, C₂ = 8 мкФ и C₃ = 0,6 мкФ, соединены параллельно. Какой пробьётся первым при повышении напряжения батареи?",
@@ -6101,7 +15264,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       604
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 147,
+      "questionImages": [
+        {
+          "file": "media/lms/655b7c51d54be1ecdab3c3dd.jpg",
+          "width": 724,
+          "height": 307
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/02683228ce9865afe46ae1a6.jpg",
+          "width": 289,
+          "height": 20
+        }
+      ]
+    }
   },
   {
     "question": "Три конденсатора с одинаковым допустимым напряжением, C₁ = 2,5 мкФ, C₂ = 8 мкФ и C₃ = 0,6 мкФ, соединены последовательно. Какой пробьётся первым при повышении напряжения батареи?",
@@ -6111,7 +15293,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       605
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 147,
+      "questionImages": [
+        {
+          "file": "media/lms/30547c528da9f1995bc86dfc.jpg",
+          "width": 1092,
+          "height": 325
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/806d224339b693268f10e1e4.jpg",
+          "width": 126,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Три конденсатора C₁ = 25 мкФ, C₂ = 0,8 мкФ и C₃ = 6 мкФ соединили последовательно. Максимально допустимые напряжения одинаковы. Какой пробьётся первым при повышении напряжения на батарее?",
@@ -6121,7 +15322,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       606
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Конденсатор C₂ с ёмкостью 0,8 мкФ.",
+      "page": 148,
+      "questionImages": [
+        {
+          "file": "media/lms/9c2b61a6adb3dfbc732832f6.jpg",
+          "width": 1086,
+          "height": 503
+        }
+      ]
+    }
   },
   {
     "question": "Замкнутая поверхность охватывает диэлектрик и свободные и связанные заряды qᵢ. Чему равен поток напряжённости электрического поля через поверхность?",
@@ -6131,7 +15344,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       607
-    ]
+    ],
+    "original": {
+      "question": "Некоторая область пространства ограничена замкнутой поверхностью Внутри этой области оказались диэлектрик, свободные и связанные электрические заряды Ч; Поток вектора напряженности электрического поля через эту поверхность равен:",
+      "answer": "Φₑ = (1/ε₀)·Σqᵢ, где суммируются свободные и связанные заряды внутри поверхности.",
+      "page": 149,
+      "questionImages": [
+        {
+          "file": "media/lms/55361804e134e265b34c1b23.jpg",
+          "width": 543,
+          "height": 619
+        }
+      ]
+    }
   },
   {
     "question": "Прямой проводник длиной 10 см движется со скоростью 5 км/с перпендикулярно магнитным силовым линиям. При этом напряжение на концах проводника равно 0,5 В. Найти индукцию магнитного поля:",
@@ -6141,24 +15366,181 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       608
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 149,
+      "questionImages": [
+        {
+          "file": "media/lms/4bb0d35fbd1007f3208450db.jpg",
+          "width": 647,
+          "height": 248
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5fececf71f29898f41741fae.jpg",
+          "width": 256,
+          "height": 58
+        }
+      ]
+    }
   },
   {
     "question": "Какие две формулы из представленного набора задают энергию катушки индуктивности? I — ток, L — индуктивность, Ψ — потокосцепление, V — объём катушки.",
     "answers": [
-      "W = (BHV)/2 и W = IΨ/2 для линейной катушки.",
-      "W = LI²/2 и W = BHV/2.",
-      "W = BHV/2 и W = IΨ/2.",
+      "W = (BHV)/2 и W = IΨ/2 для линейной катушки."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      609
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 150,
+      "questionImages": [
+        {
+          "file": "media/lms/c80322bb3a8307e13d2ddf5b.jpg",
+          "width": 522,
+          "height": 299
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ffa7dce829b73c02f06494a7.jpg",
+          "width": 188,
+          "height": 63
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какие две формулы из представленного набора задают энергию катушки индуктивности? I — ток, L — индуктивность, Ψ — потокосцепление, V — объём катушки.",
+    "answers": [
+      "W = LI²/2 и W = BHV/2."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      610
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 150,
+      "questionImages": [
+        {
+          "file": "media/lms/42168cd6feb3ee86ee5992b3.jpg",
+          "width": 493,
+          "height": 308
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9764865b6998f47e2e2d3f5e.jpg",
+          "width": 186,
+          "height": 79
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какие две формулы из представленного набора задают энергию катушки индуктивности? I — ток, L — индуктивность, Ψ — потокосцепление, V — объём катушки.",
+    "answers": [
+      "W = BHV/2 и W = IΨ/2."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      611
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 150,
+      "questionImages": [
+        {
+          "file": "media/lms/b552672dec945247950fe7aa.jpg",
+          "width": 462,
+          "height": 258
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4d4f298903dad3edc31c3976.jpg",
+          "width": 177,
+          "height": 29
+        },
+        {
+          "file": "media/lms/7d51371cc5ad431f86c22cb8.jpg",
+          "width": 166,
+          "height": 29
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какие две формулы из представленного набора задают энергию катушки индуктивности? I — ток, L — индуктивность, Ψ — потокосцепление, V — объём катушки.",
+    "answers": [
       "W = LI²/2 и W = BHV/2 для однородного поля в объёме V."
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      609,
-      610,
-      611,
-      612,
+      612
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 150,
+      "questionImages": [
+        {
+          "file": "media/lms/c9bc0b6fe835a7400e5728eb.jpg",
+          "width": 599,
+          "height": 337
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/175b7cc3c2b740cf152b7df4.jpg",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "file": "media/lms/f3c38bbf558c0faaf6f18342.jpg",
+          "width": 204,
+          "height": 38
+        }
+      ]
+    }
+  },
+  {
+    "question": "Какие две формулы из представленного набора задают энергию катушки индуктивности? I — ток, L — индуктивность, Ψ — потокосцепление, V — объём катушки.",
+    "answers": [
+      "W = LI²/2 и W = BHV/2."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
       613
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 150,
+      "questionImages": [
+        {
+          "file": "media/lms/51d91da6777c711d1774a940.jpg",
+          "width": 536,
+          "height": 267
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/caafb5a531eee2e8784d94e3.jpg",
+          "width": 187,
+          "height": 64
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) div j⃗ = −∂ρ/∂t\n2) dP/dV = j⃗·E⃗\n3) j⃗ = σE⃗",
@@ -6168,7 +15550,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       614
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 151,
+      "questionImages": [
+        {
+          "file": "media/lms/99f94b78a6ca1089c45356df.jpg",
+          "width": 656,
+          "height": 165
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/99f94b78a6ca1089c45356df.jpg",
+          "width": 656,
+          "height": 165
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) dP/dV = j⃗·E⃗\n2) j⃗ = σE⃗\n3) I = U/R\n4) Q = I²Rt",
@@ -6178,7 +15579,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       615
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 151,
+      "questionImages": [
+        {
+          "file": "media/lms/9f61594bd499c91c168fb39d.jpg",
+          "width": 590,
+          "height": 192
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9f61594bd499c91c168fb39d.jpg",
+          "width": 590,
+          "height": 192
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) ∮ₛ B⃗·dS⃗ = 0\n2) ∮ₛ D⃗·dS⃗ = Σqᵢ\n3) ∮ₛ E⃗·dS⃗ = (1/ε₀)·Σqᵢ",
@@ -6188,7 +15608,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       616
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 151,
+      "questionImages": [
+        {
+          "file": "media/lms/70ed8f72975ac5fb80082d6d.jpg",
+          "width": 757,
+          "height": 191
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fc67b0ed770e04f65ef5be65.jpg",
+          "width": 757,
+          "height": 122
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) ∮ₗ E⃗·dl⃗ = 0\n2) ∮ₛ E⃗·dS⃗ = (1/ε₀)·Σqᵢ\n3) ∮ₗ H⃗·dl⃗ = ΣIᵢ\n4) ∮ₛ B⃗·dS⃗ = 0",
@@ -6198,7 +15637,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       617
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 151,
+      "questionImages": [
+        {
+          "file": "media/lms/cc08853f3948e38f97a45111.jpg",
+          "width": 986,
+          "height": 361
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ad9bc0c402e5f01385af47f2.jpg",
+          "width": 986,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) ∮ₛ B⃗·dS⃗ = 0\n2) ∮ₗ H⃗·dl⃗ = ΣIᵢ\n3) ∮ₗ E⃗·dl⃗ = 0\n4) ∮ₛ E⃗·dS⃗ = (1/ε₀)·Σqᵢ",
@@ -6208,7 +15666,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       618
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Сверху вниз: теорема Гаусса для магнитного потока, теорема о циркуляции вектора напряжённости магнитного поля, теорема о циркуляции вектора напряжённости электростатического поля, теорема Гаусса для вектора напряжённости электрического поля.",
+      "page": 151,
+      "questionImages": [
+        {
+          "file": "media/lms/d0546b0a63dc88e030768ad3.jpg",
+          "width": 639,
+          "height": 197
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) dB⃗ = (μ₀/4π)·I(dl⃗ × r⃗)/r³\n2) ∮ₛ D⃗·dS⃗ = Σqᵢ\n3) εᵢ = −dΦ/dt\n4) ∮ₗ B⃗·dl⃗ = μ₀·ΣIᵢ",
@@ -6218,7 +15688,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       619
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 152,
+      "questionImages": [
+        {
+          "file": "media/lms/b29c6f718158c5802637c090.jpg",
+          "width": 559,
+          "height": 254
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/829c3e57b76eb7b34beeb2cb.jpg",
+          "width": 559,
+          "height": 177
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) ∮ₗ H⃗·dl⃗ = ΣIᵢ\n2) ∮ₗ B⃗·dl⃗ = μ₀·ΣIᵢ\n3) ∮ₗ E⃗_ст·dl⃗ = ε\n4) ∮ₗ E⃗·dl⃗ = 0",
@@ -6228,7 +15717,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       620
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 152,
+      "questionImages": [
+        {
+          "file": "media/lms/6d895ce3c97d9eed06f0e5aa.jpg",
+          "width": 634,
+          "height": 294
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6d895ce3c97d9eed06f0e5aa.jpg",
+          "width": 634,
+          "height": 294
+        }
+      ]
+    }
   },
   {
     "question": "Назовите законы или теоремы, записанные ниже.\n1) I = ε/(R + r)\n2) I = (φ₁ − φ₂ ± ε₁₂)/R\n3) j⃗ = σE⃗\n4) I = U/R",
@@ -6238,7 +15746,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       621
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 152,
+      "questionImages": [
+        {
+          "file": "media/lms/34e608338420f0f3279fb82a.jpg",
+          "width": 714,
+          "height": 225
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/34e608338420f0f3279fb82a.jpg",
+          "width": 714,
+          "height": 225
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = 0\n∮ₛ B⃗·dS⃗ = 0",
@@ -6249,6 +15776,25 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       622
     ],
+    "original": {
+      "question": "Данная система уравнений явлется:",
+      "answer": "",
+      "page": 153,
+      "questionImages": [
+        {
+          "file": "media/lms/ab162c224891e3af4e37bb2b.jpg",
+          "width": 575,
+          "height": 42
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2df2ed483f6101e0c638036e.jpg",
+          "width": 575,
+          "height": 19
+        }
+      ]
+    },
     "sourceNote": "Формулы перенесены с соседнего фрагмента той же страницы PDF (с. 153)."
   },
   {
@@ -6259,7 +15805,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       623
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 153,
+      "questionImages": [
+        {
+          "file": "media/lms/a03c8559e67278f2e7acb6e1.jpg",
+          "width": 982,
+          "height": 748
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8982513490f9407b10246a9c.jpg",
+          "width": 982,
+          "height": 48
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = I + d/dt ∫ₛ ε₀E⃗·dS⃗\n∮ₛ ε₀E⃗·dS⃗ = q\n∮ₛ B⃗·dS⃗ = 0",
@@ -6269,7 +15834,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       624
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Система уравнений Максвелла для провода с током и точечного заряда в вакууме.",
+      "page": 153,
+      "questionImages": [
+        {
+          "file": "media/lms/c8cf9343310b779a04983c53.jpg",
+          "width": 982,
+          "height": 452
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = I + d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = 0\n∮ₛ B⃗·dS⃗ = 0",
@@ -6279,7 +15856,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       625
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 153,
+      "questionImages": [
+        {
+          "file": "media/lms/fe6aa986d8a96edf42eb6f69.jpg",
+          "width": 653,
+          "height": 564
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5044a3c819a0631e474ebcf7.jpg",
+          "width": 653,
+          "height": 17
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = I + d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = q\n∮ₛ B⃗·dS⃗ = 0",
@@ -6289,7 +15885,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       626
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Системой уравнений Максвелла для провода с током и точечного заряда в диэлектрике",
+      "page": 154,
+      "questionImages": [
+        {
+          "file": "media/lms/24230b894b2dc3deafe07041.jpg",
+          "width": 1138,
+          "height": 516
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = q\n∮ₛ B⃗·dS⃗ = 0",
@@ -6299,7 +15907,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       627
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 154,
+      "questionImages": [
+        {
+          "file": "media/lms/beb5b8970bb7455d3163b264.jpg",
+          "width": 670,
+          "height": 361
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8640f2dbe77e73d1a5309603.jpg",
+          "width": 670,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = ∫ₛ j⃗·dS⃗ + d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = ∫ᵥ ρ dV\n∮ₛ B⃗·dS⃗ = 0",
@@ -6309,7 +15936,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       628
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 154,
+      "questionImages": [
+        {
+          "file": "media/lms/322283462a78073da3001644.jpg",
+          "width": 541,
+          "height": 287
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9a7d3d95012bdcbae0a47629.jpg",
+          "width": 541,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = ∫ᵥ ρ dV\n∮ₛ B⃗·dS⃗ = 0",
@@ -6319,7 +15965,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       629
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 155,
+      "questionImages": [
+        {
+          "file": "media/lms/fa393e96925494cfb0a29725.jpg",
+          "width": 654,
+          "height": 370
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d9db1417e62f79b14dcb1945.jpg",
+          "width": 654,
+          "height": 18
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = d/dt ∫ₛ ε₀E⃗·dS⃗\n∮ₛ ε₀E⃗·dS⃗ = q\n∮ₛ B⃗·dS⃗ = 0",
@@ -6329,7 +15994,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       630
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 155,
+      "questionImages": [
+        {
+          "file": "media/lms/db4d4d1fdf69f6bcadadb705.jpg",
+          "width": 611,
+          "height": 528
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1b89b0fd2e27bdf423b4bf44.jpg",
+          "width": 544,
+          "height": 89
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = I + d/dt ∫ₛ ε₀E⃗·dS⃗\n∮ₛ ε₀E⃗·dS⃗ = 0\n∮ₛ B⃗·dS⃗ = 0",
@@ -6339,7 +16023,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       631
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 155,
+      "questionImages": [
+        {
+          "file": "media/lms/c29679da1c0bbd517b5b14fc.jpg",
+          "width": 633,
+          "height": 364
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fcba06f402da5c1e80fe7fdf.jpg",
+          "width": 633,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Какая система уравнений Максвелла приведена ниже?\n∮ₗ E⃗·dl⃗ = −d/dt ∫ₛ B⃗·dS⃗\n∮ₗ H⃗·dl⃗ = d/dt ∫ₛ D⃗·dS⃗\n∮ₛ D⃗·dS⃗ = 0\n∮ₛ H⃗·dS⃗ = 0",
@@ -6350,6 +16053,18 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       632
     ],
+    "original": {
+      "question": "",
+      "answer": "Система уравнений Максвелла в непроводящей незаряженной среде.",
+      "page": 156,
+      "questionImages": [
+        {
+          "file": "media/lms/f1f74a95a53cd2fdb3096788.jpg",
+          "width": 704,
+          "height": 522
+        }
+      ]
+    },
     "sourceNote": "В PDF последнее уравнение записано через H⃗ для однородной среды."
   },
   {
@@ -6360,7 +16075,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       633
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 157,
+      "questionImages": [
+        {
+          "file": "media/lms/d5205a343387e389218fa0ee.jpg",
+          "width": 1152,
+          "height": 229
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b0b7f73b60c23641b3fad201.jpg",
+          "width": 117,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводам текут токи в одном направлении, I₂ = 2I₁. Точка B между проводами ближе к первому, C — ближе ко второму. A и D находятся вне промежутка. В какой из точек индукция равна нулю?",
@@ -6370,7 +16104,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       634
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 157,
+      "questionImages": [
+        {
+          "file": "media/lms/40a171e6052334cdafda5380.jpg",
+          "width": 1156,
+          "height": 225
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f887374a2ee3f4795fa38340.jpg",
+          "width": 107,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводам, перпендикулярным странице, текут равные токи в противоположных направлениях. Точка C находится между проводами, A и B — по разные стороны от пары. Где индукция равна нулю?",
@@ -6380,7 +16133,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       635
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 157,
+      "questionImages": [
+        {
+          "file": "media/lms/9d64988eacde85f53f818c47.jpg",
+          "width": 968,
+          "height": 169
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a8019c3c1560c78f5b1d2a19.jpg",
+          "width": 188,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводам текут противоположные токи, I₁ = 2I₂. A находится слева от первого провода, B и C между проводами, D справа от второго. В какой точке индукция равна нулю?",
@@ -6390,7 +16162,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       636
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 157,
+      "questionImages": [
+        {
+          "file": "media/lms/c77be20e8643b037297e4943.jpg",
+          "width": 1081,
+          "height": 205
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f9c7499f10c0dcf9be789151.jpg",
+          "width": 89,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи равны и направлены противоположно. A находится слева от обоих проводников, B между ними, C справа. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6400,7 +16191,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       637
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Таких точек нет",
+      "page": 158,
+      "questionImages": [
+        {
+          "file": "media/lms/785cebdc3f276740c6124f58.jpg",
+          "width": 972,
+          "height": 233
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи одинаковы и направлены из плоскости к наблюдателю. A расположена посередине между проводниками, C слева от обоих, B справа. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6410,7 +16213,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       638
-    ]
+    ],
+    "original": {
+      "question": "По двум очень длинным проводникам текут одинаковые токи в одном направлении на нас. В какой из обозначенных точек А, В, С индукция п В а о © - магнитного поля равна нулю? с А В",
+      "answer": "",
+      "page": 158,
+      "answerImages": [
+        {
+          "file": "media/lms/05be1a9425d6a5862d2ebc0a.jpg",
+          "width": 108,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены противоположно, I₂ = 2I₁. C расположена слева от первого проводника, D и A между проводниками, B справа от второго. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6420,7 +16235,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       639
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 158,
+      "questionImages": [
+        {
+          "file": "media/lms/9f1a2292f63c70d52aaac52e.jpg",
+          "width": 791,
+          "height": 172
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e65b782f4b263dc728e6f1c0.jpg",
+          "width": 91,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Оба тока направлены из плоскости к наблюдателю, I₂ = 2I₁. Между проводниками D ближе к первому, A ближе ко второму. C и B вне промежутка. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6430,7 +16264,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       640
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Точка D.",
+      "page": 158,
+      "questionImages": [
+        {
+          "file": "media/lms/d81b2b5040d1dba3c6932671.jpg",
+          "width": 1020,
+          "height": 299
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены одинаково, I₁ = 2I₂. Между проводниками B ближе к первому, C ближе ко второму. A и D вне промежутка. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6440,7 +16286,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       641
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 159,
+      "questionImages": [
+        {
+          "file": "media/lms/2d76631b9e5f4d9b90489f08.jpg",
+          "width": 812,
+          "height": 179
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7e8b6253af7829362be2675a.jpg",
+          "width": 94,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи равны и направлены одинаково. B — точка посередине между проводниками, A и C лежат вне промежутка. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6450,7 +16315,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       642
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 159,
+      "questionImages": [
+        {
+          "file": "media/lms/77bbebd738d2edc08eeabcbb.jpg",
+          "width": 778,
+          "height": 181
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b3cb87f60d5c666f871f977a.jpg",
+          "width": 94,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены противоположно, I₂ = 2I₁. A находится слева от первого проводника, B и C между проводниками, D справа от второго. В какой из перечисленных точек магнитная индукция равна нулю?",
@@ -6460,7 +16344,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       643
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 159,
+      "questionImages": [
+        {
+          "file": "media/lms/d1b3a14fcab58341a0d1140e.jpg",
+          "width": 662,
+          "height": 121
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ca3f82e630310b0c1c1b5d6f.jpg",
+          "width": 662,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены противоположно, I₂ = 2I₁. C и B снаружи, D и A между проводниками, причём A ближе к более сильному току. В какой из перечисленных точек магнитная индукция максимальна по модулю?",
@@ -6470,7 +16373,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       644
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 160,
+      "questionImages": [
+        {
+          "file": "media/lms/597e501def91c2c3242da6c6.jpg",
+          "width": 1176,
+          "height": 191
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/63a2b1a3743b110cb521cb49.jpg",
+          "width": 106,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи равны и направлены противоположно. D между проводниками, B и C слева от обоих, A справа. В какой из перечисленных точек магнитная индукция максимальна по модулю?",
@@ -6480,7 +16402,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       645
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 160,
+      "questionImages": [
+        {
+          "file": "media/lms/7bc93d07bf6e52cd0c04e08f.jpg",
+          "width": 1117,
+          "height": 229
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a7c4cc288ce4f4419e68d9ef.jpg",
+          "width": 120,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены одинаково, I₂ = 2I₁. A слева от первого проводника, B между ними, C сразу справа от второго, D дальше справа. В какой из перечисленных точек магнитная индукция максимальна по модулю?",
@@ -6490,7 +16431,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       646
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Точка C.",
+      "page": 160,
+      "questionImages": [
+        {
+          "file": "media/lms/593554998c99839a8d896b24.jpg",
+          "width": 805,
+          "height": 324
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи направлены противоположно, I₂ = 2I₁. B и C между проводниками, C ближе ко второму. A и D вне промежутка. В какой из перечисленных точек магнитная индукция максимальна по модулю?",
@@ -6500,7 +16453,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       647
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 160,
+      "questionImages": [
+        {
+          "file": "media/lms/ff5840033c51fdbf8f8e4b11.jpg",
+          "width": 837,
+          "height": 179
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ae2185414aee0864c7db3bfd.jpg",
+          "width": 97,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "По двум длинным параллельным проводникам текут токи I₁ и I₂. Токи равны и направлены одинаково. D посередине между проводниками, B и C слева от обоих, C ближе к первому проводнику. A справа от обоих. В какой из перечисленных точек магнитная индукция максимальна по модулю?",
@@ -6510,7 +16482,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       648
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 161,
+      "questionImages": [
+        {
+          "file": "media/lms/54112eb6d68577a44c70e92d.jpg",
+          "width": 804,
+          "height": 210
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/faed229f2f2d8eae1697c54b.jpg",
+          "width": 88,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу справа налево в плоскости страницы. Точка A находится ниже провода. Куда направлен вектор магнитной индукции в точке A?",
@@ -6520,7 +16511,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       649
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 162,
+      "questionImages": [
+        {
+          "file": "media/lms/a67779b5383f849c4be5dac4.jpg",
+          "width": 1162,
+          "height": 242
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/529b449289abbdc920905c0a.jpg",
+          "width": 455,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу перпендикулярно плоскости страницы от наблюдателя. Точка A находится ниже точки пересечения провода с плоскостью. Куда направлен вектор магнитной индукции в точке A?",
@@ -6530,7 +16540,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       650
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Горизонтально справа налево",
+      "page": 162,
+      "questionImages": [
+        {
+          "file": "media/lms/b642156382a8eee86f41c61b.jpg",
+          "width": 1109,
+          "height": 252
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу перпендикулярно плоскости страницы к наблюдателю. Точка A находится ниже точки пересечения провода с плоскостью. Куда направлен вектор магнитной индукции в точке A?",
@@ -6540,7 +16562,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       651
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Горизонтально слева направо",
+      "page": 163,
+      "questionImages": [
+        {
+          "file": "media/lms/620570fc8368e13f53f8e279.jpg",
+          "width": 1112,
+          "height": 244
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу перпендикулярно плоскости страницы от наблюдателя. Точка A находится справа от точки пересечения провода с плоскостью. Куда направлен вектор магнитной индукции в точке A?",
@@ -6550,7 +16584,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       652
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Вертикально вниз",
+      "page": 163,
+      "questionImages": [
+        {
+          "file": "media/lms/4001f39c9ef80cfbd752f84e.jpg",
+          "width": 764,
+          "height": 114
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу слева направо в плоскости страницы. Точка A находится ниже провода. Куда направлен вектор магнитной индукции в точке A?",
@@ -6560,7 +16606,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       653
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 164,
+      "questionImages": [
+        {
+          "file": "media/lms/9a2c2578d47988120e5ee08d.jpg",
+          "width": 1412,
+          "height": 288
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b1ae90c4b48c793fbaa502c2.jpg",
+          "width": 1412,
+          "height": 18
+        }
+      ]
+    }
   },
   {
     "question": "Ток течёт по очень длинному прямому проводу перпендикулярно плоскости страницы к наблюдателю. Точка A находится справа от точки пересечения провода с плоскостью. Куда направлен вектор магнитной индукции в точке A?",
@@ -6570,7 +16635,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       654
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 164,
+      "questionImages": [
+        {
+          "file": "media/lms/9fc555b1d0c3661143fb61eb.jpg",
+          "width": 622,
+          "height": 114
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/59ba02b8b52816d5c050f3ec.jpg",
+          "width": 196,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Протон (q = +1,6·10⁻¹⁹ Кл) движется вправо в плоскости страницы. Точка A находится выше траектории. Куда направлен вектор магнитной индукции в точке A?",
@@ -6579,9 +16663,20 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      655,
-      658
-    ]
+      655
+    ],
+    "original": {
+      "question": "",
+      "answer": "Перпендикулярно плоскости рисунка кнам",
+      "page": 165,
+      "questionImages": [
+        {
+          "file": "media/lms/ef20a49b4045b3908c9db6aa.jpg",
+          "width": 1141,
+          "height": 262
+        }
+      ]
+    }
   },
   {
     "question": "Протон (q = +1,6·10⁻¹⁹ Кл) движется к наблюдателю перпендикулярно странице. Точка A находится справа от протона. Куда направлен вектор магнитной индукции в точке A?",
@@ -6591,7 +16686,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       656
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Вертикально вверх",
+      "page": 165,
+      "questionImages": [
+        {
+          "file": "media/lms/bab8058faf7e27a47f7e4c63.jpg",
+          "width": 1122,
+          "height": 154
+        }
+      ]
+    }
   },
   {
     "question": "Положительно заряженная частица движется к наблюдателю перпендикулярно странице. Точка A находится выше частицы. Куда направлен вектор магнитной индукции в точке A?",
@@ -6601,7 +16708,48 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       657
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 165,
+      "questionImages": [
+        {
+          "file": "media/lms/1791c427f6992c2dff07df9a.jpg",
+          "width": 441,
+          "height": 183
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9e0f3d24f277514a44ffc1a5.jpg",
+          "width": 208,
+          "height": 21
+        }
+      ]
+    }
+  },
+  {
+    "question": "Протон (q = +1,6·10⁻¹⁹ Кл) движется вправо в плоскости страницы. Точка A находится выше траектории. Куда направлен вектор магнитной индукции в точке A?",
+    "answers": [
+      "Перпендикулярно плоскости страницы к наблюдателю."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      658
+    ],
+    "original": {
+      "question": "",
+      "answer": "Перпендикулярно плоскости рисунка кнам",
+      "page": 166,
+      "questionImages": [
+        {
+          "file": "media/lms/fab5f4db05ec7e889b1542fb.jpg",
+          "width": 804,
+          "height": 277
+        }
+      ]
+    }
   },
   {
     "question": "Протон (q = +1,6·10⁻¹⁹ Кл) движется вправо в плоскости страницы. Точка A находится ниже траектории. Куда направлен вектор магнитной индукции в точке A?",
@@ -6611,7 +16759,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       659
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "От нас",
+      "page": 166,
+      "questionImages": [
+        {
+          "file": "media/lms/f2813fb19d46a68a57f25e60.jpg",
+          "width": 593,
+          "height": 511
+        }
+      ]
+    }
   },
   {
     "question": "Отрицательно заряженная частица движется к наблюдателю перпендикулярно странице. Точка A находится справа от частицы. Куда направлен вектор магнитной индукции в точке A?",
@@ -6621,7 +16781,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       660
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Вертикально вниз",
+      "page": 167,
+      "questionImages": [
+        {
+          "file": "media/lms/316e5e795492208e801871d5.jpg",
+          "width": 1166,
+          "height": 160
+        }
+      ]
+    }
   },
   {
     "question": "Отрицательно заряженная частица движется вправо в плоскости страницы. Точка A находится ниже траектории. Куда направлен вектор магнитной индукции в точке A?",
@@ -6631,7 +16803,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       661
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Перпендикулярно плоскости рисунка к нам",
+      "page": 167,
+      "questionImages": [
+        {
+          "file": "media/lms/7ca93f173ed6b657b7806d2e.jpg",
+          "width": 1145,
+          "height": 282
+        }
+      ]
+    }
   },
   {
     "question": "Отрицательно заряженная частица движется к наблюдателю перпендикулярно странице. Точка A находится выше частицы. Куда направлен вектор магнитной индукции в точке A?",
@@ -6641,7 +16825,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       662
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Горизонтально слева направо",
+      "page": 167,
+      "questionImages": [
+        {
+          "file": "media/lms/8a8a2e70bbbd6ede3616c2b8.jpg",
+          "width": 1163,
+          "height": 270
+        }
+      ]
+    }
   },
   {
     "question": "Электрон (q = −1,6·10⁻¹⁹ Кл) движется к наблюдателю перпендикулярно странице. Точка A находится справа от электрона. Куда направлен вектор магнитной индукции в точке A?",
@@ -6651,7 +16847,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       663
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 168,
+      "questionImages": [
+        {
+          "file": "media/lms/2ba2ede5c52a11f5ab6d1f87.jpg",
+          "width": 775,
+          "height": 129
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a2ee692d45bf506ede916e46.jpg",
+          "width": 207,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Электрон (q = −1,6·10⁻¹⁹ Кл) движется вправо в плоскости страницы. Точка A находится выше траектории. Куда направлен вектор магнитной индукции в точке A?",
@@ -6661,7 +16876,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       664
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Перпендикулярно плоскости рисунка от нас",
+      "page": 168,
+      "questionImages": [
+        {
+          "file": "media/lms/22b2820153cc8344b8104f42.jpg",
+          "width": 806,
+          "height": 220
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна степень поляризации Р частично поляризованного света, состоящего из смеси естественного и плоско поляризованного излучения одинаковой интенсивности?",
@@ -6671,7 +16898,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       665
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/951b26789633016645b3b5fe.jpg",
+          "width": 925,
+          "height": 62
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3db0c1513b628620ffa29713.jpg",
+          "width": 116,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Укажите правльное утверждение. В спектре, полученном при помощи призмы",
@@ -6681,7 +16927,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       666
-    ]
+    ],
+    "original": {
+      "question": "Укажите правльное утверждение. В спектре, полученном при помощи призмы",
+      "answer": "Свет отклоняется только в одну сторону от направления падающего луча.",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/253997379d71697d15ccb445.jpg",
+          "width": 872,
+          "height": 255
+        }
+      ]
+    }
   },
   {
     "question": "Укажите неправильное утверждение. При наблюдении спектра полученного при помощи призмы",
@@ -6691,7 +16949,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       667
-    ]
+    ],
+    "original": {
+      "question": "Укажите неправльное утверждение.При наблюдении спектреа полученного при помощи призмы",
+      "answer": "",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/72f2edb7dc088ee5af061356.jpg",
+          "width": 762,
+          "height": 168
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1d9f210c90d214510bdee9df.jpg",
+          "width": 541,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 120°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -6701,7 +16978,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       668
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/9fb98a4d089a892a32c4c045.jpg",
+          "width": 730,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dc7c3b23e6bf0e7990f62713.jpg",
+          "width": 135,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Определить длину отрезка, на котором укладывается столько же длин волн монохроматического света в вакууме сколько их укладывается на отрезке 5 мм в стекле. Показатель преломления стекла 1,5.",
@@ -6711,7 +17007,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       669
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/6af3862b06ab651b9488f19d.jpg",
+          "width": 752,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d2bc87be4a489edc7ac33abc.jpg",
+          "width": 139,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Запишите условие максимумов интенсивности при интерференции через оптическую разность хода Δ и длину волны λ.",
@@ -6721,7 +17036,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       670
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 169,
+      "questionImages": [
+        {
+          "file": "media/lms/641f582d5b8d6aabe434791a.jpg",
+          "width": 733,
+          "height": 49
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e74de012e7276735b8b14082.jpg",
+          "width": 144,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 0°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -6731,7 +17065,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       671
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 170,
+      "questionImages": [
+        {
+          "file": "media/lms/23b0b8504fcc9a405f6c9741.jpg",
+          "width": 523,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b970421b8dc5983c004535f7.jpg",
+          "width": 85,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Предельный угол полного внутреннего отражения на границе вода — воздух равен 49°. Свет из воздуха падает на поверхность воды под углом 40° к нормали. Под каким углом к нормали он входит в воду?",
@@ -6741,7 +17094,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       672
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 170,
+      "questionImages": [
+        {
+          "file": "media/lms/c60d959544a18aeb8062fd40.jpg",
+          "width": 642,
+          "height": 68
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e94dfe05eab14b3ab18df129.jpg",
+          "width": 108,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Чему равно отношение синуса угла преломления к синусу угла падения, если луч света переходит из вакуума в среду с абсолютным показателем преломления, равным 2?",
@@ -6751,7 +17123,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       673
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 170,
+      "questionImages": [
+        {
+          "file": "media/lms/83c7e530a81e7115eace4840.jpg",
+          "width": 531,
+          "height": 59
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/da504b6e6b4585426f3cc1c6.jpg",
+          "width": 110,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Укажите неправильное утверждение. При нормальном падении света на дифракционную решетку",
@@ -6761,7 +17152,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       674
-    ]
+    ],
+    "original": {
+      "question": "Укажите неправильное утверждение. При нормальном падении света на дифракционную решетку",
+      "answer": "",
+      "page": 170,
+      "questionImages": [
+        {
+          "file": "media/lms/dd71900a931936e312a51c4b.jpg",
+          "width": 571,
+          "height": 154
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/0cd320dfa3d002f11f7cf84f.jpg",
+          "width": 325,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна скорость света в среде?",
@@ -6771,7 +17181,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       675
-    ]
+    ],
+    "original": {
+      "question": "Чему равна скорость света в среде?",
+      "answer": "",
+      "page": 171,
+      "answerImages": [
+        {
+          "file": "media/lms/05ee3cbb12c977f2266cb001.jpg",
+          "width": 225,
+          "height": 57
+        }
+      ]
+    }
   },
   {
     "question": "При прохождении лазерного луча через узкую щель на экране наблюдаются параллельные полосы. Этот опыт демонстрирует",
@@ -6781,7 +17203,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       676
-    ]
+    ],
+    "original": {
+      "question": "При прохождении лазерного луча через узкую щель на экране наблюдаются параллельные полосы. Этот опыт демонстрирует",
+      "answer": "",
+      "page": 171,
+      "answerImages": [
+        {
+          "file": "media/lms/3afb35673a19ae1fc4f62926.jpg",
+          "width": 146,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна скорость света в среде с показателем преломления n, если c — скорость света в вакууме?",
@@ -6791,7 +17225,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       677
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 171,
+      "questionImages": [
+        {
+          "file": "media/lms/6ce8650d7efed92ec9493840.jpg",
+          "width": 448,
+          "height": 37
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/291ca520b7ac3f6571b7ff7f.jpg",
+          "width": 94,
+          "height": 44
+        }
+      ]
+    }
   },
   {
     "question": "Какое волновое явление невозможно наблюдать в вакууме?",
@@ -6801,7 +17254,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       678
-    ]
+    ],
+    "original": {
+      "question": "Какое волновое явление невозможно наблюдать в вакууме?",
+      "answer": "",
+      "page": 171,
+      "answerImages": [
+        {
+          "file": "media/lms/be68a3d6e8a550cee0978a91.jpg",
+          "width": 278,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Луч белого света раскладывается в спектр дифракционной решеткой. Какой свет сильнее отклоняется от первоначального направления пр наблюдении в одном порядке?",
@@ -6811,7 +17276,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       679
-    ]
+    ],
+    "original": {
+      "question": "Луч белого сввета раскладывается в спектр дифракционной решеткой. Какой сввет сильнее отклоняется от первоначального направления пр наблюдении в одном порядке?",
+      "answer": "",
+      "page": 172,
+      "answerImages": [
+        {
+          "file": "media/lms/96c7b3ac6d6774272519096d.jpg",
+          "width": 150,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Как изменится разрешающая способность R = λ/Δλ дифракционной решётки в данном порядке спектра, если общее число штрихов увеличить в 2 раза?",
@@ -6821,7 +17298,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       680
-    ]
+    ],
+    "original": {
+      "question": "Если общее число штрихов дифракционной решетки увеличить в 2 раза, то для данного порядка спектра ее разрешающая сила:",
+      "answer": "",
+      "page": 172,
+      "questionImages": [
+        {
+          "file": "media/lms/5d1927613414b8792d8c8a92.jpg",
+          "width": 535,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/52fd481131d3f389c26ee96b.jpg",
+          "width": 168,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 180°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -6831,7 +17327,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       681
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 172,
+      "questionImages": [
+        {
+          "file": "media/lms/279a38413ece3953629f9acb.jpg",
+          "width": 519,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/33dffd5d83fd88a3157271af.jpg",
+          "width": 82,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "При прохождении лазерного луча через узкое отверстие на экране наблюдаются концентрические окружности. Это явление демонстрирует:",
@@ -6841,7 +17356,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       682
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 172,
+      "questionImages": [
+        {
+          "file": "media/lms/b6742ba5b155e99536698071.jpg",
+          "width": 577,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8f43ba53b5ce67ffd1751546.jpg",
+          "width": 132,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Два колебания называются когерентными, если",
@@ -6851,7 +17385,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       683
-    ]
+    ],
+    "original": {
+      "question": "Два колебания называются когерентными, если",
+      "answer": "",
+      "page": 172,
+      "answerImages": [
+        {
+          "file": "media/lms/9b32fd49bfae94ccdd1fdda5.jpg",
+          "width": 347,
+          "height": 13
+        }
+      ]
+    }
   },
   {
     "question": "При переходе света через границу оптических сред выполнятеся условие",
@@ -6861,7 +17407,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       684
-    ]
+    ],
+    "original": {
+      "question": "При переходе света через границу оптических сред выполнятеся условие",
+      "answer": "",
+      "page": 184,
+      "answerImages": [
+        {
+          "file": "media/lms/44851aa6095285d60cbce7ba.jpg",
+          "width": 191,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Предельный угол полного внутреннего отражения на границе вода — воздух равен 49°. Свет падает из воздуха под углом 60° к нормали. Под каким углом к нормали луч преломится в воду?",
@@ -6871,7 +17429,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       685
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 173,
+      "questionImages": [
+        {
+          "file": "media/lms/eee58912de46f52094da998a.jpg",
+          "width": 1158,
+          "height": 81
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3da5f40ce7a3cede188d87c8.jpg",
+          "width": 153,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Укажите неправильное утверждение для нормальной дисперсии. В спектре, полученном при помощи призмы.",
@@ -6881,7 +17458,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       686
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 173,
+      "questionImages": [
+        {
+          "file": "media/lms/114aac5a727a14b3cb0b1ff9.jpg",
+          "width": 553,
+          "height": 154
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b3c3170e31d1beb8ec74dd29.jpg",
+          "width": 430,
+          "height": 15
+        }
+      ]
+    }
   },
   {
     "question": "Чему равен показатель преломления света в среде?",
@@ -6891,7 +17487,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       687
-    ]
+    ],
+    "original": {
+      "question": "Чему равен показатель преломления света в среде?",
+      "answer": "",
+      "page": 173,
+      "answerImages": [
+        {
+          "file": "media/lms/f3830f82ac61e845fbc35f18.jpg",
+          "width": 266,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Красное пятнышко от лазерной указки наблюдается на стене вследствие",
@@ -6901,7 +17509,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       688
-    ]
+    ],
+    "original": {
+      "question": "Красное пятнышко от лазерной указки наблюдается на стене вследствие",
+      "answer": "",
+      "page": 174,
+      "answerImages": [
+        {
+          "file": "media/lms/0b3009445633fc4de3fdef15.jpg",
+          "width": 341,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Дисперсия наблюдается при..",
@@ -6911,7 +17531,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       689
-    ]
+    ],
+    "original": {
+      "question": "Дисперсия наблюдается при..",
+      "answer": "",
+      "page": 174,
+      "answerImages": [
+        {
+          "file": "media/lms/8829c81482acaec3722112fd.jpg",
+          "width": 266,
+          "height": 23
+        }
+      ]
+    }
   },
   {
     "question": "Не поляризованный свет падает на границу двух оптических сред под произвольным ненулевым углом. Какие из утверждений верны?",
@@ -6921,7 +17553,24 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       690
-    ]
+    ],
+    "original": {
+      "question": "Не поляризованный свет падает на границу двух оптических сред под произвольным ненулевым углом. Какие из утверждений верны?",
+      "answer": "",
+      "page": 174,
+      "answerImages": [
+        {
+          "file": "media/lms/c1b11dfb4149af7db491415a.jpg",
+          "width": 384,
+          "height": 25
+        },
+        {
+          "file": "media/lms/55444e6b4aeef9e57a10b783.jpg",
+          "width": 389,
+          "height": 51
+        }
+      ]
+    }
   },
   {
     "question": "Не поляризованный свет падает на границу двух оптических сред под углом Брюстера: Какие из утверждений верны? >",
@@ -6931,7 +17580,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       691
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 174,
+      "questionImages": [
+        {
+          "file": "media/lms/cd7a29ae1b57a053c39a4f29.jpg",
+          "width": 881,
+          "height": 101
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/ac3272439bad12ecbce2ed52.jpg",
+          "width": 593,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Связь разности фаз колебаний с оптической разностью хода волн",
@@ -6941,7 +17609,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       692
-    ]
+    ],
+    "original": {
+      "question": "Связь разности фаз колебаний с оптической разностью хода волн",
+      "answer": "",
+      "page": 174,
+      "questionImages": [
+        {
+          "file": "media/lms/b5a286f9a3370807196bfd3f.jpg",
+          "width": 415,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d41297343655d129d19283bc.jpg",
+          "width": 154,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Солнечный луч падает на гладкую поверхность воды (n = 4/3). Отражённый луч линейно поляризован. Найдите высоту Солнца над горизонтом.",
@@ -6951,7 +17638,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       693
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 175,
+      "questionImages": [
+        {
+          "file": "media/lms/b0eafe5f8800bd69d42b4ad3.jpg",
+          "width": 551,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/91538ea325385f371198302d.jpg",
+          "width": 243,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 30°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -6960,9 +17666,27 @@ const physicsLmsQuestions = [
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
-      694,
-      726
-    ]
+      694
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 175,
+      "questionImages": [
+        {
+          "file": "media/lms/34c845ae56cbf05022da246b.jpg",
+          "width": 541,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dc23b2aff4499062cdc33f09.jpg",
+          "width": 102,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Солнечный свет, прошедший через хрустальный бокал играет всеми цветами радуги. Это явление демонстрирует,",
@@ -6972,7 +17696,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       695
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 175,
+      "questionImages": [
+        {
+          "file": "media/lms/504730c32a403b25dfe4be4b.jpg",
+          "width": 564,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/23c45bb5cb26d1058016e371.jpg",
+          "width": 125,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Полное внутреннее отражение наблюдается…",
@@ -6982,7 +17725,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       696
-    ]
+    ],
+    "original": {
+      "question": "Полное внутренее отражение наблюдается…",
+      "answer": "",
+      "page": 176,
+      "answerImages": [
+        {
+          "file": "media/lms/f03b080f76042b1d46ae049b.jpg",
+          "width": 609,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Кольца Ньютона наблюдают в зелёном свете (λ = 0,5 мкм). Как изменятся их радиусы, если взять красный свет (λ = 0,7 мкм)?",
@@ -6992,7 +17747,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       697
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 176,
+      "questionImages": [
+        {
+          "file": "media/lms/77af3aea0afdad69c67c2035.jpg",
+          "width": 645,
+          "height": 39
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f614e2f742aba13f9f8f5171.jpg",
+          "width": 195,
+          "height": 22
+        }
+      ]
+    }
   },
   {
     "question": "Кольца Ньютона наблюдают в жёлтом свете (λ = 0,6 мкм). Как изменятся их радиусы, если взять зелёный свет (λ = 0,5 мкм)?",
@@ -7002,7 +17776,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       698
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 176,
+      "questionImages": [
+        {
+          "file": "media/lms/9e99d96da253b6b4ad6828ea.jpg",
+          "width": 1114,
+          "height": 117
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dba8877b6e36ecfc262cfffd.jpg",
+          "width": 406,
+          "height": 49
+        }
+      ]
+    }
   },
   {
     "question": "Кольца Ньютона наблюдают в жёлтом свете (λ = 0,6 мкм). Как изменятся их радиусы, если взять красный свет (λ = 0,7 мкм)?",
@@ -7012,7 +17805,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       699
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 176,
+      "questionImages": [
+        {
+          "file": "media/lms/6818a007b729b94f8fd39fc2.jpg",
+          "width": 1098,
+          "height": 45
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/063e6880e9f0c2840fcb14a3.jpg",
+          "width": 277,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Луч белого света раскладывается в спектр призмой. Какой свет сильнее отклоняется от первоначального направления? Дисперсия нормальная.",
@@ -7022,7 +17834,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       700
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 186,
+      "questionImages": [
+        {
+          "file": "media/lms/a5471bce840e7ca1635034ca.jpg",
+          "width": 331,
+          "height": 92
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dd9ac98c0c4f8a4263985d80.jpg",
+          "width": 331,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Дисперсия наблюдается…",
@@ -7032,7 +17863,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       701
-    ]
+    ],
+    "original": {
+      "question": "Дисперсия наблюдается…",
+      "answer": "",
+      "page": 176,
+      "questionImages": [
+        {
+          "file": "media/lms/19ea313ce6781a538a77a6e5.jpg",
+          "width": 646,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8e42c543938c4092505e0336.jpg",
+          "width": 449,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Стекло имеет показатель преломления 1,5, вода — 1,33. Чему равен синус предельного угла полного внутреннего отражения на границе стекло — вода?",
@@ -7042,7 +17892,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       702
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 177,
+      "questionImages": [
+        {
+          "file": "media/lms/2d960210fabf43ed8c578be3.jpg",
+          "width": 1130,
+          "height": 83
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c41c7cef7d9e325118b984c1.jpg",
+          "width": 154,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Как ведут себя линии напряженности и линии индукции на границе раздела магнетиков?",
@@ -7052,7 +17921,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       703
-    ]
+    ],
+    "original": {
+      "question": "Как ведут себя линии напряженности и линии индукции на границе раздела магнетиков?",
+      "answer": "",
+      "page": 177,
+      "answerImages": [
+        {
+          "file": "media/lms/dac1e359e08b763b5de0774d.jpg",
+          "width": 885,
+          "height": 18
+        }
+      ]
+    }
   },
   {
     "question": "Заряженный конденсатор ёмкости C находится целиком внутри замкнутой оболочки. Чему равен поток E⃗ через эту оболочку?",
@@ -7062,7 +17943,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       704
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 177,
+      "questionImages": [
+        {
+          "file": "media/lms/a67d828732d4454e189e2d64.jpg",
+          "width": 1057,
+          "height": 95
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/cf7d5892b6e9b471c337eb39.jpg",
+          "width": 105,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Диполь находится рядом с положительным точечным зарядом. При какой ориентации диполя его потенциальная энергия равна нулю?",
@@ -7072,7 +17972,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       705
-    ]
+    ],
+    "original": {
+      "question": "На рисунке показаны три положения диполя положительного заряда. В каком положении диполя его потенциальная энергия поля этого заряда равна нулю",
+      "answer": "",
+      "page": 177,
+      "questionImages": [
+        {
+          "file": "media/lms/35004eab054df7bed3001004.jpg",
+          "width": 1093,
+          "height": 251
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c640db7bb0955c19576da7af.jpg",
+          "width": 729,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 150°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -7082,7 +18001,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       706
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 178,
+      "questionImages": [
+        {
+          "file": "media/lms/980b593d7acbc296347612fd.jpg",
+          "width": 522,
+          "height": 85
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/f91f81ba7fa708f4fce36c70.jpg",
+          "width": 104,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Какое волновое явление свидетельствует о поперечности света?",
@@ -7092,7 +18030,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       707
-    ]
+    ],
+    "original": {
+      "question": "Какое волновое явление свидетельствует о поперечности света?",
+      "answer": "Поляризация.",
+      "page": 178,
+      "questionImages": [
+        {
+          "file": "media/lms/70339bdfa40a689e034870ef.jpg",
+          "width": 562,
+          "height": 220
+        }
+      ]
+    }
   },
   {
     "question": "Какой из названных ниже световых пучков линейно поляризован?",
@@ -7102,7 +18052,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       708
-    ]
+    ],
+    "original": {
+      "question": "Какой из названных ниже световых пучков линейно поляризован?",
+      "answer": "",
+      "page": 178,
+      "answerImages": [
+        {
+          "file": "media/lms/25b469b9d2d3478e2f9fa8aa.jpg",
+          "width": 985,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Если увеличить общее число штрихов дифракционной решетки не меняя длины решетки (уменьшив период решетки), то спектральные линии в данном порядке:",
@@ -7112,7 +18074,12 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       709
-    ]
+    ],
+    "original": {
+      "question": "Если увеличить общее число штрихов дифракционной решетки не меняя длины решетки (уменьшив период решетки), то спектральные линии в данном порядке:",
+      "answer": "Отклонятся на большие углы.",
+      "page": 178
+    }
   },
   {
     "question": "Дисперсия света наблюдается...",
@@ -7122,7 +18089,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       710
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 178,
+      "questionImages": [
+        {
+          "file": "media/lms/6fce6f71bea60eecae6a78af.jpg",
+          "width": 281,
+          "height": 52
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/de4af74a51b46d56d418c2df.jpg",
+          "width": 281,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 60°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -7132,7 +18118,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       711
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 179,
+      "questionImages": [
+        {
+          "file": "media/lms/e03314f1255b8cd5127a3faf.jpg",
+          "width": 733,
+          "height": 86
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5056617fc51b9ce8285cc5fa.jpg",
+          "width": 127,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 45°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -7142,7 +18147,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       712
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 179,
+      "questionImages": [
+        {
+          "file": "media/lms/66fbb8f3a7842453c911566a.jpg",
+          "width": 417,
+          "height": 238
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/584902af793e747d6c4d9e96.jpg",
+          "width": 153,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Чему равна скорость света в вакууме?",
@@ -7152,7 +18176,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       713
-    ]
+    ],
+    "original": {
+      "question": "Чему равна скорость света в вакууме?",
+      "answer": "",
+      "page": 179,
+      "answerImages": [
+        {
+          "file": "media/lms/eeb841ffdc3a6c3124e853a3.jpg",
+          "width": 240,
+          "height": 59
+        }
+      ]
+    }
   },
   {
     "question": "Какое волновое явление невозможно наблюдать для монохроматической волны?",
@@ -7162,7 +18198,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       714
-    ]
+    ],
+    "original": {
+      "question": "Какое волновое явление невозможно наблюдать для монохроматической волны?",
+      "answer": "",
+      "page": 179,
+      "answerImages": [
+        {
+          "file": "media/lms/a796d07a72334cd1b068efa6.jpg",
+          "width": 145,
+          "height": 28
+        }
+      ]
+    }
   },
   {
     "question": "Как записывается условие главных максимумов при нормальном падении света на дифракционную решётку? d — период решётки, φ — угол дифракции.",
@@ -7172,7 +18220,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       715
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 180,
+      "questionImages": [
+        {
+          "file": "media/lms/62c78006057786acab5cebab.jpg",
+          "width": 537,
+          "height": 61
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5eca39d2bb427ed99c721cef.jpg",
+          "width": 142,
+          "height": 45
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора, оси пропускания которых образуют 90°. Чему равен коэффициент пропускания?",
@@ -7182,7 +18249,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       716
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 180,
+      "questionImages": [
+        {
+          "file": "media/lms/03b772041e4ac08e6cc6a69c.jpg",
+          "width": 1122,
+          "height": 108
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/8b343d5ae443211434f9cb27.jpg",
+          "width": 140,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Укажите неправильное утверждение. В спектре, полученном при помощи дифракционной решетки при нормальном падении на нее",
@@ -7192,7 +18278,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       717
-    ]
+    ],
+    "original": {
+      "question": "Укажите неправильное утверждение. В спектре, полученном при помощи дифракционной решетки при нормальном падении на нее",
+      "answer": "Монохроматичекий свет не отклоняется от первоначального направления",
+      "page": 182,
+      "questionImages": [
+        {
+          "file": "media/lms/bf856d9c86a265393e2f0178.jpg",
+          "width": 1161,
+          "height": 189
+        }
+      ]
+    }
   },
   {
     "question": "Какой путь пройдет фронт волны монохроматического света в вакууме за то же время, за которое он проходит путь 1 м в воде? Показатель преломления воды 4/3",
@@ -7202,7 +18300,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       718
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 181,
+      "questionImages": [
+        {
+          "file": "media/lms/dd8e1c39b9beb3a4310e9f37.jpg",
+          "width": 1054,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/d5bee8917f09d1134b89620b.jpg",
+          "width": 167,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "При аномальной дисперсии…",
@@ -7212,7 +18329,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       719
-    ]
+    ],
+    "original": {
+      "question": "При аномальной дисперсии…",
+      "answer": "",
+      "page": 181,
+      "questionImages": [
+        {
+          "file": "media/lms/1c5d3d3ce6408f6d62b55bfe.jpg",
+          "width": 506,
+          "height": 62
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9c6e3bcccb97f049533bcfb9.jpg",
+          "width": 506,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 135°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
@@ -7222,7 +18358,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       720
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 181,
+      "questionImages": [
+        {
+          "file": "media/lms/e26de26d4ccb30fda5c7c49d.jpg",
+          "width": 627,
+          "height": 91
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/40db61931ee9254b8c925297.jpg",
+          "width": 108,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Сколько штрихов должна иметь дифракционная решётка, чтобы в первом порядке различить спектральные линии с длинами волн 0,5001 мкм и 0,5000 мкм?",
@@ -7232,7 +18387,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       721
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 181,
+      "questionImages": [
+        {
+          "file": "media/lms/1231b43aff8204a134ed184e.jpg",
+          "width": 817,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/dacbd5bd225a942b634abddf.jpg",
+          "width": 134,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Предельный угол полного внутреннего отражения на границе \"вода-воздух\" равен - 49°. Что произойдет при падении света на эту границу со стороны воды под углом 50°?",
@@ -7242,7 +18416,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       722
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 181,
+      "questionImages": [
+        {
+          "file": "media/lms/b519ea61cb7d4aec9123d95c.jpg",
+          "width": 1179,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/c796b3cf85ba3a891fff76b9.jpg",
+          "width": 578,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Разность фаз двух световых волн с длиной 0,5 мкм равна 0,314 рад. Оптическая разность хода равна:",
@@ -7252,7 +18445,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       723
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 182,
+      "questionImages": [
+        {
+          "file": "media/lms/a25ac5c480ffa4016fd77c3d.jpg",
+          "width": 684,
+          "height": 49
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/7e7e4dd94fd80900f9e993de.jpg",
+          "width": 160,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Луч падает из воздуха на стекло с показателем преломления 1,5. Отражённый свет линейно поляризован. Найдите угол падения.",
@@ -7262,7 +18474,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       724
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 182,
+      "questionImages": [
+        {
+          "file": "media/lms/5a3c2a74f042375d355973c4.jpg",
+          "width": 1136,
+          "height": 82
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/10e33b5d9d8a945027a66205.jpg",
+          "width": 420,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Укажите неверное утверждение",
@@ -7272,7 +18503,55 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       725
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 182,
+      "questionImages": [
+        {
+          "file": "media/lms/3792bb48942f193d8bd78069.jpg",
+          "width": 748,
+          "height": 203
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a0805f96341c9a96226bafd8.jpg",
+          "width": 748,
+          "height": 52
+        }
+      ]
+    }
+  },
+  {
+    "question": "Неполяризованный свет проходит через два идеальных поляризатора. Угол между их плоскостями пропускания 30°. Чему равно отношение интенсивности света после второго поляризатора к интенсивности падающего света?",
+    "answers": [
+      "0,375."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      726
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 183,
+      "questionImages": [
+        {
+          "file": "media/lms/5189cc4fb4593f3faa2a379b.jpg",
+          "width": 548,
+          "height": 63
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e5e8a579ec9e05fe2128054b.jpg",
+          "width": 99,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Явление дифракции света обусловлено его:",
@@ -7282,7 +18561,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       727
-    ]
+    ],
+    "original": {
+      "question": "Явление дифракции света обусловлено его:",
+      "answer": "",
+      "page": 183,
+      "answerImages": [
+        {
+          "file": "media/lms/69917b553b270d2576baf4a2.jpg",
+          "width": 283,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Оптическая длина пути в воде составляет 13,3 м. Определить ее геометрическую длину, считая показатель преломления воды равным 1,333.",
@@ -7292,7 +18583,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       728
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 183,
+      "questionImages": [
+        {
+          "file": "media/lms/2bbc81f9618226a4bcfb4ebd.jpg",
+          "width": 1143,
+          "height": 87
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fcee97673d3c120f57aea355.jpg",
+          "width": 158,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "На дифракционную решётку с 500 штрихами на миллиметр нормально падает свет с длиной волны 0,5 мкм. Чему равен синус угла дифракции в первом порядке?",
@@ -7302,7 +18612,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       729
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 183,
+      "questionImages": [
+        {
+          "file": "media/lms/0a490faa36cfa0c56288dbca.jpg",
+          "width": 1132,
+          "height": 89
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/e09652e0bd3718840793eca2.jpg",
+          "width": 154,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Какое волновое явление можно наблюдать только для когерентного света?",
@@ -7312,7 +18641,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       730
-    ]
+    ],
+    "original": {
+      "question": "Какое волновое явление можно наблюдать только для когорентного света?",
+      "answer": "",
+      "page": 184,
+      "answerImages": [
+        {
+          "file": "media/lms/409a4804324b7a1bc80a2480.jpg",
+          "width": 208,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "При переходе света через границу раздела двух оптических сред остается неизменной",
@@ -7322,7 +18663,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       731
-    ]
+    ],
+    "original": {
+      "question": "При переходе света через границу раздела двух оптических сред остается неизменной",
+      "answer": "",
+      "page": 184,
+      "answerImages": [
+        {
+          "file": "media/lms/3cc8fcbfce1b45de057a836d.jpg",
+          "width": 155,
+          "height": 35
+        }
+      ]
+    }
   },
   {
     "question": "Свет с длиной волны 0,5 мкм падает нормально на дифракционную решётку с 500 штрихами на миллиметр. Чему равен синус угла дифракции во втором порядке?",
@@ -7332,7 +18685,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       732
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 185,
+      "questionImages": [
+        {
+          "file": "media/lms/b612756ec501365b7014d12f.jpg",
+          "width": 572,
+          "height": 53
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/de7f34632d8bac07aad0292a.jpg",
+          "width": 86,
+          "height": 20
+        }
+      ]
+    }
   },
   {
     "question": "Почему изображения всех звезд, полученные при помощи телескопа, имеют одинаковые размеры?",
@@ -7342,7 +18714,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       733
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 185,
+      "questionImages": [
+        {
+          "file": "media/lms/a7f5cf719a8851c182621e5b.jpg",
+          "width": 1004,
+          "height": 163
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/29df1fd8af5f533389aa69a7.jpg",
+          "width": 1004,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "В телескоп наблюдают звезду. Что изменится, если использовать телескоп большего диаметра?",
@@ -7352,7 +18743,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       734
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "С изображение звезды будет меньше и ярче",
+      "page": 185,
+      "questionImages": [
+        {
+          "file": "media/lms/f5f48a25488122e48bd53bd0.jpg",
+          "width": 732,
+          "height": 52
+        }
+      ]
+    }
   },
   {
     "question": "В каком случае угол падения является углом Брюстера",
@@ -7362,7 +18765,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       735
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 185,
+      "questionImages": [
+        {
+          "file": "media/lms/da63b8503e1d8d2ce872dff4.jpg",
+          "width": 622,
+          "height": 36
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/4d3363b899f1bd76df09f6b3.jpg",
+          "width": 365,
+          "height": 25
+        }
+      ]
+    }
   },
   {
     "question": "Как приближённо записывается условие боковых максимумов дифракции на щели ширины b? φ — угол дифракции.",
@@ -7372,7 +18794,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       736
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 185,
+      "questionImages": [
+        {
+          "file": "media/lms/ab6240c0bb2bb85a1afeb168.jpg",
+          "width": 1004,
+          "height": 100
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/97e102b93dc099c365ac218b.jpg",
+          "width": 255,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Наблюдается дифракция Фраунгофера на щели. Что произойдет, если уменьшить ширину щели?",
@@ -7382,7 +18823,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       737
-    ]
+    ],
+    "original": {
+      "question": "Наблюдается дифракция Фраунгофера на щели. Что произойдет, если уменьшить ширину щели?",
+      "answer": "",
+      "page": 186,
+      "answerImages": [
+        {
+          "file": "media/lms/42c26a5a91e3bdca2bd15d44.jpg",
+          "width": 416,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Наблюдается дифракция Фраунгофера на щели. Что произойдет, если увеличить ширину щели?",
@@ -7392,7 +18845,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       738
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 186,
+      "questionImages": [
+        {
+          "file": "media/lms/f1533802e6818381a0185772.jpg",
+          "width": 643,
+          "height": 22
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2a73f1b04bdd0488521bdba0.jpg",
+          "width": 268,
+          "height": 19
+        }
+      ]
+    }
   },
   {
     "question": "Из приведенных ниже утверждений выберите то, которое справедливо для потенциала электрического поля системы зарядов",
@@ -7402,7 +18874,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       739
-    ]
+    ],
+    "original": {
+      "question": "Из приведенных ниже утверждений выберите то, которое справедливодля потенциала электрического поля системы зарядов",
+      "answer": "",
+      "page": 186,
+      "questionImages": [
+        {
+          "file": "media/lms/b283dc9539126bc76b3e5b56.jpg",
+          "width": 1120,
+          "height": 280
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/fc634e612856d26458e24977.jpg",
+          "width": 1120,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Ток в проводе течёт вдоль +Oz. В плоскости yz на стороне y > 0 находится небольшой проволочный виток. Что произойдёт при увеличении тока?",
@@ -7412,7 +18903,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       740
-    ]
+    ],
+    "original": {
+      "question": "Электрический ток течет по проводу вдоль оси … На некотором расстоянии от провода в плоскости () при положительном () находится небольшой проволочный виток. Что произойдет при увеличении тока?",
+      "answer": "В витке возникнет кратковременный ток, текущий против часовой стрелки",
+      "page": 187,
+      "questionImages": [
+        {
+          "file": "media/lms/031b4f6b1d1a5c4658075d82.jpg",
+          "width": 1091,
+          "height": 533
+        }
+      ]
+    }
   },
   {
     "question": "По прямому проводу вдоль +Ox течёт ток I. В плоскости xy при y > 0 находится небольшой проволочный виток. Что произойдёт при уменьшении тока в проводе?",
@@ -7422,7 +18925,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       741
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 191,
+      "questionImages": [
+        {
+          "file": "media/lms/ddde2c17df70544fff133d31.jpg",
+          "width": 739,
+          "height": 807
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/a9d4bc364a2dec275cd09c30.jpg",
+          "width": 615,
+          "height": 61
+        }
+      ]
+    }
   },
   {
     "question": "Сопротивление металлического проводника зависит:",
@@ -7432,7 +18954,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       742
-    ]
+    ],
+    "original": {
+      "question": "Сопротивление металлического проводника зависит:",
+      "answer": "",
+      "page": 187,
+      "answerImages": [
+        {
+          "file": "media/lms/9a2d94588bf695d0fdddbfa4.jpg",
+          "width": 422,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает токи 4I, 8I и −14I. Положительный обход согласован с первыми двумя токами. Чему равна циркуляция H⃗?",
@@ -7442,7 +18976,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       743
-    ]
+    ],
+    "original": {
+      "question": "Контур охватывает три проводника, токи в которых соответственно… Направление обхода контура связано с направлением токов в первом и втором проводниках правилом буравчика. Циркуляция вектора по контуру",
+      "answer": "",
+      "page": 188,
+      "questionImages": [
+        {
+          "file": "media/lms/3c399958e41897cf8ed5658a.jpg",
+          "width": 1164,
+          "height": 89
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/b9939e5b1d3044c324c31205.jpg",
+          "width": 140,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "При нормальной дисперсии...",
@@ -7452,7 +19005,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       744
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 188,
+      "questionImages": [
+        {
+          "file": "media/lms/f6c30b042623865ffe03d783.jpg",
+          "width": 390,
+          "height": 43
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/131aba42d7558ba23f25df69.jpg",
+          "width": 390,
+          "height": 18
+        }
+      ]
+    }
   },
   {
     "question": "Запишите закон Малюса. I₀ — интенсивность падающего линейно поляризованного света, I — интенсивность прошедшего света, α — угол между направлением колебаний E⃗ и осью пропускания.",
@@ -7462,7 +19034,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       745
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 188,
+      "questionImages": [
+        {
+          "file": "media/lms/87e541c855d69c1be3b71f13.jpg",
+          "width": 1089,
+          "height": 73
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/65cbc941e62ed644830b96c4.jpg",
+          "width": 181,
+          "height": 34
+        }
+      ]
+    }
   },
   {
     "question": "Запишите закон Брюстера для падения света из среды с показателем n₁ в среду с показателем n₂.",
@@ -7472,7 +19063,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       746
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 188,
+      "questionImages": [
+        {
+          "file": "media/lms/1971a43305a007650603f74b.jpg",
+          "width": 813,
+          "height": 72
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/82cc56b6f8f5a6776be9a039.jpg",
+          "width": 150,
+          "height": 53
+        }
+      ]
+    }
   },
   {
     "question": "Какое волновое явление качественно объясняется принципом Гюйгенса",
@@ -7482,17 +19092,34 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       747
-    ]
+    ],
+    "original": {
+      "question": "Какое волновое явление качественно объясняется принципом Гюйгенса",
+      "answer": "",
+      "page": 188,
+      "answerImages": [
+        {
+          "file": "media/lms/fd3a5a703524179e3537a837.jpg",
+          "width": 171,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Лазерный луч светится в дымном или пыльном помещении вследствие",
     "answers": [
-      "Рассеяния света На частицах дыма и пыли."
+      "Рассеяния света На частицах дыма и пыли"
     ],
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       748
-    ]
+    ],
+    "original": {
+      "question": "Лазерный луч светится в дымном или пыльном помещении вследствие",
+      "answer": "Рассеяния света На частицах дыма и пыли",
+      "page": 188
+    }
   },
   {
     "question": "Запишите условие минимумов интенсивности при интерференции через разность хода Δ и длину волны λ.",
@@ -7502,7 +19129,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       749
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 189,
+      "questionImages": [
+        {
+          "file": "media/lms/dfe6a64407d07fb0000a26cc.jpg",
+          "width": 907,
+          "height": 64
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/2835a5276558e306426a4ab8.jpg",
+          "width": 227,
+          "height": 39
+        }
+      ]
+    }
   },
   {
     "question": "Запишите условие минимумов интенсивности при интерференции через оптическую разность хода Δ.",
@@ -7512,7 +19158,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       750
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 189,
+      "questionImages": [
+        {
+          "file": "media/lms/3e1a65ce194817110a305244.jpg",
+          "width": 814,
+          "height": 60
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/87d61164219b9f86d3f9827e.jpg",
+          "width": 182,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "Если увеличить общее число штрихов дифракционной решетки не меняя ширины штриха, то спектральные линии в данном порядке:",
@@ -7522,7 +19187,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       751
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "Отклонятся на те же углы, если период решётки остаётся прежним.",
+      "page": 189,
+      "questionImages": [
+        {
+          "file": "media/lms/bca437b92a9c3293cf3b61d2.jpg",
+          "width": 749,
+          "height": 184
+        }
+      ]
+    }
   },
   {
     "question": "Явление интерференции света обусловлено его",
@@ -7532,7 +19209,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       752
-    ]
+    ],
+    "original": {
+      "question": "Явление интерференции света обусловлено его",
+      "answer": "",
+      "page": 189,
+      "answerImages": [
+        {
+          "file": "media/lms/f5d310190fd0010faecd666d.jpg",
+          "width": 210,
+          "height": 27
+        }
+      ]
+    }
   },
   {
     "question": "По прямому проводу вдоль −Ox течёт ток I. В плоскости xy при y > 0 находится небольшой проволочный виток. Что произойдёт при уменьшении тока в проводе?",
@@ -7542,7 +19231,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       753
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 190,
+      "questionImages": [
+        {
+          "file": "media/lms/befb6e979e02954eb6cf26c0.jpg",
+          "width": 812,
+          "height": 401
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/6a90fce9f08897ec4798d6ed.jpg",
+          "width": 553,
+          "height": 30
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает три проводника с токами 2I, 8I и −14I. Положительное направление обхода согласовано с первыми двумя токами. Чему равна циркуляция H⃗?",
@@ -7552,7 +19260,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       754
-    ]
+    ],
+    "original": {
+      "question": "Контур охватывает три проводника, токи в которых соответственно… Направление обхода контура связано с направлением токов в первом и втором проводниках правилом буравчика. Циркуляция вектора по контуру",
+      "answer": "",
+      "page": 190,
+      "questionImages": [
+        {
+          "file": "media/lms/4f4f858aa310d506ed9cb13c.jpg",
+          "width": 790,
+          "height": 71
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/aa6b72affcfbd042156b1a24.jpg",
+          "width": 122,
+          "height": 29
+        }
+      ]
+    }
   },
   {
     "question": "Конденсаторы C₁ = 2 мкФ, C₂ = 6 мкФ и C₃ = 0,8 мкФ соединены параллельно. Какой из них обладает наибольшей энергией?",
@@ -7562,7 +19289,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       755
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 192,
+      "questionImages": [
+        {
+          "file": "media/lms/5cd961a4eaf49b1b7837f0e1.jpg",
+          "width": 717,
+          "height": 357
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3e57d5b449cef6f0f291f57a.jpg",
+          "width": 124,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Величина напряженности электрического поля бесконечной равномерно заряженной нити с линейной плотностью заряда",
@@ -7572,7 +19318,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       756
-    ]
+    ],
+    "original": {
+      "question": "Величина напряженности электрического поля бесконечной равномерно заряженной нити с линейной плотностью заряда",
+      "answer": "",
+      "page": 192,
+      "answerImages": [
+        {
+          "file": "media/lms/b92f89a0edbaaeef813a8b11.jpg",
+          "width": 184,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Напряжённость электрического поля Е бесконечной равномерно заряженной нити с линейной плотностью т (где r- расстояние до нити).",
@@ -7582,7 +19340,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       757
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 192,
+      "questionImages": [
+        {
+          "file": "media/lms/f45a7387fbfb4042a62588d8.jpg",
+          "width": 1132,
+          "height": 83
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/28ddaac964bf97c1d40c3bae.jpg",
+          "width": 234,
+          "height": 42
+        }
+      ]
+    }
   },
   {
     "question": "Каким соотношением связаны вектора электрической индукции и напряженности электрического",
@@ -7592,7 +19369,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       758
-    ]
+    ],
+    "original": {
+      "question": "Каким соотношением связаны вектора электрической индукции и напряженности электрического",
+      "answer": "D⃗ = εε₀E⃗.",
+      "page": 192,
+      "questionImages": [
+        {
+          "file": "media/lms/64b711d9612f3d2a51f6a184.jpg",
+          "width": 586,
+          "height": 145
+        }
+      ]
+    }
   },
   {
     "question": "Контур охватывает токи 2I, 4I и −12I. Положительный обход согласован с первыми двумя токами. Как изменится циркуляция H⃗, если третий проводник удалить?",
@@ -7602,7 +19391,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       759
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 193,
+      "questionImages": [
+        {
+          "file": "media/lms/e48ebec034a6b1099dbb8851.jpg",
+          "width": 461,
+          "height": 279
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/78c60c886413005f643430b9.jpg",
+          "width": 373,
+          "height": 74
+        }
+      ]
+    }
   },
   {
     "question": "Вектор магнитной индукции внешнего магнитного поля перпендикулярен плоскости витка с током. Виток движется в направлении этого вектора. При этом",
@@ -7612,7 +19420,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       760
-    ]
+    ],
+    "original": {
+      "question": "Вектор магнитной индукции внешнего магнитного поля перпендикулярен плоскости витка с током. Виток движется в направлении этого вектора. При этом",
+      "answer": "",
+      "page": 193,
+      "answerImages": [
+        {
+          "file": "media/lms/592ef85bcf6bd1de863155b5.jpg",
+          "width": 230,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Oy, H → +Oz. Определите направление распространения электромагнитной волны.",
@@ -7622,7 +19442,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       761
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении Ox.",
+      "page": 194,
+      "questionImages": [
+        {
+          "file": "media/lms/077ec6af155a5372caac3a09.jpg",
+          "width": 272,
+          "height": 286
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Oz, H → +Oy. Определите направление распространения электромагнитной волны.",
@@ -7632,7 +19464,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       762
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении, обратном Ox.",
+      "page": 194,
+      "questionImages": [
+        {
+          "file": "media/lms/0469756ee0629c30fb68a1b3.jpg",
+          "width": 368,
+          "height": 362
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Oz, H → +Ox. Определите направление распространения электромагнитной волны.",
@@ -7642,7 +19486,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       763
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении Oy.",
+      "page": 194,
+      "questionImages": [
+        {
+          "file": "media/lms/2bb8a337e051dd7fdadeee3c.jpg",
+          "width": 283,
+          "height": 297
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Ox, H → +Oz. Определите направление распространения электромагнитной волны.",
@@ -7652,7 +19508,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       764
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении, обратном Oy.",
+      "page": 194,
+      "questionImages": [
+        {
+          "file": "media/lms/7902d9318557cfdbfa9daea1.jpg",
+          "width": 302,
+          "height": 294
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Ox, H → +Oy. Определите направление распространения электромагнитной волны.",
@@ -7662,7 +19530,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       765
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении Oz.",
+      "page": 195,
+      "questionImages": [
+        {
+          "file": "media/lms/9cf6884b5d7a30517944186b.jpg",
+          "width": 445,
+          "height": 462
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления E → +Oy, H → +Ox. Определите направление распространения электромагнитной волны.",
@@ -7672,7 +19552,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       766
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление распространения электромагнитной волны.",
+      "answer": "В направлении, обратном Oz.",
+      "page": 195,
+      "questionImages": [
+        {
+          "file": "media/lms/4d7545f4edea0769891ff798.jpg",
+          "width": 360,
+          "height": 354
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oz, H → +Oy. Определите направление вектора напряжённости электрического поля E.",
@@ -7682,7 +19574,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       767
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении Ox.",
+      "page": 195,
+      "questionImages": [
+        {
+          "file": "media/lms/6f5d679397b882b2d5f48226.jpg",
+          "width": 248,
+          "height": 253
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oy, H → +Oz. Определите направление вектора напряжённости электрического поля E.",
@@ -7692,7 +19596,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       768
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении, обратном Ox.",
+      "page": 195,
+      "questionImages": [
+        {
+          "file": "media/lms/5eab688a29d7a51232f7e6e7.jpg",
+          "width": 322,
+          "height": 308
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oy, H → +Ox. Определите направление вектора напряжённости электрического поля E.",
@@ -7702,7 +19618,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       769
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении Oz.",
+      "page": 196,
+      "questionImages": [
+        {
+          "file": "media/lms/e24c77ffde6a24f9b00559b8.jpg",
+          "width": 454,
+          "height": 444
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Ox, H → +Oy. Определите направление вектора напряжённости электрического поля E.",
@@ -7712,7 +19640,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       770
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении, обратном Oz.",
+      "page": 196,
+      "questionImages": [
+        {
+          "file": "media/lms/d1de1bad40ad8cdf5119c0b9.jpg",
+          "width": 264,
+          "height": 245
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Ox, H → +Oz. Определите направление вектора напряжённости электрического поля E.",
@@ -7722,7 +19662,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       771
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении Oy.",
+      "page": 196,
+      "questionImages": [
+        {
+          "file": "media/lms/f9d76b31956f800b28d1deb1.jpg",
+          "width": 298,
+          "height": 301
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oz, H → +Ox. Определите направление вектора напряжённости электрического поля E.",
@@ -7732,7 +19684,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       772
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости электрического поля.",
+      "answer": "В направлении, обратном Oy.",
+      "page": 196,
+      "questionImages": [
+        {
+          "file": "media/lms/56e39e8c776dffa52884bf43.jpg",
+          "width": 353,
+          "height": 234
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oy, E → +Oz. Определите направление вектора напряжённости магнитного поля H.",
@@ -7742,7 +19706,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       773
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении Ox.",
+      "page": 196,
+      "questionImages": [
+        {
+          "file": "media/lms/ac5507d4c24ac7175342a738.jpg",
+          "width": 270,
+          "height": 285
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Ox, E → +Oz. Определите направление вектора напряжённости магнитного поля H.",
@@ -7752,7 +19728,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       774
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении, обратном Oy.",
+      "page": 197,
+      "questionImages": [
+        {
+          "file": "media/lms/31fd01ce9507da4e1fae2b1f.jpg",
+          "width": 291,
+          "height": 292
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oz, E → +Ox. Определите направление вектора напряжённости магнитного поля H.",
@@ -7762,7 +19750,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       775
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении Oy.",
+      "page": 197,
+      "questionImages": [
+        {
+          "file": "media/lms/bec117525de34af2d366e143.jpg",
+          "width": 355,
+          "height": 360
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oy, E → +Ox. Определите направление вектора напряжённости магнитного поля H.",
@@ -7772,7 +19772,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       776
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении, обратном Oz.",
+      "page": 198,
+      "questionImages": [
+        {
+          "file": "media/lms/44bf63f66a371263f46e9ca3.jpg",
+          "width": 261,
+          "height": 255
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Ox, E → +Oy. Определите направление вектора напряжённости магнитного поля H.",
@@ -7782,7 +19794,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       777
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении Oz.",
+      "page": 198,
+      "questionImages": [
+        {
+          "file": "media/lms/158ebc35bd710f8775b5004b.jpg",
+          "width": 196,
+          "height": 299
+        }
+      ]
+    }
   },
   {
     "question": "В трёхмерном пространстве заданы направления v → +Oz, E → +Oy. Определите направление вектора напряжённости магнитного поля H.",
@@ -7792,7 +19816,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       778
-    ]
+    ],
+    "original": {
+      "question": "По рисунку определите направление вектора напряжённости магнитного поля.",
+      "answer": "В направлении, обратном Ox.",
+      "page": 198,
+      "questionImages": [
+        {
+          "file": "media/lms/da55238fd8309ad4451accce.jpg",
+          "width": 212,
+          "height": 213
+        }
+      ]
+    }
   },
   {
     "question": "Два стекла образуют тонкий воздушный зазор. Четыре отражённых луча на выходе со стороны падения обозначены 1, 2, 3 и 4 в порядке их появления на схеме. Какие лучи интерферируют за счёт отражений от двух границ воздушного зазора?",
@@ -7802,7 +19838,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       779
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 199,
+      "questionImages": [
+        {
+          "file": "media/lms/b8f927beaacfdbfdf3039f90.jpg",
+          "width": 880,
+          "height": 519
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/1530f3e61831e98595e11928.jpg",
+          "width": 127,
+          "height": 37
+        }
+      ]
+    }
   },
   {
     "question": "Два стекла образуют тонкий воздушный зазор. Три прошедших через стёкла луча обозначены 1, 2 и 3. Какие из лучей интерферируют за счёт разности хода в воздушном зазоре?",
@@ -7812,7 +19867,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       780
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 199,
+      "questionImages": [
+        {
+          "file": "media/lms/5117d1ece4fb1a55a6795718.jpg",
+          "width": 703,
+          "height": 455
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/747037e33dab37df22b6c7ad.jpg",
+          "width": 108,
+          "height": 31
+        }
+      ]
+    }
   },
   {
     "question": "Естественный свет падает из среды n₁ на границу со средой n₂ под углом Брюстера. Какими свойствами обладает отражённый пучок 2?",
@@ -7822,7 +19896,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       781
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 200,
+      "questionImages": [
+        {
+          "file": "media/lms/9111f7d2c7d9d8300b476107.jpg",
+          "width": 1159,
+          "height": 567
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/5323e4f0420aa1e48754c5d0.jpg",
+          "width": 652,
+          "height": 38
+        }
+      ]
+    }
   },
   {
     "question": "Естественный свет падает из среды n₁ на границу со средой n₂ под произвольным ненулевым углом. Какими свойствами обладает отражённый пучок 2?",
@@ -7832,7 +19925,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       782
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 200,
+      "questionImages": [
+        {
+          "file": "media/lms/3e43ea908349599ec34a68e3.jpg",
+          "width": 1028,
+          "height": 457
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/3aa751164ca1d62a4ee4df83.jpg",
+          "width": 519,
+          "height": 26
+        }
+      ]
+    }
   },
   {
     "question": "Естественный свет падает на границу двух сред под углом Брюстера. Что можно сказать о поляризации преломлённого пучка 3?",
@@ -7842,7 +19954,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       783
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 201,
+      "questionImages": [
+        {
+          "file": "media/lms/95701ad88562909fb70a5bb4.jpg",
+          "width": 1126,
+          "height": 594
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/73fa0936ea45f39873ba4ca7.jpg",
+          "width": 827,
+          "height": 36
+        }
+      ]
+    }
   },
   {
     "question": "Естественный свет падает на границу двух сред под углом Брюстера. Какими свойствами обладает преломлённый пучок 3?",
@@ -7852,7 +19983,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       784
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 201,
+      "questionImages": [
+        {
+          "file": "media/lms/73c00f97f6a19c6e9971ca1d.jpg",
+          "width": 811,
+          "height": 483
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/86714ee6bcd258abd84f1283.jpg",
+          "width": 287,
+          "height": 32
+        }
+      ]
+    }
   },
   {
     "question": "Луч света падает на границу двух сред из среды с показателем преломления n₁ в среду с показателем n₂. Чему равен угол Брюстера?",
@@ -7862,7 +20012,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       785
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 202,
+      "questionImages": [
+        {
+          "file": "media/lms/7d5e301327a2fcef5b9cfe8a.jpg",
+          "width": 820,
+          "height": 458
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/9e447ab00dd97103b9eb2ee2.jpg",
+          "width": 195,
+          "height": 33
+        }
+      ]
+    }
   },
   {
     "question": "Вектор электрической индукции D пересекает плоскую границу диэлектриков под наклоном. Слева ε₁ = 1, справа ε₂ = 2. Как меняются его составляющие при отсутствии свободного поверхностного заряда?",
@@ -7872,7 +20041,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       786
-    ]
+    ],
+    "original": {
+      "question": "На каком из рисунков правильно показано пересечение границы раздела диэлектриков вектором электрической индукции",
+      "answer": "Вариант a.",
+      "page": 203,
+      "questionImages": [
+        {
+          "file": "media/lms/26b2a9cfac95352023966657.jpg",
+          "width": 1047,
+          "height": 705
+        }
+      ]
+    }
   },
   {
     "question": "Как меняется наклон линий электрической индукции D при переходе между диэлектриками с ε = 1 и ε = 2? Рассмотрите оба направления перехода.",
@@ -7882,7 +20063,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       787
-    ]
+    ],
+    "original": {
+      "question": "На каком из рисунков правильно показан ход линий индукции электрического поля через границу раздела диэлектриков?",
+      "answer": "На странице собраны варианты с разной нумерацией. В левом наборе — c, в правом — b. В центре показаны два варианта, отмеченных галочкой.",
+      "page": 204,
+      "questionImages": [
+        {
+          "file": "media/lms/43ac46ed8939425e2df1ce84.jpg",
+          "width": 1153,
+          "height": 1205
+        }
+      ]
+    }
   },
   {
     "question": "Как меняются направление и компоненты E при наклонном переходе через границу диэлектриков с ε₁ = 1 и ε₂ = 2 при отсутствии свободного поверхностного заряда?",
@@ -7892,7 +20085,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       788
-    ]
+    ],
+    "original": {
+      "question": "На каком из рисунков правильно показан ход линий напряженности электрического поля через границу раздела диэлектриков",
+      "answer": "",
+      "page": 205,
+      "questionImages": [
+        {
+          "file": "media/lms/b03b87de0ba4ff7596c250ba.jpg",
+          "width": 455,
+          "height": 1310
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/00fd860760c8bef565357c9a.jpg",
+          "width": 322,
+          "height": 295
+        }
+      ]
+    }
   },
   {
     "question": "Как изменяется угол между линиями E и нормалью при переходе из диэлектрика с ε₁ = 1 в диэлектрик с ε₂ = 2 при отсутствии свободного поверхностного заряда?",
@@ -7902,7 +20114,26 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       789
-    ]
+    ],
+    "original": {
+      "question": "На каком из рисунков правильно показан ход линий напряженности электрического поля через границу раздела диэлектриков",
+      "answer": "",
+      "page": 205,
+      "questionImages": [
+        {
+          "file": "media/lms/b3cd2b064b2a6abbe8e7aa55.jpg",
+          "width": 1046,
+          "height": 589
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/837f254c927202bb3052e417.jpg",
+          "width": 313,
+          "height": 77
+        }
+      ]
+    }
   },
   {
     "question": "Какие условия должны выполнять компоненты E на границе двух диэлектриков без свободного поверхностного заряда?",
@@ -7912,7 +20143,27 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       790
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "",
+      "page": 205,
+      "questionImages": [
+        {
+          "file": "media/lms/500de17688d78baf6dc67a53.jpg",
+          "width": 1022,
+          "height": 622
+        }
+      ],
+      "answerImages": [
+        {
+          "file": "media/lms/65030796ffb2cfd449e5b620.jpg",
+          "width": 271,
+          "height": 176
+        }
+      ]
+    },
+    "sourceNote": "В исходном задании нужно выбрать рисунок. Рисунки и отмеченный ответ доступны в оригинале."
   },
   {
     "question": "Как пересекает границу двух диэлектриков вектор E? Как меняются его нормальная и касательная компоненты при разных ε?",
@@ -7922,7 +20173,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       791
-    ]
+    ],
+    "original": {
+      "question": "На каком из рисунков правильно показано пересечение границы раздела диэлектриков вектором напряженности электрического поля?",
+      "answer": "В первом наборе — b, во втором — c, в третьем — b.",
+      "page": 206,
+      "questionImages": [
+        {
+          "file": "media/lms/30128e39c1cb307e51dc6c48.jpg",
+          "width": 918,
+          "height": 553
+        }
+      ]
+    }
   },
   {
     "question": "Два одинаковых металлических шарика с зарядами 1 и 5 мкКл привели в соприкосновение и развели на расстояние, втрое большее начального. Найдите отношение начальной силы кулоновского взаимодействия к конечной.",
@@ -7932,7 +20195,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       792
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "5.",
+      "page": 509,
+      "questionImages": [
+        {
+          "file": "media/lms/489cc4dd6caf322675d77686.jpg",
+          "width": 1282,
+          "height": 55
+        }
+      ]
+    }
   },
   {
     "question": "Выберите из предложенных электрических полей центральное(ые).",
@@ -7942,7 +20217,63 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       793
-    ]
+    ],
+    "original": {
+      "question": "Выберите из предложенных электрицеских полей центральное(ые).",
+      "answer": "Поле точечного заряда.",
+      "page": 510,
+      "questionImages": [
+        {
+          "file": "media/lms/490c1a06487cd4a6b27dcd12.jpg",
+          "width": 583,
+          "height": 195
+        }
+      ]
+    }
+  },
+  {
+    "question": "Точечные заряды +q и −2q расположены на оси Ox в точках x = −1 м и x = +1 м соответственно. На каком участке оси напряжённость поля равна нулю?",
+    "answers": [
+      "(−∞; −1)."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      794
+    ],
+    "original": {
+      "question": "",
+      "answer": "(−∞; −1).",
+      "page": 510,
+      "questionImages": [
+        {
+          "file": "media/lms/805acdca500ae6f9d2277edf.jpg",
+          "width": 931,
+          "height": 34
+        }
+      ]
+    }
+  },
+  {
+    "question": "Дано пять точечных зарядов q₁ = +1, q₂ = +2, q₃ = +3, q₄ = −4, q₅ = −5 мкКл. Внутри S₁ находятся q₃, q₅. Внутри S₂ находятся q₂, q₃, q₅. Внутри S₃ находятся q₁, q₂, q₃, q₅. Через какую поверхность поток вектора E⃗ максимален по модулю?",
+    "answers": [
+      "S₁."
+    ],
+    "topic": "Электромагнетизм и оптика",
+    "lmsNumbers": [
+      795
+    ],
+    "original": {
+      "question": "",
+      "answer": "Поверхность S₁.",
+      "page": 511,
+      "questionImages": [
+        {
+          "file": "media/lms/ced9d1b66beb49d31f65d282.jpg",
+          "width": 1175,
+          "height": 685
+        }
+      ]
+    }
   },
   {
     "question": "Потенциал поля задаётся выражением φ = −A/r², где A — константа. Чему равна величина напряжённости поля?",
@@ -7952,7 +20283,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       796
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "E = 2A/r³.",
+      "page": 511,
+      "questionImages": [
+        {
+          "file": "media/lms/76ffecc829abf9bd8921be27.jpg",
+          "width": 871,
+          "height": 46
+        }
+      ]
+    }
   },
   {
     "question": "Линии напряжённости электрического поля направлены перпендикулярно границе двух диэлектриков с ε₁ = 1 и ε₂ = 2. Как соотносятся напряжённости E₁ и E₂?",
@@ -7962,7 +20305,19 @@ const physicsLmsQuestions = [
     "topic": "Электромагнетизм и оптика",
     "lmsNumbers": [
       797
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "E₁ > E₂.",
+      "page": 511,
+      "questionImages": [
+        {
+          "file": "media/lms/724e01248a7bdc85b2f2def7.jpg",
+          "width": 676,
+          "height": 24
+        }
+      ]
+    }
   },
   {
     "question": "Какое соотношение классической механики сохраняется в теории относительности, если под величиной m понимать релятивистскую массу?",
@@ -7972,7 +20327,19 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       798
-    ]
+    ],
+    "original": {
+      "question": "",
+      "answer": "dEₖ = v⃗·dp⃗.",
+      "page": 523,
+      "questionImages": [
+        {
+          "file": "media/lms/616e47f27348fe8e4c490ef8.jpg",
+          "width": 1274,
+          "height": 64
+        }
+      ]
+    }
   },
   {
     "question": "Закончите правильно утверждение: Если в механической системе действуют неконсервативные силы, то:",
@@ -7982,19 +20349,27 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       799
-    ]
+    ],
+    "original": {
+      "question": "Закончите правильно утверждение: Если в механической системе действуют неконсервативные силы, то:",
+      "answer": "Механическая энергия системы увеличивается или уменьшается.",
+      "page": 210
+    }
   },
   {
     "question": "В классической механике при переходе из одной инерциальной системы отсчета в другую не изменяется",
     "answers": [
-      "Ускорение.",
-      "Сила. В этом варианте в PDF дан ответ «сила», а в другом варианте на с. 213 — «ускорение»."
+      "Ускорение."
     ],
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
-      800,
-      809
-    ]
+      800
+    ],
+    "original": {
+      "question": "В классической механике при переходе из одной инерциальной системы отсчета в другую не изменяется",
+      "answer": "Ускорение.",
+      "page": 213
+    }
   },
   {
     "question": "В стоячей волне чему равно расстояние между ближайшими пучностями?",
@@ -8005,6 +20380,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       801
     ],
+    "original": {
+      "question": "В стоячей волне чему равно расстояние между ближайшими пучностями?",
+      "answer": "λ/2.",
+      "page": 214
+    },
     "quiz": {
       "answer": "λ/2.",
       "distractors": [
@@ -8023,6 +20403,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       802
     ],
+    "original": {
+      "question": "Уравнение акустической волны в металле имеет вид ξ(r,t) = A·cos(ωt − kr) = 1,8·cos(50000t − 12,5x), где ξ(r,t) — смещение в мкм, t — в секундах, x — в метрах. Скорость распространения волны равна:",
+      "answer": "4000 м/с.",
+      "page": 219
+    },
     "quiz": {
       "answer": "4000 м/с.",
       "distractors": [
@@ -8041,6 +20426,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       803
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. Что происходит в процессе 5–6?",
+      "answer": "Нагревание газа.",
+      "page": 221
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8052,6 +20442,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       804
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. Что происходит в процессе 3–4?",
+      "answer": "Нагревание жидкости.",
+      "page": 222
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8062,7 +20457,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       805
-    ]
+    ],
+    "original": {
+      "question": "Какое из приведенных ниже выражений задает проекцию на ось x импульса маятника, совершающего гармонические колебания x(t) = A·cos(ωt)?",
+      "answer": "pₓ(t) = −mAω·sin(ωt).",
+      "page": 222
+    }
   },
   {
     "question": "Выберите из написанных выражений уравнение волны, бегущей вдоль оси x.",
@@ -8072,7 +20472,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       806
-    ]
+    ],
+    "original": {
+      "question": "Выберите из написанных выражений уравнение волны, бегущей вдоль оси x.",
+      "answer": "ξ(x,t) = A₀·cos(ωt − kx).",
+      "page": 223
+    }
   },
   {
     "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. В каком состоянии вещество при температуре T₁?",
@@ -8083,6 +20488,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       807
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. В каком состоянии вещество при температуре T₁?",
+      "answer": "В твердом состоянии.",
+      "page": 225
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8094,7 +20504,27 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       808
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось нагревание воды?",
+      "answer": "80 с.",
+      "page": 234
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
+  },
+  {
+    "question": "В классической механике при переходе из одной инерциальной системы отсчета в другую не изменяется…",
+    "answers": [
+      "Сила. В этом варианте в PDF дан ответ «сила», а в другом варианте на с. 213 — «ускорение»."
+    ],
+    "topic": "Механика и молекулярная физика",
+    "lmsNumbers": [
+      809
+    ],
+    "original": {
+      "question": "В классической механике при переходе из одной инерциальной системы отсчета в другую не изменяется…",
+      "answer": "Сила. В этом варианте в PDF дан ответ «сила», а в другом варианте на с. 213 — «ускорение».",
+      "page": 235
+    }
   },
   {
     "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось кипение воды?",
@@ -8105,6 +20535,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       810
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось кипение воды?",
+      "answer": "400 с.",
+      "page": 235
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8115,7 +20550,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       811
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение о работе всех консервативных сил в механической системе.",
+      "answer": "Она равна убыли потенциальной энергии системы.",
+      "page": 249
+    }
   },
   {
     "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. Что происходит в процессе 2–3?",
@@ -8126,6 +20566,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       812
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. Что происходит в процессе 2–3?",
+      "answer": "Плавление.",
+      "page": 253
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8137,6 +20582,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       813
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось таяние льда?",
+      "answer": "60 с.",
+      "page": 257
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8148,6 +20598,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       814
     ],
+    "original": {
+      "question": "В металлическом цилиндре вдоль его оси высверливается отверстие. Как при этом изменится момент инерции тела относительно этой оси?",
+      "answer": "Уменьшится.",
+      "page": 259
+    },
     "quiz": {
       "answer": "Уменьшится.",
       "distractors": [
@@ -8166,6 +20621,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       815
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось нагревание льда?",
+      "answer": "20 с.",
+      "page": 264
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8176,7 +20636,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       816
-    ]
+    ],
+    "original": {
+      "question": "Нулевое начало термодинамики утверждает…",
+      "answer": "В PDF приведено утверждение «Любая замкнутая термодинамическая система стремится к состоянию равновесия». В стандартной формулировке нулевое начало устанавливает транзитивность теплового равновесия.",
+      "page": 266
+    }
   },
   {
     "question": "Локомотив движется со скоростью 50 м/с и издает сигнал на частоте 1000 Гц. Какую частоту сигнала слышит человек при приближении локомотива? Скорость звука принять равной 340 м/с.",
@@ -8186,7 +20651,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       817
-    ]
+    ],
+    "original": {
+      "question": "Локомотив движется со скоростью 50 м/с и издает сигнал на частоте 1000 Гц. Какую частоту сигнала слышит человек при приближении локомотива? Скорость звука принять равной 340 м/с.",
+      "answer": "Приблизительно 1172 Гц.",
+      "page": 270
+    }
   },
   {
     "question": "Кинетическая энергия частицы равна двум энергиям покоя. Отношение скорости частицы к скорости света равно:",
@@ -8197,6 +20667,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       818
     ],
+    "original": {
+      "question": "Кинетическая энергия частицы равна двум энергиям покоя. Отношение скорости частицы к скорости света равно:",
+      "answer": "√8/3 ≈ 0,94.",
+      "page": 271
+    },
     "quiz": {
       "answer": "√8/3 ≈ 0,94.",
       "distractors": [
@@ -8215,6 +20690,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       819
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества (H₂O). Зависимость температуры от полученного тепла дана на графике. Какое время длилось нагревание пара?",
+      "answer": "40 с.",
+      "page": 271
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8226,6 +20706,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       820
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. В каком состоянии вещество при температуре T₅?",
+      "answer": "В газообразном состоянии.",
+      "page": 273
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8237,6 +20722,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       821
     ],
+    "original": {
+      "question": "В калориметре находится некоторое количество вещества. Зависимость температуры от полученного тепла дана на графике. Что происходит в процессе 1–2?",
+      "answer": "Нагревание твёрдого вещества.",
+      "page": 275
+    },
     "sourceNote": "В исходном PDF сохранились только подписи к графику. Ответ перенесён из PDF."
   },
   {
@@ -8247,7 +20737,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       822
-    ]
+    ],
+    "original": {
+      "question": "Выберите правильное утверждение о работе всех неконсервативных сил в механической системе.",
+      "answer": "Работа всех неконсервативных сил равна изменению механической энергии системы.",
+      "page": 280
+    }
   },
   {
     "question": "Потенциальная энергия частицы Eₚ = B·xy − C·y, где B = 1 Н/м, C = 2 Н. Чему равна проекция Fᵧ в точке (0; 2) м?",
@@ -8258,6 +20753,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       823
     ],
+    "original": {
+      "question": "Потенциальная энергия частицы Eₚ = B·xy − C·y, где B = 1 Н/м, C = 2 Н. Чему равна проекция Fᵧ в точке (0; 2) м?",
+      "answer": "2 Н.",
+      "page": 282
+    },
     "quiz": {
       "answer": "2 Н.",
       "distractors": [
@@ -8275,7 +20775,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       824
-    ]
+    ],
+    "original": {
+      "question": "Сила характеризует…",
+      "answer": "Взаимодействие между телами.",
+      "page": 282
+    }
   },
   {
     "question": "Какую из перечисленных систем можно после релаксации считать равновесной?",
@@ -8285,7 +20790,12 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       825
-    ]
+    ],
+    "original": {
+      "question": "Какую из перечисленных систем можно после релаксации считать равновесной?",
+      "answer": "Морозильная камера в выключенном закрытом холодильнике.",
+      "page": 283
+    }
   },
   {
     "question": "В каких системах отсчёта справедливы второй и третий законы Ньютона?",
@@ -8296,6 +20806,11 @@ const physicsLmsQuestions = [
     "lmsNumbers": [
       826
     ],
+    "original": {
+      "question": "В каких системах отсчёта справедливы второй и третий законы Ньютона?",
+      "answer": "В инерциальных системах.",
+      "page": 284
+    },
     "quiz": {
       "answer": "В инерциальных системах.",
       "distractors": [
@@ -8313,6 +20828,11 @@ const physicsLmsQuestions = [
     "topic": "Механика и молекулярная физика",
     "lmsNumbers": [
       827
-    ]
+    ],
+    "original": {
+      "question": "При движении спутника по эллиптической орбите не сохраняется:",
+      "answer": "Импульс.",
+      "page": 492
+    }
   }
 ];
