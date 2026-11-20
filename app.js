@@ -13,6 +13,29 @@ const pluralRules = new Intl.PluralRules("ru");
 const countLabels = { one: "вопрос", few: "вопроса", many: "вопросов", other: "вопроса" };
 const questionCollator = new Intl.Collator("ru", { sensitivity: "base", numeric: true });
 
+const themePicker = document.querySelector("#theme");
+const themeKey = "physics-test-theme";
+
+function applyTheme(theme) {
+  if (!["green", "red", "sea"].includes(theme)) return;
+  document.documentElement.dataset.theme = theme;
+  if (themePicker) themePicker.value = theme;
+}
+
+try {
+  applyTheme(localStorage.getItem(themeKey));
+} catch {
+  // Local storage may be disabled or unavailable for an offline copy.
+}
+themePicker?.addEventListener("change", () => {
+  applyTheme(themePicker.value);
+  try {
+    localStorage.setItem(themeKey, themePicker.value);
+  } catch {
+    // The choice still applies to the open page.
+  }
+});
+
 function normalizeWord(word) {
   return word.normalize("NFKC").toLowerCase().replaceAll("ё", "е");
 }
@@ -29,9 +52,11 @@ function questionCount(count) {
   return count + " " + countLabels[pluralRules.select(count)];
 }
 
-const index = physicsQuestions.map(entry => {
+const lmsQuestions = typeof physicsLmsQuestions === "undefined" ? [] : physicsLmsQuestions;
+const index = [...physicsQuestions, ...lmsQuestions].map(entry => {
   const words = questionWords(entry.question);
-  return { ...entry, words, searchText: words.map(word => normalizeWord(word[0])).join(" ") };
+  const searchText = [...words.map(word => normalizeWord(word[0])), ...searchTerms(entry.topic ?? "")].join(" ");
+  return { ...entry, words, searchText };
 });
 
 let matches = [];
@@ -61,7 +86,15 @@ function renderQuestion(heading, { question, words }, highlightedTerms) {
 function createCard(entry, highlightedTerms = []) {
   const card = questionCard.content.firstElementChild.cloneNode(true);
   renderQuestion(card.querySelector("h3"), entry, highlightedTerms);
-  card.querySelector(".source-note").hidden = !entry.incomplete;
+  const note = card.querySelector(".source-note");
+  if (entry.topic) {
+    const topic = document.createElement("p");
+    topic.className = "question-topic";
+    topic.textContent = entry.topic;
+    note.before(topic);
+  }
+  if (entry.sourceNote) note.textContent = entry.sourceNote;
+  note.hidden = !entry.incomplete && !entry.sourceNote;
   const multiple = entry.answers.length > 1;
   card.querySelector(".answer-label").textContent = multiple ? "Ответы" : "Ответ";
   const content = card.querySelector(".answer-content");
