@@ -2,10 +2,15 @@
 
 (() => {
   const quizSize = 30;
-  const bank = index.filter(entry => {
-    const alternatives = quizDistractors[entry.question];
-    return !entry.incomplete && entry.answers.length === 1 &&
-      alternatives?.length === 3 && new Set([...entry.answers, ...alternatives]).size === 4;
+  const bank = index.flatMap(entry => {
+    if (entry.incomplete || entry.sourceNote || entry.answers.length !== 1) return [];
+    const quiz = entry.lmsNumbers
+      ? entry.quiz
+      : { answer: entry.answers[0], distractors: quizDistractors[entry.question] };
+    if (!quiz || quiz.distractors?.length !== 3) return [];
+    const options = [quiz.answer, ...quiz.distractors];
+    if (new Set(options).size !== 4) return [];
+    return [{ ...entry, quiz, options }];
   }).sort((first, second) => questionCollator.compare(first.question, second.question));
 
   const find = id => document.getElementById(id);
@@ -135,9 +140,9 @@
   function beginTest(entries) {
     if (entries.length !== quizSize) return;
     test = entries.map(entry => ({
-      question: entry.question,
-      answer: entry.answers[0],
-      options: shuffled([...entry.answers, ...quizDistractors[entry.question]]),
+      question: entry.quiz.question ?? entry.question,
+      answer: entry.quiz.answer,
+      options: shuffled(entry.options),
     }));
     answers = Array(quizSize).fill(null);
     position = 0;
