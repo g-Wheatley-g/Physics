@@ -55,7 +55,9 @@ function questionCount(count) {
 const lmsQuestions = typeof physicsLmsQuestions === "undefined" ? [] : physicsLmsQuestions;
 const index = [...physicsQuestions, ...lmsQuestions].map(entry => {
   const words = questionWords(entry.question);
-  const searchText = [...words.map(word => normalizeWord(word[0])), ...searchTerms(entry.topic ?? "")].join(" ");
+  const extra = [entry.topic, entry.original?.question, entry.searchHint,
+    entry.lmsNumbers && "ЛМС " + entry.lmsNumbers[0]].filter(Boolean).join(" ");
+  const searchText = [...words.map(word => normalizeWord(word[0])), ...searchTerms(extra)].join(" ");
   return { ...entry, words, searchText };
 });
 
@@ -83,6 +85,57 @@ function renderQuestion(heading, { question, words }, highlightedTerms) {
   heading.append(question.slice(end));
 }
 
+function createOriginalPart(label, text, images = []) {
+  const section = document.createElement("div");
+  const title = document.createElement("h4");
+  title.textContent = label;
+  section.append(title);
+  if (text) {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = text;
+    section.append(paragraph);
+  }
+  for (const [index, asset] of images.entries()) {
+    const link = document.createElement("a");
+    link.href = "./" + asset.file;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    const image = document.createElement("img");
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.width = asset.width;
+    image.height = asset.height;
+    image.alt = label + ", фрагмент " + (index + 1);
+    image.src = link.href;
+    const caption = document.createElement("span");
+    caption.textContent = "Увеличить";
+    link.setAttribute("aria-label", "Увеличить. " + image.alt);
+    link.append(image, caption);
+    section.append(link);
+  }
+  return section;
+}
+
+function createOriginal(original) {
+  const details = document.createElement("details");
+  details.className = "question-original";
+  const summary = document.createElement("summary");
+  summary.textContent = "Сверить с оригиналом";
+  details.append(summary);
+  const populate = () => {
+    if (!details.open) return;
+    details.removeEventListener("toggle", populate);
+    const page = document.createElement("p");
+    page.className = "question-topic";
+    page.textContent = "Источник в первом Word-файле — PDF, с. " + original.page;
+    details.append(page,
+      createOriginalPart("Исходное условие", original.question, original.questionImages),
+      createOriginalPart("Исходный ответ", original.answer, original.answerImages));
+  };
+  details.addEventListener("toggle", populate);
+  return details;
+}
+
 function createCard(entry, highlightedTerms = []) {
   const card = questionCard.content.firstElementChild.cloneNode(true);
   renderQuestion(card.querySelector("h3"), entry, highlightedTerms);
@@ -90,7 +143,7 @@ function createCard(entry, highlightedTerms = []) {
   if (entry.topic) {
     const topic = document.createElement("p");
     topic.className = "question-topic";
-    topic.textContent = entry.topic;
+    topic.textContent = entry.topic + " · ЛМС №" + entry.lmsNumbers[0];
     note.before(topic);
   }
   if (entry.sourceNote) note.textContent = entry.sourceNote;
@@ -98,6 +151,7 @@ function createCard(entry, highlightedTerms = []) {
   const multiple = entry.answers.length > 1;
   card.querySelector(".answer-label").textContent = multiple ? "Ответы" : "Ответ";
   const content = card.querySelector(".answer-content");
+  if (entry.original) card.append(createOriginal(entry.original));
 
   if (!multiple) {
     content.textContent = entry.answers[0];
